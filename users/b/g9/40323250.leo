@@ -69,6 +69,7 @@ import os
 os.system("pelican content -o blog -s publishconf.py")
 g.es("admin pelican 執行完畢")
 
+
 </t>
 <t tx="amd.20160501220029.1"></t>
 <t tx="amd.20160501220029.2">@language python
@@ -85,7 +86,7 @@ g.es("admin pelican 近端執行完畢")
 if __name__ == "__main__":
     app.run()
     
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 
 
@@ -225,7 +226,7 @@ import os
 import init
 
 
-import users.b.g9.bg9_40323218
+
 import users.b.g9.bg9_40323250
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線

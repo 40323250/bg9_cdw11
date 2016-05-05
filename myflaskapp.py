@@ -7,7 +7,7 @@ import os
 import init
 
 
-import users.b.g9.bg9_40323218
+
 import users.b.g9.bg9_40323250
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -381,7 +381,7 @@ def send_file(path):
 if __name__ == "__main__":
     app.run()
     
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 
 
