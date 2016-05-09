@@ -28,9 +28,9 @@
 <v t="amd.20160501215545.1" a="E"><vh>40323250-wsgi 繪圖程式</vh>
 <v t="leo.20160505091608.1" a="E"><vh>@clean bg9_40323250.py</vh>
 <v t="leo.20160505153243.1"><vh>bg9_40323250 declarations</vh></v>
-<v t="leo.20160505153243.2"><vh>a</vh></v>
 <v t="leo.20160505153243.3"><vh>circle36</vh></v>
 <v t="leo.20160505153243.4"><vh>drawcircle36</vh></v>
+<v t="leo.20160505153243.2"><vh>a</vh></v>
 <v t="leo.20160505153243.5"><vh>task50_1</vh></v>
 <v t="leo.20160505153243.6"><vh>task50_2</vh></v>
 <v t="leo.20160505153243.7"><vh>task50_3</vh></v>
@@ -792,6 +792,7 @@ class chain():
 
 </t>
 <t tx="leo.20160505153243.2"># 傳繪 A 函式內容
+
 def a(x, y, scale=1, color="green"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -816,46 +817,80 @@ x9, y9 = mychain.basic_rot(x8, y8, -90)
 x10, y10 = mychain.basic_rot(x8, y8, -180)
 mychain.basic(x10, y10, x1, y1)
 '''
+
+    return outstring
+
+def a2(a, b, scale=1, color="green"):
+    outstring = '''
+# 利用 chain class 建立案例, 對應到 mychain 變數
+mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
  
+# 畫 A
+# 左邊兩個垂直單元
+x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+''', 90)
+x2, y2 = mychain.basic_rot(x1, y1, 90)
+# 左斜邊兩個單元
+x3, y3 = mychain.basic_rot(x2, y2, 80)
+x4, y4 = mychain.basic_rot(x3, y3, 71)
+# 最上方水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
+# 右斜邊兩個單元
+x6, y6 = mychain.basic_rot(x5, y5, -71)
+x7, y7 = mychain.basic_rot(x6, y6, -80)
+# 右邊兩個垂直單元
+x8, y8 = mychain.basic_rot(x7, y7, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
+# 中間兩個水平單元
+x10, y10 = mychain.basic_rot(x8, y8, -180)
+mychain.basic(x10, y10, x1, y1)
+'''
+
     return outstring
 
 
-
-</t>
-<t tx="leo.20160505153243.3">def circle36(x, y, degree=10):
+@bg9_40323250.route('/a')
+def draw_a():
+    return head_str + chain_str + a(0, 0) + tail_str</t>
+<t tx="leo.20160505153243.3">def circle36(x, y, degree,a,b,degree2):
     # 20 為鏈條輪廓之圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
     #degree = 10
     first_degree = 90 - degree
     repeat = 360 / degree
-    outstring = '''
+    sec_degree = 90 - degree2
+    repeat2 = 360 / degree2
+    outstring1 = '''
 mychain = chain()
- 
 x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
 '''
+    outstring2 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
+'''
     for i in range(2, int(repeat)+1):
-        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+        outstring1 += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+    for e in range(2, int(repeat2)+1):
+        outstring2 += "x"+str(e)+", y"+str(e)+"=mychain.basic_rot(x"+str(e-1)+", y"+str(e-1)+", 90-"+str(e*degree2)+") \n"
+            
+    outstring = outstring1 + outstring2 
+    
     return outstring
-    
-    
-</t>
+    </t>
 <t tx="leo.20160505153243.4">@bg9_40323250.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg9_40323250.route('/circle36/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg9_40323250.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+
 #@bg9_40323250.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
-def drawcircle36(x,y,degree):
-    return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
+@bg9_40323250.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;a&gt;/&lt;b&gt;/&lt;degree2&gt;')
+def drawcircle36(x, y, degree, a, b, degree2):
+    return head_str + chain_str + circle36(int(x), int(y), int(degree), int(a), int(b), int(degree2)) + tail_str
+    
+    
 
 
-
-
-
-
-
-
-
-
+    
+    
 </t>
 <t tx="leo.20160505153243.5">@bg9_40323250.route('/task50_1')
 def task50_1():
