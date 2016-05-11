@@ -137,7 +137,25 @@ class chain():
 '''
 
 
-def circle36(x, y, degree,a,b,degree2):
+def circle36(x, y, degree):
+    # 20 為鏈條輪廓之圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #degree = 10
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    
+    outstring = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+
+    for i in range(2, int(repeat)+1):
+        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+
+    return outstring
+    
+def circle35(x, y, degree,a,b,degree2):
     # 20 為鏈條輪廓之圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -167,15 +185,21 @@ x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
 @bg9_40323250.route('/circle36/<x>/<degree>', defaults={'y': 0})
 @bg9_40323250.route('/circle36/<x>/<y>/<degree>')
 
+def drawcircle36(x, y, degree):
+    return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
+    
 #@bg9_40323250.route('/circle36/<int:x>/<int:y>/<int:degree>')
-@bg9_40323250.route('/circle36/<x>/<y>/<degree>/<a>/<b>/<degree2>')
-def drawcircle36(x, y, degree, a, b, degree2):
-    return head_str + chain_str + circle36(int(x), int(y), int(degree), int(a), int(b), int(degree2)) + tail_str
-    
+
+
+
     
 
 
     
+    
+@bg9_40323250.route('/circle35/<x>/<y>/<degree>/<a>/<b>/<degree2>')
+def drawcircle35(x, y, degree, a, b, degree2):
+    return head_str + chain_str + circle35(int(x), int(y), int(degree), int(a), int(b), int(degree2)) + tail_str
     
 # 傳繪 A 函式內容
 
