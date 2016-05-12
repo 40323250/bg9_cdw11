@@ -2,13 +2,13 @@
 from flask import Blueprint, render_template, make_response
 
 # 利用 Blueprint建立 ag1, 並且 url 前綴為 /ag1, 並設定 template 存放目錄
-bg9_40323231 = Blueprint('bg9_40323231', __name__, url_prefix='/bg9_40323231', template_folder='templates')
+bg9_40323218 = Blueprint('bg9_40323218', __name__, url_prefix='/bg9_40323218', template_folder='templates')
 
 
 
 
-@bg9_40323231.route('/task31_1')
-def task31_1():
+@bg9_40323218.route('/task18_1')
+def task18_1():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -213,8 +213,8 @@ mychain.basic(x10, y10, x1, y1, color="green")
     return outstring
     
 
-@bg9_40323231.route('/task31_2')
-def task31_2():
+@bg9_40323218.route('/task18_2')
+def task18_2():
     outstring = '''
 <!DOCTYPE html>
 <html>
@@ -425,8 +425,8 @@ mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
 
 
-@bg9_40323231.route('/task31_3')
-def task31_3():
+@bg9_40323218.route('/task18_3')
+def task18_3():
     outstring = '''
 <!DOCTYPE html>
 <html>
