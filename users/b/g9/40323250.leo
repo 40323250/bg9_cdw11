@@ -16,7 +16,7 @@
 <v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
@@ -37,6 +37,7 @@
 <v t="leo.20160505153243.6"><vh>task50_2</vh></v>
 <v t="leo.20160505153243.7"><vh>task50_3</vh></v>
 </v>
+</v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -56,7 +57,6 @@
 <v t="amd.20160501221001.16"><vh>send_static</vh></v>
 <v t="amd.20160501230850.1"><vh>send_blog</vh></v>
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
-</v>
 </v>
 </v>
 <v t="leo.20160505142428.2" a="E"><vh>Recovered Nodes</vh>
