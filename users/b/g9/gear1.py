@@ -1,27 +1,19 @@
 <script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
-
 <script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"></script>
-
 <script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"></script>
-
 <script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/CangoAxes-1v33.js"></script>
-
 <script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/flintlockPartDefs-02.js"></script>
-
 <script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/CangoAnimation-4v01.js"></script>
-
 <script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"></script>
-
+ 
 <script>
 window.onload=function(){
 brython(1);
 }
 </script>
-
-
-
-<canvas id='gear1' width='800' height='750'></canvas>
  
+<canvas id='gear1' width='800' height='750'></canvas>
+  
 <script type="text/python">
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
 from browser import document as doc
@@ -30,7 +22,7 @@ from browser import window
 # 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
 from javascript import JSConstructor
 import math
- 
+  
 # 主要用來取得畫布大小
 canvas = doc["gear1"]
 # 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
@@ -45,10 +37,10 @@ shapedefs = window.shapeDefs
 # Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
 cobj = JSConstructor(window.Cobj)
 creategeartooth = JSConstructor(window.createGearTooth)
- 
+  
 # 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
 cgo = cango("gear1")
- 
+  
 ######################################
 # 畫正齒輪輪廓
 #####################################
@@ -64,12 +56,13 @@ pr = n*m/2 # gear Pitch radius
 # generate gear
 data = creategeartooth(m, n, pa)
 # Brython 程式中的 print 會將資料印在 Browser 的 console 區
-#print(data)
+print(data)
+ 
 gearTooth = cobj(data, "SHAPE", {
         "fillColor":"#ddd0dd",
         "border": True,
         "strokeColor": "#606060" })
-gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh
+gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
 # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
 gear = gearTooth.dup()
 # gear 為單一齒的輪廓資料
@@ -95,4 +88,9 @@ cy = canvas.height/2
 gear.translate(cx, cy)
 # render 繪出靜態正齒輪輪廓
 cgo.render(gear)
+# 接著繪製齒輪的基準線
+deg = math.pi/180
+Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(180/n*deg), cy+pr*math.sin(180/n*deg)], "PATH", {
+      'strokeColor':'blue', 'lineWidth': 4})
+cgo.render(Line)
 </script>
