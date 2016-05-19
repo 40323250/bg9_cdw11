@@ -7,7 +7,7 @@ import os
 import init
 
 
-#import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
 import users.b.g9.bg9_40323233
@@ -390,7 +390,7 @@ if __name__ == "__main__":
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
-#app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)

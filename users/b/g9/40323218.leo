@@ -27,7 +27,7 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519114041.1" a="E"><vh>@clean bg9_40323218.py</vh>
+<v t="leo.20160519114041.1"><vh>@clean bg9_40323218.py</vh>
 <v t="leo.20160519114236.1"><vh>bg9_40323218 declarations</vh></v>
 <v t="leo.20160519095246.5"><vh>circle36</vh></v>
 <v t="leo.20160519095246.6"><vh>drawcircle36</vh></v>
@@ -47,8 +47,8 @@
 <v t="leo.20160519114236.28"><vh>snap_link</vh></v>
 <v t="leo.20160519114236.29"><vh>snap_gear</vh></v>
 </v>
-<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
-<v t="amd.20160501221001.1"><vh>@clean myflaskapp.py</vh>
+<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
+<v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
 <v t="amd.20160501221001.4"><vh>user</vh></v>
@@ -103,10 +103,15 @@ if __name__ == "__main__":
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
-#app.register_blueprint(users.b.g9.bg9_40323231.bg9_40323231)
+
+app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
+app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
+
+
 app.register_blueprint(users.b.g9.bg9_40323233.bg9_40323233)
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
+
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
@@ -243,12 +248,14 @@ import init
 
 
 import users.b.g9.bg9_40323218
-#import users.b.g9.bg9_40323231
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
 import users.b.g9.bg9_40323233
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
+
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
