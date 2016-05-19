@@ -21,6 +21,7 @@
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160505085006.1"><vh>@edit 40323250-w11.md</vh></v>
+<v t="leo.20160519114317.1"><vh>@edit 40323250-w13.md</vh></v>
 </v>
 </v>
 </v>
@@ -85,6 +86,12 @@
 <v t="leo.20160519104933.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
+<v t="leo.20160519114313.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160519114313.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160519114313.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160519114313.4"><vh>new:myflaskapp declarations</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -120,8 +127,13 @@ if __name__ == "__main__":
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+app.register_blueprint(users.b.g9.bg9_40323231.bg9_40323231)
+app.register_blueprint(users.b.g9.bg9_40323233.bg9_40323233)
+=======
+app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 
-
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 423123b3a642d9856c63ee714a9302496579b356
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
@@ -258,8 +270,14 @@ import init
 
 
 import users.b.g9.bg9_40323218
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+import users.b.g9.bg9_40323231
+import users.b.g9.bg9_40323233
+=======
+import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 423123b3a642d9856c63ee714a9302496579b356
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -2228,6 +2246,159 @@ import init
 import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160519114313.1"></t>
+<t tx="leo.20160519114313.2">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+  import users.b.g9.bg9_40323218
+- &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+- import users.b.g9.bg9_40323231
+- import users.b.g9.bg9_40323233
+- =======
+- import users.b.g9.bg9_40323230
+  import users.b.g9.bg9_40323250
+  import users.b.g9.bg9_40323250_2
+- &gt;&gt;&gt;&gt;&gt;&gt;&gt; 423123b3a642d9856c63ee714a9302496579b356
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160519114313.3"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160519114313.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+import users.b.g9.bg9_40323231
+import users.b.g9.bg9_40323233
+=======
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 423123b3a642d9856c63ee714a9302496579b356
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
