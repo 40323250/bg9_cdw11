@@ -9,6 +9,7 @@ import init
 
 
 import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323214
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -383,6 +384,8 @@ if __name__ == "__main__":
     
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g9.bg9_40323214.bg9_40323214)
+
 
 
 
