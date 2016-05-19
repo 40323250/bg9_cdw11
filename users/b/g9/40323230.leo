@@ -27,14 +27,14 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
-<v t="leo.20160519105006.1" a="E"><vh>@clean bg9_40323230.py</vh>
+<v t="leo.20160519105006.1"><vh>@clean bg9_40323230.py</vh>
 <v t="leo.20160519105006.2"><vh>bg9_40323230 declarations</vh></v>
 <v t="leo.20160519105006.3"><vh>a</vh></v>
 <v t="leo.20160519105006.4"><vh>draw_a</vh></v>
 <v t="leo.20160519105006.5"><vh>circle36</vh></v>
 <v t="leo.20160519105006.6"><vh>drawcircle36</vh></v>
 </v>
+<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
@@ -90,7 +90,7 @@ if __name__ == "__main__":
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323230)
+app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
