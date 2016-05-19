@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://cdw11-40323250.rhcloud.com/static/blog/</loc>
-<lastmod>2016-05-19T12:15:02-00:00</lastmod>
+<lastmod>2016-05-19T12:16:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://cdw11-40323250.rhcloud.com/static/blog/archives.html</loc>
-<lastmod>2016-05-19T12:15:02-00:00</lastmod>
+<lastmod>2016-05-19T12:16:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://cdw11-40323250.rhcloud.com/static/blog/tags.html</loc>
-<lastmod>2016-05-19T12:15:02-00:00</lastmod>
+<lastmod>2016-05-19T12:16:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://cdw11-40323250.rhcloud.com/static/blog/categories.html</loc>
-<lastmod>2016-05-19T12:15:02-00:00</lastmod>
+<lastmod>2016-05-19T12:16:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -81,8 +81,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://cdw11-40323250.rhcloud.com/static/blog/tag/40323250.html</loc>
-<lastmod>2016-05-19T11:44:32+08:06</lastmod>
+<loc>http://cdw11-40323250.rhcloud.com/static/blog/tag/40323218.html</loc>
+<lastmod>2016-05-19T11:41:43+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -102,14 +102,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://cdw11-40323250.rhcloud.com/static/blog/tag/40323199.html</loc>
-<lastmod>2016-05-19T11:41:43+08:06</lastmod>
+<loc>http://cdw11-40323250.rhcloud.com/static/blog/tag/40323250.html</loc>
+<lastmod>2016-05-19T11:44:32+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://cdw11-40323250.rhcloud.com/static/blog/tag/40323218.html</loc>
+<loc>http://cdw11-40323250.rhcloud.com/static/blog/tag/40323199.html</loc>
 <lastmod>2016-05-19T11:41:43+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
