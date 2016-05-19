@@ -145,41 +145,6 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 50)
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*40)+") \n"
     return outstring
  
-def circle1(x, y, degree=10):
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    #degree = 10
-    first_degree = 90 - degree
-    repeat = 360 / degree
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
-    return outstring
- 
- 
-def circle2(x, y, degree=10):
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    #degree = 10
-    first_degree = 90 - degree
-    repeat = 360 / degree
- 
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
-    return outstring
- 
- 
 def twocircle(x, y):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
@@ -260,6 +225,14 @@ def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
+@bg9_40323250_2.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@bg9_40323250_2.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@bg9_40323250_2.route('/circle1/<x>/<y>/<degree>')
+#@bg9_40323250_2.route('/circle1/<int:x>/<int:y>/<int:degree>')
+def drawcircle1(x,y,degree):
+    return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
+ 
+ 
 def eighteenthirty(x, y):
     '''
 從圖解法與符號式解法得到的兩條外切線座標點
@@ -274,9 +247,9 @@ def eighteenthirty(x, y):
     x = 50
     y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
+    first_degree = 20.78+90
+    startx = 44.0532
+    starty = -165.17
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -297,10 +270,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
-    k = 93.98
+    p = 0
+    k = 50
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -337,14 +310,6 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
         outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
  
     return outstring
- 
- 
-@bg9_40323250_2.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@bg9_40323250_2.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@bg9_40323250_2.route('/circle1/<x>/<y>/<degree>')
-#@bg9_40323250_2.route('/circle1/<int:x>/<int:y>/<int:degree>')
-def drawcircle1(x,y,degree):
-    return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
 @bg9_40323250_2.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})

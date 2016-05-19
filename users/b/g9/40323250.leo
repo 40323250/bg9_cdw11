@@ -29,12 +29,10 @@
 <v t="leo.20160519092446.1" a="E"><vh>@clean bg9_40323250_2.py</vh>
 <v t="leo.20160519092609.1"><vh>bg9_40323250_2 declarations</vh></v>
 <v t="leo.20160519092609.6"><vh>circle</vh></v>
-<v t="leo.20160519092609.7"><vh>circle1</vh></v>
-<v t="leo.20160519092609.8"><vh>circle2</vh></v>
 <v t="leo.20160519092609.9"><vh>twocircle</vh></v>
 <v t="leo.20160519092609.22"><vh>drawcircle</vh></v>
-<v t="leo.20160519092609.10"><vh>eighteenthirty</vh></v>
 <v t="leo.20160519092609.23"><vh>drawcircle1</vh></v>
+<v t="leo.20160519092609.10"><vh>eighteenthirty</vh></v>
 <v t="leo.20160519092609.24"><vh>drawcircle2</vh></v>
 <v t="leo.20160519092609.25"><vh>drawtwocircle</vh></v>
 <v t="leo.20160519092609.26"><vh>draweithteenthirdy</vh></v>
@@ -81,6 +79,12 @@
 <v t="leo.20160505142428.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
+<v t="leo.20160519104933.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160519104933.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160519104933.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160519104933.4"><vh>new:myflaskapp declarations</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -115,6 +119,7 @@ if __name__ == "__main__":
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
+app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 
 </t>
@@ -252,7 +257,7 @@ import os
 import init
 
 
-
+import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -1722,9 +1727,9 @@ class chain():
     x = 50
     y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
+    first_degree = 20.78+90
+    startx = 44.0532
+    starty = -165.17
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -1745,10 +1750,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
-    k = 93.98
+    p = 0
+    k = 50
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -2039,43 +2044,6 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 50)
     return outstring
  
 </t>
-<t tx="leo.20160519092609.7">def circle1(x, y, degree=10):
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    #degree = 10
-    first_degree = 90 - degree
-    repeat = 360 / degree
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
-    return outstring
- 
- 
-</t>
-<t tx="leo.20160519092609.8">def circle2(x, y, degree=10):
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    #degree = 10
-    first_degree = 90 - degree
-    repeat = 360 / degree
- 
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
-    return outstring
- 
- 
-</t>
 <t tx="leo.20160519092609.9">def twocircle(x, y):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
@@ -2151,6 +2119,148 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     outstring += "mychain.basic(x22, y22, r11, s11)\n"
  
     return outstring
+</t>
+<t tx="leo.20160519104933.1"></t>
+<t tx="leo.20160519104933.2">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+- import users.b.g9.bg9_40323218
++ 
+  import users.b.g9.bg9_40323250
+  import users.b.g9.bg9_40323250_2
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160519104933.3"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160519104933.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
 </t>
 </tnodes>
 </leo_file>
