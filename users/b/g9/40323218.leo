@@ -26,13 +26,13 @@
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160512084944.1" a="E"><vh>@clean bg9_40323218.py</vh>
-<v t="leo.20160512092240.1"><vh>bg9_40323218 declarations</vh></v>
-<v t="leo.20160512092240.2"><vh>a</vh></v>
-<v t="leo.20160512092240.3"><vh>draw_a</vh></v>
-<v t="leo.20160512092240.4"><vh>circle36</vh></v>
-<v t="leo.20160512092240.5"><vh>drawcircle36</vh></v>
+<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
+<v t="leo.20160519095246.1" a="E"><vh>@clean bg9_40323218.py</vh>
+<v t="leo.20160519095246.2"><vh>bg9_40323218 declarations</vh></v>
+<v t="leo.20160519095246.3"><vh>a</vh></v>
+<v t="leo.20160519095246.4"><vh>draw_a</vh></v>
+<v t="leo.20160519095246.5"><vh>circle36</vh></v>
+<v t="leo.20160519095246.6"><vh>drawcircle36</vh></v>
 </v>
 <v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
@@ -88,6 +88,7 @@ if __name__ == "__main__":
     
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 
@@ -226,9 +227,9 @@ import os
 import init
 
 
-
-import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -490,11 +491,11 @@ def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160512084944.1">@language python
+<t tx="leo.20160519095246.1">@language python
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20160512092240.1">from flask import Blueprint, request
+<t tx="leo.20160519095246.2">from flask import Blueprint, request
  
 bg9_40323218 = Blueprint('bg9_40323218', __name__, url_prefix='/bg9_40323218', template_folder='templates')
  
@@ -631,7 +632,7 @@ class chain():
 '''
 
 </t>
-<t tx="leo.20160512092240.2"># 傳繪 A 函式內容
+<t tx="leo.20160519095246.3"># 傳繪 A 函式內容
 def a(x, y, scale=1, color="green"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -660,12 +661,12 @@ mychain.basic(x10, y10, x1, y1)
     return outstring
     
 </t>
-<t tx="leo.20160512092240.3">@bg9_40323218.route('/a')
+<t tx="leo.20160519095246.4">@bg9_40323218.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
     
 </t>
-<t tx="leo.20160512092240.4">def circle36(x, y, degree=10):
+<t tx="leo.20160519095246.5">def circle36(x, y, degree=10):
     # 20 為鏈條輪廓之圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -682,7 +683,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
     return outstring
     
 </t>
-<t tx="leo.20160512092240.5">@bg9_40323218.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+<t tx="leo.20160519095246.6">@bg9_40323218.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg9_40323218.route('/circle36/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg9_40323218.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
 #@bg9_40323218.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
