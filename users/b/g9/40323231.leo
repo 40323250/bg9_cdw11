@@ -10,17 +10,17 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20160519181650.1"><vh>pelican 部份</vh>
-<v t="leo.20160519181650.2"><vh>@path ./../../../</vh>
+<v t="leo.20160519181650.1" a="E"><vh>pelican 部份</vh>
+<v t="leo.20160519181650.2" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519181650.3"><vh>@edit README.md</vh></v>
-<v t="leo.20160519181650.4"><vh>@path static</vh>
+<v t="leo.20160519181650.4" a="E"><vh>@path static</vh>
 <v t="leo.20160519181650.5"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="leo.20160519181650.6"><vh>@button gh-pages pelican</vh></v>
 </v>
 <v t="leo.20160519181650.7"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20160519181650.8"><vh>@button local pelican</vh></v>
 </v>
-<v t="leo.20160519181650.9"><vh>@path content/b/g9</vh>
+<v t="leo.20160519181650.9" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160519181650.10"><vh>@edit 40323231-w11.md</vh></v>
 </v>
 </v>
@@ -49,7 +49,7 @@
 <v t="leo.20160519182004.20"><vh>snap_gear</vh></v>
 </v>
 <v t="leo.20160519182004.21" a="E"><vh>@path ./../../../</vh>
-<v t="leo.20160519182004.22" a="E"><vh>@clean myflaskapp.py</vh>
+<v t="leo.20160519182004.22"><vh>@clean myflaskapp.py</vh>
 <v t="leo.20160519182004.23"><vh>myflaskapp declarations</vh></v>
 <v t="leo.20160519182004.24"><vh>index</vh></v>
 <v t="leo.20160519182004.25"><vh>user</vh></v>
