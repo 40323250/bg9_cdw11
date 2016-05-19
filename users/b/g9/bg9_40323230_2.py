@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-bg9_40323250_2 = Blueprint('bg9_40323250_2', __name__, url_prefix='/bg9_40323250_2', template_folder='templates')
+bg9_40323230_2 = Blueprint('bg9_40323230_2', __name__, url_prefix='/bg9_40323230_2', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -220,15 +220,15 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     outstring += "mychain.basic(x22, y22, r11, s11)\n"
  
     return outstring
-@bg9_40323250_2.route('/circle')
+@bg9_40323230_2.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@bg9_40323250_2.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@bg9_40323250_2.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@bg9_40323250_2.route('/circle1/<x>/<y>/<degree>')
-#@bg9_40323250_2.route('/circle1/<int:x>/<int:y>/<int:degree>')
+@bg9_40323230_2.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@bg9_40323230_2.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@bg9_40323230_2.route('/circle1/<x>/<y>/<degree>')
+#@bg9_40323230_2.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
@@ -312,27 +312,27 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@bg9_40323250_2.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@bg9_40323250_2.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@bg9_40323250_2.route('/circle2/<x>/<y>/<degree>')
-#@bg9_40323250_2.route('/circle2/<int:x>/<int:y>/<int:degree>')
+@bg9_40323230_2.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@bg9_40323230_2.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@bg9_40323230_2.route('/circle2/<x>/<y>/<degree>')
+#@bg9_40323230_2.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@bg9_40323250_2.route('/twocircle/<x>/<y>')
-@bg9_40323250_2.route('/twocircle', defaults={'x':0, 'y':0})
+@bg9_40323230_2.route('/twocircle/<x>/<y>')
+@bg9_40323230_2.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@bg9_40323250_2.route('/eighteenthirty/<x>/<y>')
-@bg9_40323250_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
+@bg9_40323230_2.route('/eighteenthirty/<x>/<y>')
+@bg9_40323230_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@bg9_40323250_2.route('/snap')
+@bg9_40323230_2.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -411,7 +411,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@bg9_40323250_2.route('/snap_link')
+@bg9_40323230_2.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -493,7 +493,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@bg9_40323250_2.route('/snap_gear')
+@bg9_40323230_2.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
