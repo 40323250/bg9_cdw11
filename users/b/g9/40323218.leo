@@ -10,7 +10,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2"><vh>pelican 部份</vh>
+<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
 <v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
 <v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
@@ -26,7 +26,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
 <v t="leo.20160519095246.1" a="E"><vh>@clean bg9_40323218.py</vh>
 <v t="leo.20160519095246.2"><vh>bg9_40323218 declarations</vh></v>
 <v t="leo.20160519095246.3"><vh>a</vh></v>
@@ -34,7 +34,7 @@
 <v t="leo.20160519095246.5"><vh>circle36</vh></v>
 <v t="leo.20160519095246.6"><vh>drawcircle36</vh></v>
 </v>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
+<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
