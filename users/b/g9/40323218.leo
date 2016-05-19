@@ -29,31 +29,15 @@
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
 <v t="leo.20160519114041.1" a="E"><vh>@clean bg9_40323218.py</vh>
 <v t="leo.20160519114236.1"><vh>bg9_40323218 declarations</vh></v>
-<v t="leo.20160519095246.3"><vh>a</vh></v>
-<v t="leo.20160519095246.4"><vh>draw_a</vh></v>
 <v t="leo.20160519095246.5"><vh>circle36</vh></v>
 <v t="leo.20160519095246.6"><vh>drawcircle36</vh></v>
 <v t="leo.20160519104630.1"><vh>bike</vh></v>
 <v t="leo.20160519111710.1"><vh>bike2</vh></v>
-<v t="leo.20160519114236.3"><vh>b</vh></v>
-<v t="leo.20160519114236.4"><vh>c</vh></v>
-<v t="leo.20160519114236.5"><vh>d</vh></v>
 <v t="leo.20160519114236.6"><vh>circle</vh></v>
 <v t="leo.20160519114236.7"><vh>circle1</vh></v>
 <v t="leo.20160519114236.8"><vh>circle2</vh></v>
 <v t="leo.20160519114236.9"><vh>twocircle</vh></v>
 <v t="leo.20160519114236.10"><vh>eighteenthirty</vh></v>
-<v t="leo.20160519114236.11"><vh>draw_a</vh></v>
-<v t="leo.20160519114236.12"><vh>draw_b</vh></v>
-<v t="leo.20160519114236.13"><vh>draw_c</vh></v>
-<v t="leo.20160519114236.14"><vh>draw_d</vh></v>
-<v t="leo.20160519114236.15"><vh>draw_ab</vh></v>
-<v t="leo.20160519114236.16"><vh>draw_ac</vh></v>
-<v t="leo.20160519114236.17"><vh>draw_bc</vh></v>
-<v t="leo.20160519114236.18"><vh>draw_abc</vh></v>
-<v t="leo.20160519114236.19"><vh>draw_aaaa</vh></v>
-<v t="leo.20160519114236.20"><vh>draw_badc</vh></v>
-<v t="leo.20160519114236.21"><vh>draw_abcd</vh></v>
 <v t="leo.20160519114236.22"><vh>drawcircle</vh></v>
 <v t="leo.20160519114236.23"><vh>drawcircle1</vh></v>
 <v t="leo.20160519114236.24"><vh>drawcircle2</vh></v>
@@ -119,8 +103,10 @@ if __name__ == "__main__":
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
-
-
+#app.register_blueprint(users.b.g9.bg9_40323231.bg9_40323231)
+app.register_blueprint(users.b.g9.bg9_40323233.bg9_40323233)
+app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
+app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
@@ -257,6 +243,10 @@ import init
 
 
 import users.b.g9.bg9_40323218
+#import users.b.g9.bg9_40323231
+import users.b.g9.bg9_40323233
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -519,40 +509,6 @@ def send_file(path):
 def send_blog():
   return app.send_static_file('blog/index.html')
 
-</t>
-<t tx="leo.20160519095246.3"># 傳繪 A 函式內容
-def a(x, y, scale=1, color="green"):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
- 
-# 畫 A
-# 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-# 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
-# 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
-# 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
-# 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1)
-'''
- 
-    return outstring
-    
-</t>
-<t tx="leo.20160519095246.4">@bg9_40323218.route('/a')
-def draw_a():
-    return head_str + chain_str + a(0, 0) + tail_str
-    
 </t>
 <t tx="leo.20160519095246.5">def circle36(x, y, degree=10):
     # 20 為鏈條輪廓之圓距
@@ -1200,82 +1156,6 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160519114236.11">@bg9_40323218.route('/a')
-def draw_a():
-    return head_str + chain_str + a(0, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.12">@bg9_40323218.route('/b')
-def draw_b():
-   # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
-    return head_str + chain_str + b(0+65, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.13">@bg9_40323218.route('/c')
-def draw_c():
-    # 每個橫向字元距離為 65 pixels
-    return head_str + chain_str + c(0+65*2, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.14">@bg9_40323218.route('/d')
-def draw_d():
-    return head_str + chain_str + d(0+65*3, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.15">@bg9_40323218.route('/ab')
-def draw_ab():
-    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
-    return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.16">@bg9_40323218.route('/ac')
-def draw_ac():
-    return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.17">@bg9_40323218.route('/bc')
-def draw_bc():
-    return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.18">@bg9_40323218.route('/abc')
-def draw_abc():
-    return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.19">@bg9_40323218.route('/aaaa')
-def draw_aaaa():
-    outstring = head_str + chain_str
-    scale = 2
-    for i in range(20):
-        scale = scale*0.9
-        outstring +=  a(0+10*i, 0, scale=scale)
-    return outstring + tail_str
-    #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.20">@bg9_40323218.route('/badc')
-def draw_badc():
-    return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519114236.21">@bg9_40323218.route('/abcd')
-def draw_abcd():
-    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
-    return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
- 
- 
-</t>
 <t tx="leo.20160519114236.22">@bg9_40323218.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
@@ -1285,7 +1165,7 @@ def drawcircle():
 <t tx="leo.20160519114236.23">@bg9_40323218.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg9_40323218.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg9_40323218.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@ag100.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+#@bg9_40323218.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
@@ -1294,7 +1174,7 @@ def drawcircle1(x,y,degree):
 <t tx="leo.20160519114236.24">@bg9_40323218.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg9_40323218.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg9_40323218.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@ag100.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+#@bg9_40323218.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
@@ -1516,103 +1396,6 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 &lt;/html&gt;
 '''
     return outstring
-</t>
-<t tx="leo.20160519114236.3"># 傳繪 B 函式內容
-def b(x, y):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
- 
-# 畫 B
-# 左邊四個垂直單元
-# 每一個字元間隔為 65 pixels
-#x1, y1 = mychain.basic_rot(0+ 65, 0, 90)
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
-# 右上垂直向下單元
-x7, y7 = mychain.basic_rot(x6, y6, -90)
-# 右斜 240 度
-x8, y8 = mychain.basic_rot(x7, y7, 210)
-# 中間水平
-mychain.basic(x8, y8, x2, y2)
-# 右下斜 -30 度
-x10, y10 = mychain.basic_rot(x8, y8, -30)
-# 右下垂直向下單元
-x11, y11 = mychain.basic_rot(x10, y10, -90)
-# 右下斜 240 度
-x12, y12 = mychain.basic_rot(x11, y11, 210)
-# 水平接回起點
-mychain.basic(x12,y12, '''+str(x)+","+str(y)+''')
-'''
- 
-    return outstring
- 
-</t>
-<t tx="leo.20160519114236.4"># 傳繪 C 函式內容
-def c(x, y):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
- 
-# 上半部
-# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
-#x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+'''-10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
-# 上方轉 80 度
-x2, y2 = mychain.basic_rot(x1, y1, 80)
-# 上方轉 30 度
-x3, y3 = mychain.basic_rot(x2, y2, 30)
-# 上方水平
-x4, y4 = mychain.basic_rot(x3, y3, 0)
-# 下半部, 從起點開始 -80 度
-#x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
-x5, y5 = mychain.basic_rot('''+str(x)+","+str(y)+'''-10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
-# 下斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
-# 下方水平單元
-x7, y7 = mychain.basic_rot(x6, y6, -0)
-'''
- 
-    return outstring
- 
- 
-</t>
-<t tx="leo.20160519114236.5"># 傳繪 D 函式內容
-def d(x, y):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
- 
-# 左邊四個垂直單元
-#x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -40 度
-x6, y6 = mychain.basic_rot(x5, y5, -40)
-x7, y7 = mychain.basic_rot(x6, y6, -60)
-# 右中垂直向下單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-# -120 度
-x9, y9 = mychain.basic_rot(x8, y8, -120)
-# -140
-x10, y10 = mychain.basic_rot(x9, y9, -140)
-# 水平接回原點
-#mychain.basic(x10, y10, 0+65*3, 0, color="red")
-mychain.basic(x10, y10, '''+str(x)+","+str(y)+''')
-'''
- 
-    return outstring
- 
 </t>
 <t tx="leo.20160519114236.6">def circle(x, y):
     outstring = '''
