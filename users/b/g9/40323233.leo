@@ -10,69 +10,82 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2" a="E"><vh>pelican éƒ¨ä»½</vh>
-<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
-<v t="amd.20160501220009.1" a="E"><vh>å‡å¦‚è¦é€åˆ° gh-pages åˆ†æ”¯, ä½¿ç”¨ä¸‹åˆ—æŒ‰éˆ•</vh>
-<v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
+<v t="leo.20160519181650.1"><vh>pelican éƒ¨ä»½</vh>
+<v t="leo.20160519181650.2"><vh>@path ./../../../</vh>
+<v t="leo.20160519181650.3"><vh>@edit README.md</vh></v>
+<v t="leo.20160519181650.4"><vh>@path static</vh>
+<v t="leo.20160519181650.5"><vh>å‡å¦‚è¦é€åˆ° gh-pages åˆ†æ”¯, ä½¿ç”¨ä¸‹åˆ—æŒ‰éˆ•</vh>
+<v t="leo.20160519181650.6"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1" a="E"><vh>å‡å¦‚è¦åœ¨è¿‘ç«¯æª¢è¦–, ä½¿ç”¨ä¸‹åˆ—æŒ‰éˆ•</vh>
-<v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
+<v t="leo.20160519181650.7"><vh>å‡å¦‚è¦åœ¨è¿‘ç«¯æª¢è¦–, ä½¿ç”¨ä¸‹åˆ—æŒ‰éˆ•</vh>
+<v t="leo.20160519181650.8"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
-<v t="leo.20160505085006.1"><vh>@edit 40323233-w11.md</vh></v>
-</v>
-</v>
+<v t="leo.20160519181650.9"><vh>@path content/b/g9</vh>
+<v t="leo.20160519181650.10"><vh>@edit 40323233-w11.md</vh></v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi ç¨‹å¼éƒ¨ä»½</vh>
-<v t="leo.20160512092953.1" a="E"><vh>@clean bg9_40323233.py</vh>
-<v t="leo.20160512092953.2"><vh>bg9_40323233 declarations</vh></v>
-<v t="leo.20160512092953.3"><vh>a</vh></v>
-<v t="leo.20160512092953.4"><vh>draw_a</vh></v>
-<v t="leo.20160512092953.5"><vh>circle36</vh></v>
-<v t="leo.20160512092953.6"><vh>drawcircle36</vh></v>
 </v>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
-<v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
-<v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
-<v t="amd.20160501221001.3"><vh>index</vh></v>
-<v t="amd.20160501221001.4"><vh>user</vh></v>
-<v t="amd.20160501221001.5"><vh>red</vh></v>
-<v t="amd.20160501221001.6"><vh>guessform</vh></v>
-<v t="amd.20160501221001.7"><vh>docheck</vh></v>
-<v t="amd.20160501221001.8"><vh>option</vh></v>
-<v t="amd.20160501221001.9"><vh>optionaction</vh></v>
-<v t="amd.20160501221001.10"><vh>fileaxupload</vh></v>
-<v t="amd.20160501221001.11"><vh>fileuploadform</vh></v>
-<v t="amd.20160501221001.12"><vh>imageaxupload</vh></v>
-<v t="amd.20160501221001.13"><vh>imagefileuploadform</vh></v>
-<v t="amd.20160501221001.14"><vh>download</vh></v>
-<v t="amd.20160501221001.15"><vh>send_images</vh></v>
-<v t="amd.20160501221001.16"><vh>send_static</vh></v>
-<v t="amd.20160501230850.1"><vh>send_blog</vh></v>
-<v t="amd.20160501225844.1"><vh>send_file</vh></v>
+</v>
+<v t="leo.20160519182004.1" a="E"><vh>wsgi ç¨‹å¼éƒ¨ä»½</vh>
+<v t="leo.20160519182004.2" a="E"><vh>@clean bg9_40323233_1.py</vh>
+<v t="leo.20160519182004.3"><vh>bg9_40323233_1 declarations</vh></v>
+<v t="leo.20160519182004.4"><vh>a</vh></v>
+<v t="leo.20160519182004.5"><vh>draw_a</vh></v>
+<v t="leo.20160519182004.6"><vh>circle36</vh></v>
+<v t="leo.20160519182004.7"><vh>drawcircle36</vh></v>
+<v t="leo.20160526101600.1"><vh>abc</vh></v>
+</v>
+<v t="leo.20160519182004.8" a="E"><vh>@clean bg9_40323233_2.py</vh>
+<v t="leo.20160519182004.9"><vh>bg9_40323233_2 declarations</vh></v>
+<v t="leo.20160519182004.10"><vh>circle</vh></v>
+<v t="leo.20160519182004.11"><vh>twocircle</vh></v>
+<v t="leo.20160519182004.12"><vh>drawcircle</vh></v>
+<v t="leo.20160519182004.13"><vh>drawcircle1</vh></v>
+<v t="leo.20160519182004.14"><vh>eighteenthirty</vh></v>
+<v t="leo.20160519182004.15"><vh>drawcircle2</vh></v>
+<v t="leo.20160519182004.16"><vh>drawtwocircle</vh></v>
+<v t="leo.20160519182004.17"><vh>draweithteenthirdy</vh></v>
+<v t="leo.20160519182004.18"><vh>snap</vh></v>
+<v t="leo.20160519182004.19"><vh>snap_link</vh></v>
+<v t="leo.20160519182004.20"><vh>snap_gear</vh></v>
+</v>
+<v t="leo.20160519182004.21"><vh>@path ./../../../</vh>
+<v t="leo.20160519182004.22"><vh>@clean myflaskapp.py</vh>
+<v t="leo.20160519182004.23"><vh>myflaskapp declarations</vh></v>
+<v t="leo.20160519182004.24"><vh>index</vh></v>
+<v t="leo.20160519182004.25"><vh>user</vh></v>
+<v t="leo.20160519182004.26"><vh>red</vh></v>
+<v t="leo.20160519182004.27"><vh>guessform</vh></v>
+<v t="leo.20160519182004.28"><vh>docheck</vh></v>
+<v t="leo.20160519182004.29"><vh>option</vh></v>
+<v t="leo.20160519182004.30"><vh>optionaction</vh></v>
+<v t="leo.20160519182004.31"><vh>fileaxupload</vh></v>
+<v t="leo.20160519182004.32"><vh>fileuploadform</vh></v>
+<v t="leo.20160519182004.33"><vh>imageaxupload</vh></v>
+<v t="leo.20160519182004.34"><vh>imagefileuploadform</vh></v>
+<v t="leo.20160519182004.35"><vh>download</vh></v>
+<v t="leo.20160519182004.36"><vh>send_images</vh></v>
+<v t="leo.20160519182004.37"><vh>send_static</vh></v>
+<v t="leo.20160519182004.38"><vh>send_blog</vh></v>
+<v t="leo.20160519182004.39"><vh>send_file</vh></v>
 </v>
 </v>
 </v>
 </vnodes>
 <tnodes>
-<t tx="amd.20160501215436.2"></t>
-<t tx="amd.20160501215545.1"></t>
-<t tx="amd.20160501215558.1"></t>
-<t tx="amd.20160501215634.1"></t>
-<t tx="amd.20160501215942.1"></t>
-<t tx="amd.20160501220009.1"></t>
-<t tx="amd.20160501220009.2">@language python
+<t tx="leo.20160519181650.1"></t>
+<t tx="leo.20160519181650.2"></t>
+<t tx="leo.20160519181650.4"></t>
+<t tx="leo.20160519181650.5"></t>
+<t tx="leo.20160519181650.6">@language python
 import os
 #os.system("pelican content -o ./ -s publishconf.py -t theme/pelican-bootstrap3")
 os.system("pelican content -o blog -s publishconf.py")
 g.es("admin pelican åŸ·è¡Œå®Œç•¢")
 
 </t>
-<t tx="amd.20160501220029.1"></t>
-<t tx="amd.20160501220029.2">@language python
+<t tx="leo.20160519181650.7"></t>
+<t tx="leo.20160519181650.8">@language python
 import os
 #os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
 os.system("pelican content -o blog -s local_publishconf.py")
@@ -80,7 +93,421 @@ g.es("admin pelican è¿‘ç«¯åŸ·è¡Œå®Œç•¢")
 
 
 </t>
-<t tx="amd.20160501221001.1">@language python
+<t tx="leo.20160519181650.9"></t>
+<t tx="leo.20160519182004.1"></t>
+<t tx="leo.20160519182004.10">def circle(x, y):
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 50)
+'''
+    for i in range(2, 10):
+        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*40)+") \n"
+    return outstring
+ 
+</t>
+<t tx="leo.20160519182004.11">def twocircle(x, y):
+    # 20 ç‚ºéˆæ¢å…©åœ“è·
+    # chain æ‰€åœä¹‹åœ“åœˆåŠå¾‘ç‚º 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 12
+    # 78, 66, 54, 42, 30, 18, 6åº¦
+    #å¿…é ˆæœ‰æŸäº› chain ç®—åº§æ¨™ä½†æ˜¯ä¸ render
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    # ç¬¬1ç¯€ä¹Ÿæ˜¯ virtual chain
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''', True)
+#x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    # é€™è£¡è¦ä¸Šä¸‹å„å¤šç•™ä¸€ç¯€è™›æ“¬ chain, ä»¥ä¾¿æœ€å¾Œé€²è¡Œé€£æ¥ (x7, y7) èˆ‡ (x22, y22)
+    for i in range(2, int(repeat)+1):
+        #if i &lt; 7 or i &gt; 23:        
+        if i &lt;= 7 or i &gt;= 23:
+            # virautl chain
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+ 
+    p = -150
+    k = 0
+    degree = 20
+    # 70, 50, 30, 10
+    # å¾ i=5 é–‹å§‹, å°±æ˜¯ virautl chain
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    # ç¬¬1ç¯€ä¸æ˜¯ virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;= 5 and i &lt;= 13:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+", 90-"+str(i*degree)+") \n"
+ 
+    # ä¸Šæ®µé€£æ¥ç›´ç·š
+    # å¾ p5, k5 ä½œç‚ºèµ·é»
+    first_degree = 10
+    repeat = 11
+    outstring += '''
+m1, n1 = mychain.basic_rot(p4, k4, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # ä¸‹æ®µé€£æ¥ç›´ç·š
+    # å¾ p12, k12 ä½œç‚ºèµ·é»
+    first_degree = -10
+    repeat = 11
+    outstring += '''
+r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # ä¸Šæ®µå³æ–¹æ¥é»ç‚º x7, y7, å·¦å´å‰‡ç‚º m11, n11
+    outstring += "mychain.basic(x7, y7, m11, n11)\n"
+    # ä¸‹æ®µå³æ–¹æ¥é»ç‚º x22, y22, å·¦å´å‰‡ç‚º r11, s11
+    outstring += "mychain.basic(x22, y22, r11, s11)\n"
+ 
+    return outstring
+</t>
+<t tx="leo.20160519182004.12">@bg9_40323233_2.route('/circle')
+def drawcircle():
+    return head_str + chain_str + circle(0, 0) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160519182004.13">@bg9_40323233_2.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg9_40323233_2.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg9_40323233_2.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg9_40323233_2.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+def drawcircle1(x,y,degree):
+    return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160519182004.14">def eighteenthirty(x, y):
+    '''
+å¾åœ–è§£æ³•èˆ‡ç¬¦è™Ÿå¼è§£æ³•å¾—åˆ°çš„å…©æ¢å¤–åˆ‡ç·šåº§æ¨™é»
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
+(-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, -56.5714145924675), (-17.8936874260919, -93.9794075692901)
+å·¦é‚Šé—œéµéŠæ¢èµ·é» (-233.06, 49.48), è§’åº¦ 20.78, åœ“å¿ƒ (-203.593, 0.0)
+å³é‚Šé—œéµéŠæ¢èµ·é» (-17.89, 93.9), è§’åº¦ 4.78, åœ“å¿ƒ (0, 0)
+    '''
+    # 20 ç‚ºéˆæ¢å…©åœ“è·
+    # chain æ‰€åœä¹‹åœ“åœˆåŠå¾‘ç‚º 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    x = 50
+    y = 0
+    degree = 20
+    first_degree = 20.78+90
+    startx = 44.0532
+    starty = -165.17
+    repeat = 360 / degree
+    # å…ˆç•«å‡ºå·¦é‚Šç¬¬ä¸€é—œéµç¯€
+    outstring = '''
+mychain = chain()
+ 
+x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree)+''')
+ 
+'''
+    # æ¥è‘—ç¹ªè£½å·¦é‚Šçš„éè™›æ“¬éŠæ¢
+    for i in range(2, int(repeat)+1):
+        if i &gt;=2 and i &lt;=11:
+            # virautl chain
+            #outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+        else:
+            outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # æ¥è‘—è™•ç†å³é‚Šçš„éè™›æ“¬éŠæ¢
+    # å…ˆç•«å‡ºå³é‚Šç¬¬ä¸€é—œéµç¯€
+ 
+    p = 0
+    k = 50
+    degree = 12
+    first_degree = 4.78+90
+    repeat = 360 / degree
+    # ç¬¬1ç¯€ä¸æ˜¯ virtual chain
+    outstring += '''
+#mychain = chain()
+ 
+p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        if i &gt;=18:
+            # virautl chain
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+", True) \n"
+            #outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+        else:
+            outstring += "p"+str(i)+", k"+str(i)+"=mychain.basic_rot(p"+str(i-1)+", k"+str(i-1)+","+str(first_degree+degree-i*degree)+") \n"
+ 
+    # ä¸Šæ®µé€£æ¥ç›´ç·š
+    # å¾ x1, y1 ä½œç‚ºèµ·é»
+    first_degree = 10.78 +90 
+    repeat = 10
+    outstring += '''
+m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "m"+str(i)+", n"+str(i)+"=mychain.basic_rot(m"+str(i-1)+", n"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    # ä¸‹æ®µé€£æ¥ç›´ç·š
+    # å¾ x11, y11 ä½œç‚ºèµ·é»
+    first_degree = -10.78 +90
+    repeat = 10
+    outstring += '''
+r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
+ 
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160519182004.15">@bg9_40323233_2.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg9_40323233_2.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg9_40323233_2.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg9_40323233_2.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+def drawcircle2(x,y,degree):
+    return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160519182004.16">@bg9_40323233_2.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg9_40323233_2.route('/twocircle', defaults={'x':0, 'y':0})
+def drawtwocircle(x,y):
+    return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160519182004.17">@bg9_40323233_2.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg9_40323233_2.route('/eighteenthirty', defaults={'x':0, 'y':0})
+def draweithteenthirdy(x,y):
+    return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
+ 
+ 
+</t>
+<t tx="leo.20160519182004.18">@bg9_40323233_2.route('/snap')
+# http://svg.dabbles.info/snaptut-base
+def snap():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;ç¶²éš› snap ç¹ªåœ–&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# é€é window èˆ‡ JSConstructor å¾ Brython ç‰©ä»¶ snap æ“·å– Snap ç‰©ä»¶çš„å…§å®¹
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# å»ºç«‹ç‰©ä»¶æ™‚, åŒæ™‚è¨­å®š id åç¨±
+r = s.rect(10,10,100,100).attr({'id': 'rect'})
+c = s.circle(100,100,50).attr({'id': 'circle'})
+r.attr('fill', 'red')
+c.attr({ 'fill': 'blue', 'stroke': 'black', 'strokeWidth': 10 })
+r.attr({ 'stroke': '#123456', 'strokeWidth': 20 })
+s.text(180,100, 'é»æŒ‰ä¸€ä¸‹åœ–å½¢').attr({'fill' : 'blue',  'stroke': 'blue', 'stroke-width': 0.2 })
+ 
+g = s.group().attr({'id': 'tux'})
+ 
+def hoverover(ev):
+    g.animate({'transform': 's1.5r45,t180,20'}, 1000, window.mina.bounce)
+ 
+def hoverout(ev):
+    g.animate({'transform': 's1r0,t180,20'}, 1000, window.mina.bounce) 
+ 
+# callback å‡½å¼
+def onSVGLoaded(data):
+    #s.append(data)
+    g.append(data)
+    #g.hover(hoverover, hoverout )
+    g.text(300,100, 'æ‹¿æ»‘é¼ æŒ‡å‘æˆ‘')
+ 
+# åˆ©ç”¨ window.Snap.load è¼‰å…¥ svg æª”æ¡ˆ
+tux = window.Snap.load("/static/Dreaming_tux.svg", onSVGLoaded)
+g.transform('t180,20')
+ 
+# èˆ‡è¦–çª—äº‹ä»¶å°æ‡‰çš„å‡½å¼
+def rtoyellow(ev):
+    r.attr('fill', 'yellow')
+ 
+def ctogreen(ev):
+    c.attr('fill', 'green')
+ 
+# æ ¹æ“šç‰©ä»¶ id ç¶å®šæ»‘é¼ äº‹ä»¶åŸ·è¡Œå°æ‡‰å‡½å¼
+document['rect'].bind('click', rtoyellow)
+document['circle'].bind('click', ctogreen)
+document['tux'].bind('mouseover', hoverover)
+document['tux'].bind('mouseleave', hoverout)
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160519182004.19">@bg9_40323233_2.route('/snap_link')
+# http://svg.dabbles.info/
+def snap_link():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;ç¶²éš› snap ç¹ªåœ–&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# é€é window èˆ‡ JSConstructor å¾ Brython ç‰©ä»¶ snap æ“·å– Snap ç‰©ä»¶çš„å…§å®¹
+snap = JSConstructor(window.Snap)
+ 
+# ä½¿ç”¨ id ç‚º "svgout" çš„ svg æ¨™è¨»é€²è¡Œç¹ªåœ–
+s = snap("#svgout")
+ 
+offsetY = 50
+ 
+# æ˜¯å¦æ¨™è¨‚å‡ºç¹ªåœ–ç¯„åœ
+#borderRect = s.rect(0,0,800,640,10,10).attr({ 'stroke': "silver", 'fill': "silver", 'strokeWidth': "3" })
+ 
+g = s.group().transform('t250,120')
+r0 = s.rect(150,150,100,100,20,20).attr({ 'fill': "orange", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c0 = s.circle(225,225,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4"  }).attr({ 'id': 'c0' })
+g0 = s.group( r0,c0 ).attr({ 'id': 'g0' })
+#g0.animate({ 'transform' : 't250,120r360,225,225' },4000)
+g0.appendTo( g )
+g0.animate({ 'transform' : 'r360,225,225' },4000)
+# è®“ g0 å¯ä»¥æ‹–å‹•
+g0.drag()
+ 
+r1 = s.rect(100,100,100,100,20,20).attr({ 'fill': "red", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c1 = s.circle(175,175,10).attr({ 'fill': "silver", 'stroke': "black" , 'strokeWidth': "4"}).attr({ 'id': 'c1' })
+g1 = s.group( r1,c1 ).attr({ 'id': 'g1' })
+g1.appendTo( g0 ).attr({ 'id': 'g1' })
+g1.animate({ 'transform' : 'r360,175,175' },4000)
+ 
+r2 = s.rect(50,50,100,100,20,20).attr({ 'fill': "blue", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c2 = s.circle(125,125,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c2' })
+g2 = s.group(r2,c2).attr({ 'id': 'g2' })
+ 
+g2.appendTo( g1 );
+g2.animate( { 'transform' : 'r360,125,125' },4000);
+ 
+r3 = s.rect(0,0,100,100,20,20).attr({ 'fill': "yellow", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c3 = s.circle(75,75,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c3' })
+g3 = s.group(r3,c3).attr({ 'id': 'g3' })
+ 
+g3.appendTo( g2 )
+g3.animate( { 'transform' : 'r360,75,75' },4000)
+ 
+r4 = s.rect(-50,-50,100,100,20,20).attr({ 'fill': "green", 'opacity': "0.8", 'stroke': "black", 'strokeWidth': "2" })
+c4 = s.circle(25,25,10).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "4" }).attr({ 'id': 'c4' })
+g4 = s.group(r4,c4).attr({ 'id': 'g4' });
+g4.appendTo( g3 )
+g4.animate( { 'transform' : 'r360,25,25' },4000)
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring
+ 
+ 
+</t>
+<t tx="leo.20160519182004.2">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="leo.20160519182004.20">@bg9_40323233_2.route('/snap_gear')
+def snap_gear():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;ç¶²éš› snap ç¹ªåœ–&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+    &lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="/static/snap.svg-min.js"&gt;&lt;/script&gt;
+ 
+    &lt;script&gt;
+    window.onload=function(){
+    brython(1);
+    }
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;svg width="800" height="800" viewBox="0 0 800 800" id="svgout"&gt;&lt;/svg&gt;
+ 
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window, document
+ 
+# é€é window èˆ‡ JSConstructor å¾ Brython ç‰©ä»¶ snap æ“·å– Snap ç‰©ä»¶çš„å…§å®¹
+snap = JSConstructor(window.Snap)
+ 
+s = snap("#svgout")
+# ç•«ç›´ç·š
+s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring</t>
+<t tx="leo.20160519182004.21"></t>
+<t tx="leo.20160519182004.22">@language python
 @tabwidth -4
 @others
 if __name__ == "__main__":
@@ -88,136 +515,19 @@ if __name__ == "__main__":
     
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
-app.register_blueprint(users.b.g9.bg9_40323231.bg9_40323231)
-app.register_blueprint(users.b.g9.bg9_40323233.bg9_40323233)
-</t>
-<t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
-# ajax jquery chunked file upload for flask
-def fileaxupload():
-    '''
-    if not session.get('logged_in'):
-        #abort(401)
-        return redirect(url_for('login'))
-    '''
-    # need to consider if the uploaded filename already existed.
-    # right now all existed files will be replaced with the new files
-    filename = request.args.get("ax-file-name")
-    flag = request.args.get("start")
-    if flag == "0":
-        file = open(data_dir+"downloads/"+filename, "wb")
-    else:
-        file = open(data_dir+"downloads/"+filename, "ab")
-    file.write(request.stream.read())
-    file.close()
-    return "files uploaded!"
 
-    
-    
-</t>
-<t tx="amd.20160501221001.11">@app.route('/fileuploadform')
-def fileuploadform():
-    '''
-    if not session.get('logged_in'):
-        #abort(401)
-        return redirect(url_for('login'))
-    '''
-    return "&lt;h1&gt;file upload&lt;/h1&gt;"+'''
-  &lt;script src="/static/jquery.js" type="text/javascript"&gt;&lt;/script&gt;
-  &lt;script src="/static/axuploader.js" type="text/javascript"&gt;&lt;/script&gt;
-  &lt;script&gt;
-  $(document).ready(function(){
-  $('.prova').axuploader({url:'fileaxupload', allowExt:['jpg','png','gif','7z','pdf','zip','flv','stl','swf'],
-  finish:function(x,files)
-{
-    alert('All files have been uploaded: '+files);
-},
-  enable:true,
-  remotePath:function(){
-  return 'downloads/';
-  }
-  });
-  });
-  &lt;/script&gt;
-  &lt;div class="prova"&gt;&lt;/div&gt;
-  &lt;input type="button" onclick="$('.prova').axuploader('disable')" value="asd" /&gt;
-  &lt;input type="button" onclick="$('.prova').axuploader('enable')" value="ok" /&gt;
-  &lt;/section&gt;&lt;/body&gt;&lt;/html&gt;
-  '''
-</t>
-<t tx="amd.20160501221001.12">@app.route('/imageaxupload', methods=['POST'])
-# ajax jquery chunked file upload for flask
-def imageaxupload():
-    '''
-    if not session.get('logged_in'):
-        #abort(401)
-        return redirect(url_for('login'))
-    '''
-    # need to consider if the uploaded filename already existed.
-    # right now all existed files will be replaced with the new files
-    filename = request.args.get("ax-file-name")
-    flag = request.args.get("start")
-    if flag == "0":
-        file = open(data_dir+"images/"+filename, "wb")
-    else:
-        file = open(data_dir+"images/"+filename, "ab")
-    file.write(request.stream.read())
-    file.close()
-    return "image file uploaded!"
-
-    
-    
-</t>
-<t tx="amd.20160501221001.13">@app.route('/imageuploadform')
-def imageuploadform():
-    '''
-    if not session.get('logged_in'):
-        #abort(401)
-        return redirect(url_for('login'))
-    '''
-    return "&lt;h1&gt;file upload&lt;/h1&gt;"+'''
-  &lt;script src="/static/jquery.js" type="text/javascript"&gt;&lt;/script&gt;
-  &lt;script src="/static/axuploader.js" type="text/javascript"&gt;&lt;/script&gt;
-  &lt;script&gt;
-  $(document).ready(function(){
-  $('.prova').axuploader({url:'imageaxupload', allowExt:['jpg','png','gif','7z','pdf','zip','flv','stl','swf'],
-  finish:function(x,files)
-{
-    alert('All files have been uploaded: '+files);
-},
-  enable:true,
-  remotePath:function(){
-  return 'images/';
-  }
-  });
-  });
-  &lt;/script&gt;
-  &lt;div class="prova"&gt;&lt;/div&gt;
-  &lt;input type="button" onclick="$('.prova').axuploader('disable')" value="asd" /&gt;
-  &lt;input type="button" onclick="$('.prova').axuploader('enable')" value="ok" /&gt;
-  &lt;/section&gt;&lt;/body&gt;&lt;/html&gt;
-  '''
-</t>
-<t tx="amd.20160501221001.14">@app.route('/downloads/&lt;path:filename&gt;', methods=['GET', 'POST'])
-def download(filename):
-    #return send_from_directory(download_dir, filename=filename, as_attachment=True)
-    return send_from_directory(download_dir, filename=filename)
-    
+app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
+app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
 
 
-</t>
-<t tx="amd.20160501221001.15"># setup static directory
-@app.route('/images/&lt;path:path&gt;')
-def send_images(path):
-    return send_from_directory(data_dir+"/images/", path)
-</t>
-<t tx="amd.20160501221001.16"># setup static directory
-@app.route('/static/')
-def send_static():
-  return app.send_static_file('index.html')
+app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
+app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
 
-</t>
-<t tx="amd.20160501221001.2"># coding: utf-8
+app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
+app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)</t>
+<t tx="leo.20160519182004.23"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -226,200 +536,147 @@ import os
 import init
 
 
-
-import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323218
-import u$ Ã %	^X	—?J¬=÷‘>U!§N8?
-ÿ•	0 ¼X4dn	96?:UE "ù ©;'û– m&‘*û¤	!Ã ,!#9Zõ6'\TEb !;@™™UŠ ƒ . å5İ9 4N¬Ávd ºÈ"™Ú ¯8Ì”jµ9ON‰Ht:f(e
-#ø¦i0 ““¹y<ˆR;
-k'43[^?U)¡Qú® i¤.1uî²_o ,
-à% :&¬¸#İ€‰Á ƒ|xçè)°F{I\O#÷]5D!°B;İ+ö ¾wğƒÂoV[*•6ö$–•)-ŸH4 …ZáH^5ãü¨'Œhû'…s?¸
-ÛiÑ$VnŞOõUÄ(ü1TbÿŠñ
-
- s?ÊŞkÜ ] ”yºÛ¥F	1ı öl·Ê‰ å6º 	/Î7­’¦‚Mı²q58İÈ#&«!„F$!&¢E%òB§Œö\ ¨›¸/ú)K#*¯"Û+èæ²€Mºz:&éÚNş I^J‰ß!ù á¾ö?¨]‡*<W n
-6¥KÒX% °!?™Œ  öh¢Ø¥fÜEW ’ â4dA%hr	™	‡	´)(qØ#‹¢Íc î'71Èy0¨Y† ËF^'6jÈBp»E±ä}W!i’ÿDºy
-ù2 ¬ƒ7ØQ’à Ê¹¢@ºV _œİé ˆ	
-è5>DZ:wR¤2YR‚"“ºÍ>ÈŞ3¾6Á"¸¿ŞA†,T\¼'_	Y 9S!U"%&ë?ŞA„³z ÷¢H%ÆMÇ42Y	#÷#H÷(±Ô që
-ì!@G"#<37èe	İ ñç;Ü;†ZÑ$¢)=$ƒvT)‚şÉ("²‰läË ;%UzË &	!6ñÑd¼Gr!MØ2Xˆ·‰
-`L8Ô™°&Ğ-1´5ÁÏ"ä_Æ…!ò@
-©œ <ÑVTH ‘2®
-kS¤Àèn†¨5TÂ =£àtÈˆBë·ÍÿÊÊ'K#5N9Pa«KÕ!M?.ÚSÃDí×YoâĞ  F$> uÃeaœ@Ÿ‚„º'e)b	*TÙgL]P	(Íö%¸7û&òÏ0a	;¼2Å2‚17£ U
-ù2æP¢ãŠ	‡1æ~q"Û Bö	û	Š½UvD#8#Zô%!Û	b§áóm*#ü=Æ1.^$òÓëHOêc ãm&|>´ )J'Âˆ-Ñú[a 8;5Ów"#Q¨w ¬
-fØ(2ŞI+.¤#Öm$"¤&ÍSß &ı*,İ¶65Ñ5˜ïÎÿÈß	-
-Q&@–óy‚ ‚Ê-©X¯<Q;oèŒc1%'›¦;[ƒun*A3å–r	ëíÆB7	_!.ü¶ VŒ‚A 	Ö,œj&.ÌDæœ
-°6PHÉ±+‹
-Í Å×(ìÆá îS  *½ ÒH*™¦3AHÌ]Ä Ö‹ü´ÜˆJ hºWVÄm U ¨>a$G2ö*	VF* “2ƒ Â6‚	8ó
-% ¯7Š%µÆ¾=Ô
-H%1Z92
-\ÎO9Z3®#Zì¿#µ
-á àµÖ|%Õ€_ V\$ïı Ñ"è'‘×U"a
-|&;,ƒ ulÇCqK® i&õ
-A3mĞ\À0©8+2((]G" µ¤Án-	!N’O}p˜/ü Œ@'¢†½áiÍ¯?õ6ˆGèùî§–Ğ1e>^:a+×C
-Ìmâ 	÷µÔQE0óªx àV#M¨DC+§Uß@ M?‹È	óíl(8ƒ)E9?&ú­6ÖPÎÓÀˆ	›Q>£§ºÃ` 	‰3&r24Ç§«^$g. ™$,Ø.$	CÛ]Ç¦4à% Å99¬	±Zrs	èã
-˜D¼ni¨”.Wù4Å	˜	*¡ÜªïúŒÊÈMâ·6Cj|·ië!Ì#A1%ö#Ë@ÁV'K6*O%å™o+…¦ °Ç áü6"~
-˜.b¹ ÿ3’#y Ç!o$J:_	ób	$®
-ü$
-Ä5Z–4»	8¬<«¹yš—h	$íÒZ è!C eC$g,7Ü ~-/z*Ş°Í@Y$Õ9‡
-Ë0¬')ü0ğ&Âl2İÓ] *0‡İ$->I¤2€F#Ö
-/eä|{? 	[+å,c…“l“ÅJ,‰…ú
-³ÿ°N–Xw'l ş¿û T EİÎ:âJ—!ß"Düù5;Á€+éÔ&ğ<%’íz½´¬Êj“ .
-;G!Ì7—2=¸/ša
-»´®ÃLˆJ!W¸ Úk;?{W¶ Ì¼|äî
-J#Oÿ ·<®—’*ÁÑ<1‘¨Á½t­m	İE%Í¬”	-	¥X‡€ÏVŸq'*¹	˜2ò õ¼ï.®U 
-?›ªfİŸ…ŠB®-3i (²!HùıšŒ7KcŸö©@3…%ü©Lç'„EÕÍ0<Õ»A?v¯NTl¬ÌO;	ó	ä„IjB‘1 tì7Q—i`¬#4'CEvŸWŞ-dª"<3ü `Q®U‰Ÿr,ê&ŞEq#»}Ê&
-´!¡¢ıŒö&ñ"ğX¼ó@[3/  ‚€ñ’)OpæĞ1f©ì)ÑÈ-QD‘·¯ôë?4;>Úm»xø8T §Iì™
-À° @	ø%…4•!ûx‹7P¸¾§‰
-­0òœ'0R	Ô#±('¨
-	rx®zm(c•	 ·,¦52(•>
-ós %!ú	yØ9è º°3ÀhxO2¸6“V"]	¶Itë.½8:”¼Œ6³zÜ$Ã}[Å,a ’(ì.ÆI©%~˜<V+5=h-w ¥Bİ1”²V	k
-´	Ò( ¾
-%(2 *L{Vu20,7/œ%Ó¿åC÷mB4æ$8v>7íB;¨¾~• ¢¹æ[
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+# ç¢ºå®šç¨‹å¼æª”æ¡ˆæ‰€åœ¨ç›®éŒ„, åœ¨ Windows æœ‰æœ€å¾Œçš„åæ–œç·š
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# è¨­å®šåœ¨é›²ç«¯èˆ‡è¿‘ç«¯çš„è³‡æ–™å„²å­˜ç›®éŒ„
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # è¡¨ç¤ºç¨‹å¼åœ¨é›²ç«¯åŸ·è¡Œ
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # è¡¨ç¤ºç¨‹å¼åœ¨è¿‘ç«¯åŸ·è¡Œ
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
 
-5kd&í- ÷ 	û`
-aÊ3‹¢-	Ö¥*9"Úu|2‡×DK#ŒÄ *Q]¹/‘(M/'[¹Ó?(,[ ¿#$…®¦ ”T9s+A³˜(N
-¼#2‡X??Ò
-m# ¦ Õ*äŞ‚ Åá"Ş]¥	ÒÌMÊš	Â%N!×>'İËA=± u,zQ‰<ZJË
-1†ì}¿ÇÜNº4B"*qÚ±Š)ˆãéc6êK!ØnÍÈR™M®Hú0y-Å-Wš3^½ }9,íZ8Ö»8;y¹;Gã5r"rC­e@â	*'~
-·A	 .o¯:)'æ«  	Š³î’¨x
-³š	Æ¨#0Ö<âÔµ0¦ùŸ…x›öÁ 24Û<j‹4~=Ü”6Q{:o	)¹áú'ğí¡$
-ıU3lÈTR!m˜5Ñ&)÷†’4j¦1#Œa¡h/Ú£WÀˆ1 "‰3Ûİ®(Q¢dF©ŠNIƒâb®À 0	%Y%wDCf*?¼
-² 	$aAb	Ã3ã2”
-F‰.¯Â'a0“Bv°­$x
-¯ æ °è¬Ïfw>NE°dWº-KU ›I¼}¦&ºõ+¸P© Œˆ5ü€.ÆK$6='v'7âÄÍf¢CUR"ÜNğ9Y½ +!Ÿ {
-à8-x›£(ÕZõ
-?‘+:ŒC'‹'®ØP/…	¸,/#éeÙ3Ü\8M1m.KÂ=3
-îö?A»QÜQí
-	{.}Š!W›v&?€e"U›* ¸şª€#Å#ò?X¿
-ò=-L*3/Å™95—×>>ÛM¦+¸©SÜ¤9“õıQÙZ´TÃ 9Zç
-¾	Î¤ ãÃ5ë9> x	¿\FÆ	í3v=b«Hê8aƒØ2õÔ ¦AéCº:ˆ.ßO:e¶ /‰kZ‚oªÄî.H³KÅ3*†Ã(ó PÜ…>.+ñ&'ÊQA5 Lvp(š}-P
-rú 6Ò‡Ë%%L’±"‚rGS¿ låÅ)â±
+# åˆ©ç”¨ init.py å•Ÿå‹•, å»ºç«‹æ‰€éœ€çš„ç›¸é—œæª”æ¡ˆ
+initobj = init.Init()
 
-4p_%ÅGE¼«D70	:áA
-{J"Ë#;©(.&ºÛ)üÉñÙ×,¬ ‘/l3[B1—	#mù2Ò,Ş&ÜÌ¶!÷#ÿWôB-9é $!µ5ûè	†!‰wH{Í)#
-)•¢à£»¸$E%>?5
+# å¿…é ˆå…ˆå°‡ download_dir è¨­ç‚º static_folder, ç„¶å¾Œæ‰å¯ä»¥ç”¨æ–¼ download æ–¹æ³•ä¸­çš„ app.static_folder çš„å‘¼å«
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
 
-Ihö×?1æ0W§ ’ {®DöŞòê »9R,bN%x
-Œ·Sdç4,´ çÀöA•3fù	ØYU¨‰™³ì>!N{ÊŠ5Ü2 ª¡CÊ)Ø*6Ô	'üÅYÉÆ ´ ?å8C°ß<‹|/FW
-ßØ
-®À±ÿ(œa,o'½¿Ø?Á¸‘(T 	ÔEC ö7kõï	,óªöNc%ædK3 º*Î8Ü&¦Cz#)bdÆ
-³.G*rp-t?{¾  f~ T“$!%1,}fD#(
-.×)_'²~Có &
-×{€V}ôE
-= ®”(xb°'¬&œY%1 Á:Ö}+ßQ”#g~Ï{=ÜRIõ)H}]—’1‚%5Î2h]2XX	±u’F!Ş[v’5ì “/$ëzqş{<\ M7ç©Å³.F]œ”5(¡)3. -.
-,,6«ÁŒ o–·Ï$ü@.%,.s&/ÊŒ ì#í
-ÚVúB‚ì(ó÷ + }#ÉBxl ãÓ …	;&ƒ"ğ#Aªé óARp5ç}<,1<_•Ae»_]a<®M¼=AE@M2f	d	¾ã K;	¼6Yğ
-?À , 3f%“ í©ôâ5 õIs{
-ÈV);d;H~7'âÁè¼Ã` c¬&I\é­j
-lİ
-÷*3à`u^o-$'"ÎCCPW{!d¥ã| ƒºè
-ñ#ºO
-d$ëN>øÍ¾>n ê'í6í : Î ø¡Aw6n!úu	#Bä+K˜˜[
-•	ëÕ-¢EMæ G	>#˜
-º!˜§nZ™yµGÂe¢"	à—Œëj@ÌÆ-<¾Èş°(Ä©5›
-Ù*òz±HYû'îU&1€6'Ä07H‚×YBH	D@‚$¡êU: 	î
-T0öïñ4vn‰ˆÜ *ã<O}½2Œ`@	¬ğl áa!
->1.ÕZ8hÁğ¶À3 í?àLª [&¨û—n‰‚êÑ'±µ
-@4 !x)= {6>h Ÿ*º~3€	N ¾'š¢ä’&Š*#EĞ#W Ù±£#Õ
-¿€He –?üÅ'(Qpk!33›ô@Ã ‹G"	Ï†[ıêËÊ(F"ê#J
-Ã=?!¢(	á‡˜)ì‰É”dE[.„ç4Ã Ãñœc”öÌ;‘XXÇ"+á±[i&`+¢e±ªh+Ü
-{,=Fäğè§ÇPbá$ÒëFî]'â$
-DÛ²ˆ:ªT
-aWó ¡X<:JÆzä/ÃrM h˜ƒëG	G0I¹-A ^"<"ìB QA8ªØ
-ÑF:	Hsê*B,ŸGı0G»: œ8Ş5x”ZMÃÕ3jòé.3]v+j%àíwõ*ŠÓ˜ÌD‚%
-¥I×\€/@äƒó0,€.yt&ÏâaÁó"S)9lâ™] ë£´	øÛÓêá$ùôô0!Îœ[
-áV¨#ĞUì™	 †Bê	¡ˆTÉE[ŸI7J$F×z~÷Mqq
-³â+›­zS. >0êø‹ú^GÄ~®@ =Íú»±²Lô	4lç×ÄèFåK@÷IB)ê­%:Ô24ß]#ØWıûÅş}Ò¬9<ÔIg%L8¹,6İŒ%´cX{ Ù#\>L1Á ¢oU$
-Ë şÓ+A5ŠşG[	œ,\@*.Õ˜… Qoò%Y ;"âü6^‹ÛhÒk.¬]
-ÓóÕ]õ:Ñ× wU&ıx»³~4Hd}»O>©"-æ (Iz¨æ (è'ÿ©Â‚X´'F8	œ¡C7&].vÿ“z;$é|Ã ÒSŞ©E¶°_>™	y¼&*P ]
-,	’A|‡Š	qv!2±™?JûHÔë=jG¶\qTÉ!å“Â-&-ùu& v „9ĞM,+œèÕ,Æî)»~c™¸	dE¢ç 
-Ÿù ¹ï'˜QˆekW!%¬#Œ>KÆw¢çm ıÜª7ãÄõ	5 êbXŠbO:8D¶¶Î! ²21ŒW-‚	±yÂyY%;UH5!g`3p4#ª‹<5J"0 …E~yÈ=·üJìı®~*±æK.27¢idHˆ“Dñ1<"Î}Äb0üÀ2õ¹–Wæ6òä	AD *ı&–?r´ˆ ÏÑóÜ#ŸÇ2ÖOÍ L8”æ/¹Yç ­ĞBK
-@
-Yˆ'½-£§ãS2Ä%¸¾ûNç•r(÷8!ëÉ%U JÄá/Ô‚cXL&TàQ.%…l~E®‡ñ¨£VJˆ	v«™Ág ƒ)oÀ:ªèltk7í
-¢wşH	:Ó Ü ~R"~&GXS–Ø&òv0 æÈ±+<oÏ*Hy,ë
-‰™. ì>ø//şyzHğ­*wİæ[.¾aÎ±Q!v	µ4bŠd#)q£ ë~è	O%É"ÏLØÁ» Ï<	ÿÁ¦"œà'?Qã
- MŒú4ïOâŠ'&as)A¼ ø!KF$ÈÈ–6Ïø,L$ˆ´“ºê±3H5ü	-*¬
-æt$î<¨Ä~ İz)Ö	û	–&¡ArGÒ\¡$QÎ“O3B;^'vr;É·I	¢Á›Š€ ¹ËaG 	ô’Æ
-ö$í2!+Æ½ ·<JkèµÀ"°¿4‰Ïç´÷V×åƒdHà3ƒïÇ%t,+¿ Ÿ[öĞ‰(hD#l•¹ «Ñ$»¤2UµG¨ Dî( 	]¹;bWÅ¡¸˜$2 ËBã
-çj52é[ ²•|#{-‡-	HR0Å &"pÎåŠP
- 1;¨/‡é#™ÊB½Ç
-Òp€0şÜ4:]¢
-´#\‚èk"àÜ
-!YB„¸’{Â2¶
-KL2«;ì<y(çó#½ C=P0Ó[1%İ4¼IÍ-õ zi{§“àµ Su'¬V4Ê¥È
-î¡I¼
->0í_Ì	ü0Wš–—3
-¿SO%™`Ó=U¶‰‡8~\#
-Ê! ,	Ç"lOÃpS
-#(3(æ¦ÏĞƒ^)’zÏGÔ)ç
-¶{Y_3pF^8DŒÉ]
-š—/„k!¡ m òLÉö>ZjÖ0$.Ñ ›M+[(ª6%8;G He5bs	ƒ
-7&İé/·^9Á0é=g9	İMüCÏ)Ò¦1« ĞOÎD!º!8$AÅ‘ :A(‚
-ô)sĞ&`ï
-Pg1Ë›¹!ÃIc.ÅŸæ—n*òæı0}qŞ)•¡=$Bú	u;/¶AVÚÛO9áq	´<öÁ"e`â4
-èO İl‡/@%è­Ô?˜Ã1
-ˆ@._,)\Ş Í‚_Y6ä ş/*¢
-¨d0ÀCi«¤"Ú$wuµ|=®˜$xr5b,™ âÌp.µnê5#Î Ì5Ö6v-n)ø‘¿'›Ş8XÍÍ´ì'û¤nÌù+8á«ú·(@~Œ	)İ1-)& e
-Ç
-7	æø$ñlí#Øñª!ø½LÙ Wâ" &øÈQØà4ü/1Ã£q#@HµP	<“	"<ÈäµÊ"Ğ˜I&ä,0Æ!†.=ş}?_9ÛÚZiMr ø'ç)'ğI%´?" ©J-"2	ªü|šQöú•Î» L
-k£©@œ †7cø}“{Ú=è¡ $]ŸÛ¼H#°4AeÀU×Ş	ïî> iA.o‹Ú5"“–	.§¢æ-I"ÕK½AÉ'PÇ-Æ7%É3ã<Šü0 l
-!0|7P¹@
-zúA°!Qg#+D1î% 0²Ã!€Ôt ¤ •Kò'M	@Åx4-Fé;R¢¤3ø Æ+¡ó²7öü	q0·N"µb÷5.+%}µ2ù {‡
-à'½_~9†áÈ¿b*+X1§0¡
-J*Ã)Ü	û$6/Õh1¤§(•G­ı®"hŞ",{G³Åæ¸òîıÿVßkÙq(uMÄGÜ`ˆUÓ†ş/ÀÃ4ê(4<×:ö#Q2Œ÷Y=Dª)&%î
-@g
-ôO}	ùVƒ4îh4éÇ¬H 0×1ŠqÇ  ä$×A/±O$Àœ6Ú(F"ë±$h%°T5´ ñÄ‹˜|¼êz«-Û7&ÈêAo	áñö"ä‘?uş‚%†Œ,
-Tvu^Hc	)ªN~
-	bAjşlÓ5™YöŠ-YŠRŸºsC‚¶5áŠ
-Òû,M,i0Ïi#Ş3L Ö-ç ›C€¼'‹¡W©»	H×GwG$Z‘AÌ	lë.Oûåw|‰Â· ’ŞÊ%e8HÒ"§e£„C!@"OY ,e9NM
-şj	ot º
-Gc…b	§2*+œ8·‚Yô,Dÿ'½"
-L.¨g/û\<0
-YÑs,  (Z»
-bd+ÿAYo¢)§Í›.¨%f##W¹ …ğ#L2½¬p]ŒN"bj†#%¯7Y¬_1'Ö:Q¦"'Â9†¤Ö@)[@s"÷=$"ÙÎU6/(àÚn)ß	Y;I$i O[Sü
-S´ı*^æ÷Ú & Û
-Ä2	 +	ıXOä
-ÙÍ¬_	·Á6N7ù-Ät.ş ±&=>"£½	¦Ø(~~	ˆ0
-{¯ £ZÚ€µ¬Zq
-e––'ìÛ ì#‘&XD§#ÀGê»q
-§  %±sª%»
-çÌè"gYò%ÁHÿx† ©/,Y^4S
-€	ü'ê «!¸y0Ÿ9!(Ğ bÄ(#£>xÉyfE?	”~ñº&
-'4PØì[áÿ/xNoáÓ*È*99i|%!gÙ²ZO @ šH³ã¯(+	D½€…‘ü"'D1 “P
-]xv ÕG³å	UÖª jï6t!
- *7	m
-°º¦µ6#JŞ$‚
-­¶8[ø R	üŒWtÒĞd%5A¿5œĞoã¤"ıô‘%¹îB W=g8ŸN•m@E)%x¾EK#ñTı:ø<ú°!ëø{¸„+Fç{½¹T_R 7»÷IÄ)":IAŠLF-#ˆ‚%ËŞU7 ¨ÜLP&Ê)ùU	ºá &N–wP…
-ê,
-1+üNÛ8Ç“J9ñ8¾ú#š-æ· Ş¦M0Qr&çÎ}øADî 'Ì%
-ñ‡fV)R,WbÓ.hñea^íy„.ÿ)mMÄ(ã3Ó½6aî)\b LŒOx•6xWœô$°	9"hË!Ü‹5Æ+£@µÓ#Wb£<×rd5g&g!¹U8_S ÏÑ7?"·#£3XS­Y	¼wÍÿC~%.ÄæsŸM‹Ñ||J„ˆ/^@Ìÿ®	ùtD'…¸5
-×sU1_½‰î	f ğ%ò1A%;ˆW QJ²IÒK#iÌpc
-«	ä
-­)ñğ5É‚Wi ¢´EÒFÉ/¦°
-ÏççSÅ'»Èø«Ùm÷T$
-ñ}Ç­ •’®0‰"èb$7{*Ja<4'áL~´$ÑŒB´?7Ç+gFÿ0ª•*/o[Í7a®$|ÆvÓZDk³G8,E]J ­Z,ş…\.ñmù¨	cá#xÆH l0áŒkAê@	0øÊ
-š5a ç(Vf<‘¦ñ+Û
-EK­ú ¹-&qÒ1m'p‰ã5Óû>+œ$$†£ ª/H½ãGâ@1ÖÑ²m/óGæ)L ‚3¡ĞF4
-”‹–E"EÀ3 6gÆ›
-\&X´3œ"…„$ø,vTzWeU¿ ÂgfG ¸	Mµ-î³Hİ)Áœ:"Å=jYO%øÎÜª!‡2*Ş	_zUŒ/ü¼Õ<¸)ÕV;ÛWEzªºFI¿?ú¾D!2¯fš	X *ØG­@‰4 Jşà‹}lI¢Ñãzï+frïê»Sc²16‰¿È×Ù‚zÁ$Ş\=G-’
-s$.Á8³&p•¬§T_(U#–¬>-bxNDŒl;Ø)„R{‚0/·aN¢@Å†×‹y ğ
-g'¿löŸ	mG)6lqo=ç-9]OZ6BCµâu ‚/ 
-FyQDıK3R#O„²Ë‹L2Ìw¿ï	\:‚Y+,<&—’ÜwúPÚ=ß
-°‚jkSGwˆÁ/Â Ç5Æ'Y/m İ Aw“Í·R“u2G1ô!ŒÓ@ ï	q\@ B®	õ*w	ÛZÚ:Îãg!.Í!ÓRÕ„@¬j `V¸ò\ê
-™Ó2R$.-©
- 7 '5. *1ñ
-³Š™˜;À7àœ’	wKæDÑºòi ¢\	é&§8;,»áæ"†¸"Ê)!Y+§
-	o·>FVDÀôbÄ[. e#şITn…E
-¡ Š0#}%® )‡@Løä:Ö ‚J+$_0/_å½ gmA/•$A
-§Y^@(<ÒW˜/!¢(»ã˜ZïÔ|&•#2)‘ 8"àİ6ËF
-é	¡2‚²bĞ~JrĞ¥Knòë	M,áAèÑÎNÓ!î¬	•û©­°ìû(G+Pğ¥º¨öâ9Óı	eß0ÿŠF!)~.mhT0[‰SB5ëÌ=Yİ7ÈĞU @ˆb¥	Ù%³s,«  	=ø:Àd
-a œ"ó
-¯<.fî'*!^
-±•ˆqFH}è
-Ç%ü5K!İlöà4™uÚH
-û¬Sş—ëg§(Íƒ/ L)Nâ#90jÅÍæ	b„®€ƒ•¢ì‹/Êº1)3J½&•<# Ó W4fÒa ìó0Ç	b
--œ/ Ö\ml"<Ïlü"ë‹4Êó ?^¥¶3™oÈé	W.ƒØB%„	AÑ"’ò ,|5
- ˆOrN¡S¿1A B
-/êd“æ}j ”ÎJt;body&gt;
+# ä½¿ç”¨ session å¿…é ˆè¦è¨­å®š secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160519182004.24">@app.route("/")
+def index():
+    #é€™æ˜¯çŒœæ•¸å­—éŠæˆ²çš„èµ·å§‹è¡¨å–®, ä¸»è¦åœ¨ç”¢ç”Ÿç­”æ¡ˆ, ä¸¦ä¸”å°‡ count æ­¸é›¶
+    # å°‡æ¨™æº–ç­”æ¡ˆå­˜å…¥ answer session å°æ‡‰å€
+    theanswer = random.randint(1, 100)
+    thecount = 0
+    # å°‡ç­”æ¡ˆèˆ‡è¨ˆç®—æ¬¡æ•¸è®Šæ•¸å­˜é€² session å°æ‡‰è®Šæ•¸
+    session['answer'] = theanswer
+    session['count'] = thecount
+
+    return render_template("index.html", answer=theanswer, count=thecount)
+</t>
+<t tx="leo.20160519182004.25">@app.route('/user/&lt;name&gt;')
+def user(name):
+    return render_template("user.html", name=name)
+</t>
+<t tx="leo.20160519182004.26">@app.route('/red')
+def red():
+    # é‡æ–°å°å‘ google
+    return redirect("http://www.google.com")
+</t>
+<t tx="leo.20160519182004.27">@app.route('/guessform')
+def guessform():
+    session["count"] += 1
+    guess = session.get("guess")
+    theanswer = session.get("answer")
+    count = session.get("count")
+    return render_template("guessform.html", guess=guess, answer=theanswer, count=count)
+</t>
+<t tx="leo.20160519182004.28">@app.route('/docheck', methods=['POST'])
+def docheck():
+    # session[] å­˜è³‡æ–™
+    # session.get() å– session è³‡æ–™
+    # åˆ©ç”¨ request.form[] å–å¾—è¡¨å–®æ¬„ä½è³‡æ–™, ç„¶å¾Œé€åˆ° template
+    guess = request.form["guess"]
+    session["guess"] = guess
+    # å‡å¦‚ä½¿ç”¨è€…ç›´æ¥åŸ·è¡Œ doCheck, å‰‡è¨­æ³•è½‰å›æ ¹æ–¹æ³•
+    if guess is None:
+        redirect("/")
+    # å¾ session å–å‡º answer å°æ‡‰è³‡æ–™, ä¸”è™•ç†ç›´æ¥åŸ·è¡Œ docheck æ™‚ç„¡æ³•å– session å€¼æƒ…æ³
+    try:
+        theanswer = int(session.get('answer'))
+    except:
+        redirect("/")
+    # ç¶“ç”±è¡¨å–®æ‰€å–å¾—çš„ guess è³‡æ–™å‹åˆ¥ç‚º string
+    try:
+        theguess = int(guess)
+    except:
+        return redirect("/guessform")
+    # æ¯åŸ·è¡Œ doCheck ä¸€æ¬¡,æ¬¡æ•¸å¢é‡ä¸€æ¬¡
+    session["count"] += 1
+    count = session.get("count")
+    # ç­”æ¡ˆèˆ‡æ‰€çŒœæ•¸å­—é€²è¡Œæ¯”å°
+    if theanswer &lt; theguess:
+        return render_template("toobig.html", guess=guess, answer=theanswer, count=count)
+    elif theanswer &gt; theguess:
+        return render_template("toosmall.html", guess=guess, answer=theanswer, count=count)
+    else:
+        # å·²ç¶“çŒœå°, å¾ session å–å‡ºç´¯è¨ˆçŒœæ¸¬æ¬¡æ•¸
+        thecount = session.get('count')
+        return "çŒœäº† "+str(thecount)+" æ¬¡, çµ‚æ–¼çŒœå°äº†, æ­£ç¢ºç­”æ¡ˆç‚º "+str(theanswer)+": &lt;a href='/'&gt;å†çŒœ&lt;/a&gt;"
+    return render_template("docheck.html", guess=guess)
+ 
+</t>
+<t tx="leo.20160519182004.29">@app.route('/option', methods=["GET", "POST"])
+def option():
+    # å„çµ„é¸å‡ºçµ„é•·çš„æ–¹å¼, è‹¥æ¡éå¢, å‰‡å„çµ„å…§å­¸è™Ÿæœ€å°è€…ç‚ºçµ„é•·
+    option_list1 = ["éå¢", "éæ¸›"]
+    # å„çµ„çµ„é•·é–“çš„æ’åºå®šçµ„åº, è‹¥æ¡éå¢, å‰‡å­¸è™Ÿæœ€å°çš„çµ„é•·ç‚ºç¬¬1çµ„
+    option_list2 = ["éå¢", "éæ¸›"]
+    # é›»è…¦æ•™å®¤å…±æœ‰ 9 æ’é›»è…¦
+    column = 9
+    # åŠ ä¸Šç­ç´šé¸æ“‡
+    option_list3 = ["2a", "2b"]
+    # æ ¹æ“šç­ç´šçš„ç¸½äººæ•¸, ä»¥ 9 å»é™¤, ç®—å‡ºéœ€è¦æ’å¹¾åˆ—æ‰èƒ½å¤ å®¹ç´çš„ä¸‹, è€Œä¸”è‹¥åˆ—æ•¸è¶…é 7
+    # è¡¨ç¤ºé€™äº›å­¸å“¡å¿…é ˆèˆ‡å…¶ä»–åŒçµ„å­¸å“¡å…±ç”¨é›»è…¦
+
+    return render_template('option.html', option_list1=option_list1, option_list2=option_list2, option_list3=option_list3, column=column)
+</t>
+<t tx="leo.20160519182004.3">from flask import Blueprint, request
+ 
+bg9_40323233_1 = Blueprint('bg9_40323233_1', __name__, url_prefix='/bg9_40323233_1', template_folder='templates')
+ 
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;ç¶²éš› 2D éˆæ¢ç¹ªåœ–&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
  
 &lt;script&gt;
 window.onload=function(){
@@ -538,7 +795,279 @@ class chain():
 '''
 
 </t>
-<t tx="leo.20160512092953.3"># å‚³ç¹ª A å‡½å¼å…§å®¹
+<t tx="leo.20160519182004.30">@app.route('/optionaction', methods=['POST'])
+def optionaction():
+    # æœ€å¾Œå‚³å›çš„å­—ä¸²ç‚º out_string
+    out_string = ""
+    # ç¨‹å¼å…§éœ€è¦æš«æ™‚ä½¿ç”¨çš„ tmp_string
+    tmp_string = ""
+    # å‚³å›å­—ä¸²ä¸­, ç”¨ä¾†èªªæ˜æ’åºåŸå‰‡çš„ desc_string
+    desc_string = ""
+    result = []
+    group_sorted = []
+    num_of_stud = 0
+    # æ¯çµ„è‡³å¤š 7 äºº
+    max_num_in_one_group = 7
+    # é›»è…¦æ•™å®¤é…ç½®, å…±æœ‰ 9 æ’
+    total_column = 9
+    # ä¸Šé¢ç‚ºç›¸é—œè®Šæ•¸çš„åˆå§‹å€¼è¨­å®š, ä»¥ä¸‹é–‹å§‹å–å‡º data_a æˆ– data_b é€²è¡Œè™•ç†, ç”± option3 å‚³å›å€¼æ±ºå®š
+    if request.form["option3"]  == "2a":
+        content = request.form["data_a"]
+    else:
+        content = request.form["data_b"]
+    #result = content.splitlines()
+    for line in content.splitlines():
+        result.append(list(line.split(",")))
+    # i ç‚ºè¡Œåº
+    for i in range(len(result)):
+        # j ç‚ºçµ„å“¡åº
+        for j in range(len(result[i])):
+            tmp_string += result[i][j] + ", "
+        out_string += "ç¬¬" + str(i+1) + "æ’è³‡æ–™:"+ tmp_string + "&lt;br /&gt;"
+        tmp_string = ""
+    for i in range(len(result)):
+        # é–‹å§‹é€²å…¥çµ„å…§æ’åº, æ ¹æ“š request.form["option1"]  çš„å€¼æ±ºå®šéå¢æˆ–éæ¸›
+        if request.form["option1"]  == "éå¢":
+            group_list = sorted(list(filter(None, result[i])))
+        else:
+            group_list = sorted(list(filter(None, result[i])), reverse=True)
+        group_sorted.append(group_list)
+    if request.form["option1"]  == "éå¢":
+        desc_string += "çµ„å…§å­¸è™Ÿæœ€å°è€…ç‚ºçµ„é•·."
+    else:
+         desc_string += "çµ„å…§å­¸è™Ÿæœ€å¤§è€…ç‚ºçµ„é•·."
+    # é–‹å§‹é€²å…¥çµ„é–“çµ„é•·å­¸è™Ÿæ’åº, æ ¹æ“š request.form["option2"] çš„å€¼æ±ºå®šéå¢æˆ–éæ¸›
+    if request.form["option2"]  == "éå¢":
+        desc_string += "å„çµ„é•·ä¸­å­¸è™Ÿæœ€å°è€…ç‚ºç¬¬1çµ„."
+        final_result = sorted(group_sorted)
+    else:
+        desc_string += "å„çµ„é•·ä¸­å­¸è™Ÿæœ€å¤§è€…ç‚ºç¬¬1çµ„."
+        final_result = sorted(group_sorted, reverse=True)
+    out_string += "&lt;br /&gt;" + desc_string + "&lt;br /&gt;"
+    # i ç‚ºè¡Œåº
+    for i in range(len(final_result)):
+        # j ç‚ºçµ„å“¡åº
+        for j in range(len(final_result[i])):
+            num_of_stud += 1
+            tmp_string += final_result[i][j] + ","
+        out_string += "ç¬¬" + str(i+1) + "çµ„:"+ tmp_string + "&lt;br /&gt;"
+        tmp_string = ""
+    #return "ç¸½å…±æœ‰" + str(i+) + "çµ„"
+    # group_num ç‚ºç¸½çµ„æ•¸
+    group_num = i + 1
+    # æˆªè‡³é€™è£¡, å·²ç¶“å®Œæˆé¸çµ„é•·, ä»¥åŠå®šçµ„åºçš„å·¥ä½œ ,æ¥ä¸‹ä¾†è¦æ’åº§ä½, ä¸¦ä¸”å°å‡ºåº§ä½è¡¨
+    # å…ˆç®—æ¯ç­çš„ç¸½äººæ•¸
+    #return "ç¸½å…±æœ‰"+ str(num_of_stud) + "äºº"
+    seat_by_column = []
+    for row in range(max_num_in_one_group):
+    # æ¯çµ„æœ€å¤š 7 äºº
+    #for row in range(7):
+        # é€™è£¡çš„ 11 ç‚ºç¸½çµ„æ•¸
+        #for column in range(11):
+        for column in range(group_num):
+            # å› ç‚ºå„åˆ†çµ„æ•¸åˆ—çš„é•·åº¦ä¸¦ä¸ç›¸åŒ, ä½†æ˜¯æœ€é•·çš„æœ‰ 7 ä½çµ„å“¡, å› æ­¤è‹¥ç„¡æ³•å–å¾—çš„è³‡æ–™ (å› ç‚ºç´¢å¼•è¶…å€¼), å°±è£œä¸Šç©ºå­—ä¸²
+            try:
+                seat_by_column.append(final_result[column][row])
+            except:
+                seat_by_column.append("")
+    # seat_by_column ç‚ºå»é™¤ç©ºç™½å­—ä¸²å‰çš„åº§ä½æ•¸åˆ—
+    # ç„¶å¾Œåˆ©ç”¨ filter(None, seat_by_column) å»é™¤ç©ºç™½å­—ä¸², å°±å¯ä»¥å¾—åˆ°ä»¥ column ç‚ºä¸»çš„åº§ä½æ’åº
+    seat_by_column = list(filter(None, seat_by_column))
+    # ç„¶å¾Œæ¯ N å€‹å–ç‚º 1 æ’, å³å¯å¾—åˆ°ä»¥æ’ç‚ºä¸»çš„åº§ä½åºåˆ—, è€Œ N å‰‡è¦–å…¨ç­äººæ•¸é™¤ä»¥ 9, ä¹Ÿå°±æ˜¯ total_column é€²ä½æ±ºå®š, å› ç‚ºå…±æœ‰ 9 æ’
+    N = math.ceil(num_of_stud/total_column)
+    # for debug
+    #return str(num_of_stud) + ":" + str(total_column) + ":" + str(N)
+    column_list = [seat_by_column[n:n+N] for n in range(0, len(seat_by_column), N)]
+    # åˆ—å‡ºæ¯ N å€‹çµ„å“¡ä¸€æ’çš„æ•¸åˆ— column_list
+    # æ¥ä¸‹ä¾†è¦ç´å…¥ä»¥æ’ç‚ºä¸»çš„åº§ä½
+    # æ ¹æ“š column_list, å»ºç«‹ä¸€å€‹ dictionary, å…¶ä¸­å­¸è™Ÿç‚º index, åº§ä½è™Ÿç‚ºå°æ‡‰å€¼
+    seat_dict = {}
+    for column in range(len(column_list)):
+        for i in range(N):
+            try:
+                seat_dict.update({column_list[column][i]: (column, i)})
+            except:
+                seat_dict.update({"": ""})
+                
+    # é–‹å§‹æº–å‚™ç”¨é †åºåˆ—å‡ºå­¸å“¡åº§è™Ÿ
+    # æ ¹æ“šå­¸è™Ÿ, æ’åº dictionary çš„æ–¹æ³•
+    import operator
+    seat_dict_sort = sorted(seat_dict.items(), key = operator.itemgetter(0), reverse = False)
+    # ä¾ç…§å­¸è™Ÿé †åº, åˆ—å‡ºåº§ä½è¡¨
+    out_string += "&lt;br /&gt;æŒ‰ç…§å­¸è™Ÿæ¬¡åºåˆ—å‡ºåº§ä½è¡¨:&lt;br /&gt;&lt;br /&gt;"
+    for i in range(1, len(seat_dict_sort)):
+        out_string +=  str(i) + ":"+ str(seat_dict_sort[i]) + "&lt;br /&gt;"
+    # çµæŸæº–å‚™ç”¨é †åºåˆ—å‡ºå­¸å“¡åº§è™Ÿ
+    # dont know why .reverse() did not work, åªæœ‰ [::-1] å¯ä»¥ reverse list elements
+    #g.es(column_list[::-1])
+
+    # å› ç‚ºç¶“ç”± zip é€ä¸€é‡æ–° transpose çš„åˆ—è³‡æ–™, å¿…é ˆé…åˆæœ€å¤§ (ä¹Ÿå°±æ˜¯ç¸½å…±æœ‰ 7 åˆ—, ä¹Ÿå°±æ˜¯ N çš„å€¼) åˆ—æ•¸è£œä¸Šç©ºç™½å­—ä¸² (ä¹Ÿå°±æ˜¯ç©ºä½)
+    # æ‰€ä»¥ä¸èƒ½ä½¿ç”¨ zip, è€Œå¿…é ˆå°å…¥ zip_longest æ¨¡çµ„æ–¹æ³•
+    from itertools import zip_longest
+    final_seat = list(zip_longest(*column_list[::-1], fillvalue=""))
+    # åˆ—å‡ºæœ€å¾Œçš„åº§ä½è¡¨
+    #g.es(final_seat)
+    # æœ€å¾Œè½‰æˆ html table æ¨™è¨»æ ¼å¼
+    out_string += "&lt;br /&gt; &lt;br /&gt;"
+    out_string += "&lt;table border='1' width='100%'&gt;"
+    out_string += "&lt;tr&gt;&lt;td colspan='9' style='text-align:center'&gt;è¬›å°&lt;/td&gt;&lt;/tr&gt;"
+    for row in range(len(final_seat)):
+        out_string += "&lt;tr&gt;"
+        # å› ç‚ºæ¯ä¸€ row æœ‰ 9, ä¹Ÿå°±æ˜¯ total_column å€‹ä½å­
+        for i in range(total_column):
+            try:
+                if i%2 != 0:
+                    out_string += "&lt;td style='text-align:center'  bgcolor='#FFD78C' height='30'&gt;" + str(final_seat[row][i]) + "&lt;/td&gt;"
+                else:
+                    out_string += "&lt;td style='text-align:center' height='30'&gt;" + str(final_seat[row][i]) + "&lt;/td&gt;"
+            except:
+                out_string += "&lt;td&gt;&amp;nbsp;&lt;/td&gt;"
+        out_string += "&lt;/tr&gt;"
+    out_string += "&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;"
+    return out_string
+    # ç­‰é‹ç®—æˆ–è³‡æ–™è™•ç†çµæŸå¾Œ, å†å°‡ç›¸é—œå€¼é€åˆ°å°æ‡‰çš„ template é€²è¡Œè³‡æ–™çš„å±•ç¤º
+    #return render_template('optionaction.html', option_list1=option_list1, option_list2=option_list2)
+    
+
+</t>
+<t tx="leo.20160519182004.31">@app.route('/fileaxupload', methods=['POST'])
+# ajax jquery chunked file upload for flask
+def fileaxupload():
+    '''
+    if not session.get('logged_in'):
+        #abort(401)
+        return redirect(url_for('login'))
+    '''
+    # need to consider if the uploaded filename already existed.
+    # right now all existed files will be replaced with the new files
+    filename = request.args.get("ax-file-name")
+    flag = request.args.get("start")
+    if flag == "0":
+        file = open(data_dir+"downloads/"+filename, "wb")
+    else:
+        file = open(data_dir+"downloads/"+filename, "ab")
+    file.write(request.stream.read())
+    file.close()
+    return "files uploaded!"
+
+    
+    
+</t>
+<t tx="leo.20160519182004.32">@app.route('/fileuploadform')
+def fileuploadform():
+    '''
+    if not session.get('logged_in'):
+        #abort(401)
+        return redirect(url_for('login'))
+    '''
+    return "&lt;h1&gt;file upload&lt;/h1&gt;"+'''
+  &lt;script src="/static/jquery.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script src="/static/axuploader.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script&gt;
+  $(document).ready(function(){
+  $('.prova').axuploader({url:'fileaxupload', allowExt:['jpg','png','gif','7z','pdf','zip','flv','stl','swf'],
+  finish:function(x,files)
+{
+    alert('All files have been uploaded: '+files);
+},
+  enable:true,
+  remotePath:function(){
+  return 'downloads/';
+  }
+  });
+  });
+  &lt;/script&gt;
+  &lt;div class="prova"&gt;&lt;/div&gt;
+  &lt;input type="button" onclick="$('.prova').axuploader('disable')" value="asd" /&gt;
+  &lt;input type="button" onclick="$('.prova').axuploader('enable')" value="ok" /&gt;
+  &lt;/section&gt;&lt;/body&gt;&lt;/html&gt;
+  '''
+</t>
+<t tx="leo.20160519182004.33">@app.route('/imageaxupload', methods=['POST'])
+# ajax jquery chunked file upload for flask
+def imageaxupload():
+    '''
+    if not session.get('logged_in'):
+        #abort(401)
+        return redirect(url_for('login'))
+    '''
+    # need to consider if the uploaded filename already existed.
+    # right now all existed files will be replaced with the new files
+    filename = request.args.get("ax-file-name")
+    flag = request.args.get("start")
+    if flag == "0":
+        file = open(data_dir+"images/"+filename, "wb")
+    else:
+        file = open(data_dir+"images/"+filename, "ab")
+    file.write(request.stream.read())
+    file.close()
+    return "image file uploaded!"
+
+    
+    
+</t>
+<t tx="leo.20160519182004.34">@app.route('/imageuploadform')
+def imageuploadform():
+    '''
+    if not session.get('logged_in'):
+        #abort(401)
+        return redirect(url_for('login'))
+    '''
+    return "&lt;h1&gt;file upload&lt;/h1&gt;"+'''
+  &lt;script src="/static/jquery.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script src="/static/axuploader.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script&gt;
+  $(document).ready(function(){
+  $('.prova').axuploader({url:'imageaxupload', allowExt:['jpg','png','gif','7z','pdf','zip','flv','stl','swf'],
+  finish:function(x,files)
+{
+    alert('All files have been uploaded: '+files);
+},
+  enable:true,
+  remotePath:function(){
+  return 'images/';
+  }
+  });
+  });
+  &lt;/script&gt;
+  &lt;div class="prova"&gt;&lt;/div&gt;
+  &lt;input type="button" onclick="$('.prova').axuploader('disable')" value="asd" /&gt;
+  &lt;input type="button" onclick="$('.prova').axuploader('enable')" value="ok" /&gt;
+  &lt;/section&gt;&lt;/body&gt;&lt;/html&gt;
+  '''
+</t>
+<t tx="leo.20160519182004.35">@app.route('/downloads/&lt;path:filename&gt;', methods=['GET', 'POST'])
+def download(filename):
+    #return send_from_directory(download_dir, filename=filename, as_attachment=True)
+    return send_from_directory(download_dir, filename=filename)
+    
+
+
+</t>
+<t tx="leo.20160519182004.36"># setup static directory
+@app.route('/images/&lt;path:path&gt;')
+def send_images(path):
+    return send_from_directory(data_dir+"/images/", path)
+</t>
+<t tx="leo.20160519182004.37"># setup static directory
+@app.route('/static/')
+def send_static():
+  return app.send_static_file('index.html')
+
+</t>
+<t tx="leo.20160519182004.38"># setup static directory
+@app.route('/static/blog/')
+def send_blog():
+  return app.send_static_file('blog/index.html')
+
+</t>
+<t tx="leo.20160519182004.39"># setup static directory
+@app.route('/static/&lt;path:path&gt;')
+def send_file(path):
+  return app.send_static_file(static_dir+path)
+
+</t>
+<t tx="leo.20160519182004.4"># å‚³ç¹ª A å‡½å¼å…§å®¹
 def a(x, y, scale=1, color="green"):
     outstring = '''
 # åˆ©ç”¨ chain class å»ºç«‹æ¡ˆä¾‹, å°æ‡‰åˆ° mychain è®Šæ•¸
@@ -567,12 +1096,12 @@ mychain.basic(x10, y10, x1, y1)
     return outstring
     
 </t>
-<t tx="leo.20160512092953.4">@bg9_40323233.route('/a')
+<t tx="leo.20160519182004.5">@bg9_40323233_1.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
     
 </t>
-<t tx="leo.20160512092953.5">def circle36(x, y, degree=10):
+<t tx="leo.20160519182004.6">def circle36(x, y, degree=10):
     # 20 ç‚ºéˆæ¢è¼ªå»“ä¹‹åœ“è·
     # chain æ‰€åœä¹‹åœ“åœˆåŠå¾‘ç‚º 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -589,12 +1118,297 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
     return outstring
     
 </t>
-<t tx="leo.20160512092953.6">@bg9_40323233.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg9_40323233.route('/circle36/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg9_40323233.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg9_40323233.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160519182004.7">@bg9_40323233_1.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg9_40323233_1.route('/circle36/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg9_40323233_1.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg9_40323233_1.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
 </t>
+<t tx="leo.20160519182004.8">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="leo.20160519182004.9">from flask import Blueprint, request
+ 
+bg9_40323233_2 = Blueprint('bg9_40323233_2', __name__, url_prefix='/bg9_40323233_2', template_folder='templates')
+ 
+head_str = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;ç¶²éš› 2D ç¹ªåœ–&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/Cango2D-6v13.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://cptocadp-2015fallhw.rhcloud.com/static/CangoAxes-1v33.js"&gt;&lt;/script&gt;
+ 
+&lt;/head&gt;
+&lt;body&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id="plotarea" width="800" height="800"&gt;&lt;/canvas&gt;
+'''
+ 
+tail_str = '''
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+ 
+chain_str = '''
+&lt;script type="text/python"&gt;
+from javascript import JSConstructor
+from browser import alert
+from browser import window
+import math
+ 
+cango = JSConstructor(window.Cango)
+cobj = JSConstructor(window.Cobj)
+shapedefs = window.shapeDefs
+obj2d = JSConstructor(window.Obj2D)
+cgo = cango("plotarea")
+ 
+cgo.setWorldCoords(-250, -250, 500, 500) 
+ 
+# ç•«è»¸ç·š
+cgo.drawAxes(0, 240, 0, 240, {
+    "strokeColor":"#aaaaaa",
+    "fillColor": "#aaaaaa",
+    "xTickInterval": 20,
+    "xLabelInterval": 20,
+    "yTickInterval": 20,
+    "yLabelInterval": 20})
+ 
+deg = math.pi/180  
+ 
+# å°‡ç¹ªè£½éˆæ¢è¼ªå»“çš„å…§å®¹å¯«æˆ class ç‰©ä»¶
+class chain():
+    # è¼ªå»“çš„å¤–å‹è¨­ç‚º class variable
+    chamber = "M -6.8397, -1.4894 \
+            A 7, 7, 0, 1, 0, 6.8397, -1.4894 \
+            A 40, 40, 0, 0, 1, 6.8397, -18.511 \
+            A 7, 7, 0, 1, 0, -6.8397, -18.511 \
+            A 40, 40, 0, 0, 1, -6.8397, -1.4894 z"
+    #chamber = "M 0, 0 L 0, -20 z"
+    cgoChamber = window.svgToCgoSVG(chamber)
+ 
+    def __init__(self, fillcolor="green", border=True, strokecolor= "tan", linewidth=2, scale=1):
+        self.fillcolor = fillcolor
+        self.border = border
+        self.strokecolor = strokecolor
+        self.linewidth = linewidth
+        self.scale = scale
+ 
+    # åˆ©ç”¨éˆæ¢èµ·é»èˆ‡çµ‚é»å®šç¾©ç¹ªåœ–
+    def basic(self, x1, y1, x2, y2):
+        self.x1 = x1
+        self.y1 = y1
+        self.x2 = x2
+        self.y2 = y2
+        # æ³¨æ„, cgo.Chamber ç‚ºæˆå“¡è®Šæ•¸
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole ç‚ºåŸé»ä½ç½®
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+ 
+        # è¤‡è£½ cmbr, ç„¶å¾Œå‘½åç‚º basic1
+        basic1 = cmbr.dup()
+        # å› ç‚ºéˆæ¢çš„è§’åº¦ç”±åŸé»å‘ä¸‹å‚ç›´, æ‰€ä»¥å¿…é ˆè½‰ 90 åº¦, å†è€ƒé‡ atan2 çš„è½‰è§’
+        basic1.rotate(math.atan2(y2-y1, x2-x1)/deg+90)
+ 
+        # æ”¾å¤§ scale å€
+        cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+    # åˆ©ç”¨éˆæ¢èµ·é»èˆ‡æ—‹è½‰è§’åº¦å®šç¾©ç¹ªåœ–, ä½¿ç”¨å…§å®šçš„ color, border èˆ‡ linewidth è®Šæ•¸
+    def basic_rot(self, x1, y1, rot, v=False):
+        # è‹¥ v ç‚º True å‰‡ç‚ºè™›æ“¬ chain, ä¸ render
+        self.x1 = x1
+        self.y1 = y1
+        self.rot = rot
+        self.v = v
+        # æ³¨æ„, cgoChamber ç‚ºæˆå“¡è®Šæ•¸
+        cmbr = cobj(self.cgoChamber, "SHAPE", {
+                "fillColor": self.fillcolor,
+                "border": self.border,
+                "strokeColor": self.strokecolor,
+                "lineWidth": self.linewidth })
+ 
+        # hole0 ç‚ºåŸé»ä½ç½®
+        hole = cobj(shapedefs.circle(4*self.scale), "PATH")
+        cmbr.appendPath(hole)
+        # æ ¹æ“šæ—‹è½‰è§’åº¦, è¨ˆç®— x2 èˆ‡ y2
+        x2 = x1 + 20*math.cos(rot*deg)*self.scale
+        y2 = y1 + 20*math.sin(rot*deg)*self.scale
+ 
+        # è¤‡è£½ cmbr, ç„¶å¾Œå‘½åç‚º basic1
+        basic1 = cmbr.dup()
+        # å› ç‚ºéˆæ¢çš„è§’åº¦ç”±åŸé»å‘ä¸‹å‚ç›´, æ‰€ä»¥å¿…é ˆè½‰ 90 åº¦, å†è€ƒé‡ atan2 çš„è½‰è§’
+        basic1.rotate(rot+90)
+ 
+        # æ”¾å¤§ scale å€
+        if v == False:
+            cgo.render(basic1, x1, y1, self.scale, 0)
+ 
+        return x2, y2
+'''
+ 
+</t>
+<t tx="leo.20160526101600.1">@bg9_40323233_1.route('/abc', defaults={'n1':15,'n2':20,'n3':18})
+@bg9_40323233_1.route('/abc/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;')
+def abc(n1,n2,n3):
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt; 
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;ç¶²éš› snap ç¹ªåœ–&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# å°‡ å°å…¥çš„ document è¨­ç‚º doc ä¸»è¦åŸå› åœ¨æ–¼èˆ‡èˆŠç¨‹å¼ç¢¼ç›¸å®¹
+from browser import document as doc
+# ç”±æ–¼ Python3 èˆ‡ Javascript ç¨‹å¼ç¢¼å·²ç¶“ä¸å†æ··ç”¨, å› æ­¤ä¾†è‡ª Javascript çš„è®Šæ•¸, å¿…é ˆå±…ä¸­é€é window ç‰©ä»¶è½‰æ›
+from browser import window
+# é‡å° Javascript æ—¢æœ‰çš„ç‰©ä»¶, å‰‡å¿…é ˆé€é JSConstructor è½‰æ›
+from javascript import JSConstructor
+import math
+ 
+# ä¸»è¦ç”¨ä¾†å–å¾—ç•«å¸ƒå¤§å°
+canvas = doc["gear1"]
+# æ­¤ç¨‹å¼æ¡ç”¨ Cango Javascript ç¨‹å¼åº«ç¹ªåœ–, å› æ­¤ç„¡éœ€ ctx
+#ctx = canvas.getContext("2d")
+# é‡å°é¡åˆ¥çš„è½‰æ›, å°‡ Cango.js ä¸­çš„ Cango ç‰©ä»¶è½‰ç‚º Python cango ç‰©ä»¶
+cango = JSConstructor(window.Cango)
+# é‡å°è®Šæ•¸çš„è½‰æ›, shapeDefs åœ¨ Cango ä¸­è³‡æ–™å‹åˆ¥ç‚ºè®Šæ•¸, å¯ä»¥é€é window è½‰æ›
+shapedefs = window.shapeDefs
+# ç›®å‰ Cango çµåˆ Animation åœ¨ Brython å°šç„¡æ³•é‹ä½œ, æ­¤åˆ»åªèƒ½ç¹ªè£½éœæ…‹åœ–å½¢
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi èˆ‡ createGearTooth éƒ½æ˜¯ Cango Javascript ç¨‹å¼åº«ä¸­çš„ç‰©ä»¶
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# ç¶“ç”± Cango è½‰æ›æˆ Brython çš„ cango, æŒ‡å®šå°‡åœ–ç•«åœ¨ id="plotarea" çš„ canvas ä¸Š
+cgo = cango("gear1")
+ 
+######################################
+# ç•«æ­£é½’è¼ªè¼ªå»“
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n ç‚ºé½’æ•¸
+    #n = 17
+    # pa ç‚ºå£“åŠ›è§’
+    #pa = 25
+    # m ç‚ºæ¨¡æ•¸, æ ¹æ“šç•«å¸ƒçš„å¯¬åº¦, è¨ˆç®—é©åˆçš„æ¨¡æ•¸å¤§å°
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr ç‚ºç¯€åœ“åŠå¾‘
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython ç¨‹å¼ä¸­çš„ print æœƒå°‡è³‡æ–™å°åœ¨ Browser çš„ console å€
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, è«‹æ³¨æ„ rotate è§’åº¦ç‚º degree
+    # theta ç‚ºè§’åº¦
+    gearTooth.rotate(theta) 
+    # å–®é½’çš„é½’å½¢è³‡æ–™ç¶“éæ—‹è½‰å¾Œ, å°‡è³‡æ–™è¤‡è£½åˆ° gear ç‰©ä»¶ä¸­
+    gear = gearTooth.dup()
+    # gear ç‚ºå–®ä¸€é½’çš„è¼ªå»“è³‡æ–™
+    #cgo.render(gearTooth)
+ 
+    # åˆ©ç”¨å–®é½’è¼ªå»“æ—‹è½‰, ç”¢ç”Ÿæ•´å€‹æ­£é½’è¼ªå¤–å½¢
+    for i in range(1, n):
+        # å°‡ gearTooth ä¸­çš„è³‡æ–™è¤‡è£½åˆ° newTooth
+        newTooth = gearTooth.dup()
+        # é…åˆè¿´åœˆ, newTooth çš„é½’å½¢è³‡æ–™é€²è¡Œæ—‹è½‰, ç„¶å¾Œåˆ©ç”¨ appendPath æ–¹æ³•, å°‡è³‡æ–™ä½µå…¥ gear
+        newTooth.rotate(360*i/n)
+        # appendPath ç‚º Cango ç¨‹å¼åº«ä¸­çš„æ–¹æ³•, ç¬¬äºŒå€‹è®Šæ•¸ç‚º True, è¡¨ç¤ºè¦åˆªé™¤æœ€å‰é ­çš„ Move to SVG Path æ¨™è¨»ç¬¦è™Ÿ
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # å»ºç«‹è»¸å­”
+    # add axle hole, hr ç‚º hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render ç¹ªå‡ºéœæ…‹æ­£é½’è¼ªè¼ªå»“
+    cgo.render(gear)
+    # æ¥è‘—ç¹ªè£½é½’è¼ªçš„åŸºæº–ç·š
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 3å€‹é½’è¼ªçš„é½’æ•¸
+n1 = '''+str(n1)+'''
+n2 = '''+str(n2)+'''
+n3 = '''+str(n3)+'''
+ 
+# m ç‚ºæ¨¡æ•¸, æ ¹æ“šç•«å¸ƒçš„å¯¬åº¦, è¨ˆç®—é©åˆçš„æ¨¡æ•¸å¤§å°
+# Module = mm of pitch diameter per tooth
+# åˆ©ç”¨ 80% çš„ç•«å¸ƒå¯¬åº¦é€²è¡Œç¹ªåœ–
+# è¨ˆç®—æ¨¡æ•¸çš„å°æ‡‰å°ºå¯¸
+m = canvas.width*0.8/(n1+n2+n3)
+ 
+# æ ¹æ“šé½’æ•¸èˆ‡æ¨¡çµ„è¨ˆç®—å„é½’è¼ªçš„ç¯€åœ“åŠå¾‘
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+ 
+# ç•«å¸ƒå·¦å³å…©å´éƒ½ä¿ç•™ç•«å¸ƒå¯¬åº¦çš„ 10%
+# ä¾æ­¤è¨ˆç®—å°æ‡‰çš„æœ€å·¦é‚Šé½’è¼ªçš„è»¸å¿ƒåº§æ¨™
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa ç‚ºå£“åŠ›è§’
+pa = 25
+ 
+# ç•«æœ€å·¦é‚Šé½’è¼ª, å®šä½ç·šæ—‹è½‰è§’ç‚º 0, è»¸å¿ƒåº§æ¨™ (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# ç¬¬2å€‹é½’è¼ªå°‡åŸå§‹çš„å®šä½ç·šé€†æ™‚é˜è½‰ 180 åº¦å¾Œ, èˆ‡ç¬¬1å€‹é½’è¼ªæ­£å¥½é½’é ‚èˆ‡é½’é ‚å°é½Š
+# åªè¦ç¬¬2å€‹é½’è¼ªå†é€†æ™‚é˜æˆ–é †æ™‚é˜è½‰å‹•åŠé½’çš„è§’åº¦, å³å¯å®Œæˆå›“åˆ
+# æ¯ä¸€å€‹é½’åˆ†åˆ¥åŒ…æ‹¬å¾é½’æ ¹åˆ°é½’é ‚çš„ç¯„åœ, æ¶µè“‹è§’åº¦ç‚º 360/n, å› æ­¤æ‰€è¬‚çš„åŠé½’è§’åº¦ç‚º 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# ç¬¬2é½’èˆ‡ç¬¬3é½’çš„å›“åˆ, é¦–å…ˆå‡å®šç¬¬2é½’çš„å®šä½ç·šåœ¨ theta è§’ç‚º 0 çš„åŸå§‹ä½ç½®
+# å¦‚æ­¤, ç¬¬3é½’åªè¦é€†æ™‚é˜æ—‹è½‰ 180 åº¦å¾Œ, å†é€†æ™‚é˜æˆ–é †æ™‚é˜è½‰å‹•åŠé½’çš„è§’åº¦, å³å¯èˆ‡ç¬¬2é½’å›“åˆ
+# ä½†æ˜¯ç¬¬2é½’ç‚ºäº†èˆ‡ç¬¬ä¸€é½’å›“åˆæ™‚, å·²ç¶“å¾åŸå§‹å®šä½ç·šè½‰äº† 180-180/n2 åº¦
+# è€Œç•¶ç¬¬2é½’å¾èˆ‡ç¬¬3é½’å›“åˆçš„å®šä½ç·š, é€†æ™‚é˜æ—‹è½‰ 180-180/n2 è§’åº¦å¾Œ, åŸå…ˆå›“åˆçš„ç¬¬3é½’å¿…é ˆè¦å†é…åˆæ—‹è½‰ (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+&lt;/script&gt;
+'''
+    return outstring</t>
 </tnodes>
 </leo_file>

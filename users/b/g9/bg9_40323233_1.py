@@ -1,6 +1,6 @@
 from flask import Blueprint, request
  
-bg9_40323230 = Blueprint('bg9_40323230', __name__, url_prefix='/bg9_40323230', template_folder='templates')
+bg9_40323233_1 = Blueprint('bg9_40323233_1', __name__, url_prefix='/bg9_40323233_1', template_folder='templates')
  
 head_str = '''
 <!DOCTYPE html>
@@ -162,7 +162,7 @@ mychain.basic(x10, y10, x1, y1)
  
     return outstring
     
-@bg9_40323230.route('/a')
+@bg9_40323233_1.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
     
@@ -182,20 +182,18 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
     return outstring
     
-@bg9_40323230.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
-@bg9_40323230.route('/circle36/<x>/<degree>', defaults={'y': 0})
-@bg9_40323230.route('/circle36/<x>/<y>/<degree>')
-#@bg9_40323230.route('/circle36/<int:x>/<int:y>/<int:degree>')
+@bg9_40323233_1.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
+@bg9_40323233_1.route('/circle36/<x>/<degree>', defaults={'y': 0})
+@bg9_40323233_1.route('/circle36/<x>/<y>/<degree>')
+#@bg9_40323233_1.route('/circle36/<int:x>/<int:y>/<int:degree>')
 def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
-    
-    
-@bg9_40323230.route('/threegear')
-@bg9_40323230.route('/threegear/<n1>/<n2>/<n3>')
-def threegear(n1, n2, n3):
+@bg9_40323233_1.route('/abc', defaults={'n1':15,'n2':20,'n3':18})
+@bg9_40323233_1.route('/abc/<n1>/<n2>/<n3>')
+def abc(n1,n2,n3):
     outstring = '''
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
     <meta charset="UTF-8">
     <title>網際 snap 繪圖</title>
