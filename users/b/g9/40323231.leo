@@ -33,7 +33,6 @@
 <v t="leo.20160519182004.5"><vh>draw_a</vh></v>
 <v t="leo.20160519182004.6"><vh>circle36</vh></v>
 <v t="leo.20160519182004.7"><vh>drawcircle36</vh></v>
-<v t="leo.20160526092904.1"><vh>c</vh></v>
 </v>
 <v t="leo.20160519182004.8" a="E"><vh>@clean bg9_40323231_2.py</vh>
 <v t="leo.20160519182004.9"><vh>bg9_40323231_2 declarations</vh></v>
@@ -48,6 +47,10 @@
 <v t="leo.20160519182004.18"><vh>snap</vh></v>
 <v t="leo.20160519182004.19"><vh>snap_link</vh></v>
 <v t="leo.20160519182004.20"><vh>snap_gear</vh></v>
+</v>
+<v t="leo.20160602091629.1" a="E"><vh>@clean bg9_40323231_3.py</vh>
+<v t="leo.20160602095133.1"><vh>bg9_40323231_3 declarations</vh></v>
+<v t="leo.20160602095133.2"><vh>draw_threecircle</vh></v>
 </v>
 <v t="leo.20160519182004.21" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519182004.22" a="E"><vh>@clean myflaskapp.py</vh>
@@ -520,11 +523,16 @@ app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
+app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
 
-
-app.register_blueprint(users.b.g9.bg9_40323233.bg9_40323233)
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
+
+
+app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
+app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
+
+#app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
 
 </t>
 <t tx="leo.20160519182004.23"># coding: utf-8
@@ -539,11 +547,17 @@ import init
 import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
-import users.b.g9.bg9_40323233
+import users.b.g9.bg9_40323231_3
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+#import users.b.g9.bg9_40323250_3
+
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -1267,9 +1281,18 @@ class chain():
 '''
  
 </t>
-<t tx="leo.20160526092904.1">@bg9_40323231_1.route('/c', defaults={'n1':17,'n2':29,'n3':15})
-@bg9_40323231_1.route('/c/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;')
-def draw_c(n1, n2, n3):
+<t tx="leo.20160602091629.1">@language python
+@tabwidth -4
+@others
+</t>
+<t tx="leo.20160602095133.1">from flask import Blueprint, request
+
+bg9_40323231_3 = Blueprint('bg9_40323231_3', __name__, url_prefix='/bg9_40323231_3', template_folder='templates')
+
+</t>
+<t tx="leo.20160602095133.2">@bg9_40323231_3.route('/threecircle', defaults={'n1':17,'n2':29,'n3':15})
+@bg9_40323231_3.route('/threecircle/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;')
+def draw_threecircle(n1, n2, n3):
     outstring='''
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -1410,6 +1433,7 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 &lt;/script&gt;
 '''
-    return outstring</t>
+    return outstring
+</t>
 </tnodes>
 </leo_file>
