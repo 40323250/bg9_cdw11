@@ -88,6 +88,16 @@
 <v t="leo.20160602091704.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
+<v t="leo.20160602155545.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160602155545.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160602155545.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160602155545.5"><vh>new:myflaskapp declarations</vh></v>
+</v>
+<v t="leo.20160602155545.6"><vh>Recovered node "index" from @clean myflaskapp.py</vh>
+<v t="leo.20160602155545.7"><vh>old:index</vh></v>
+<v t="leo.20160602155545.8"><vh>new:index</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20160501215436.2"></t>
@@ -126,7 +136,7 @@ app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
-
+app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
 
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
@@ -134,6 +144,10 @@ app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
 
 app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
 app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
+
+
+#app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
+
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -273,6 +287,7 @@ import init
 import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
@@ -280,6 +295,10 @@ import users.b.g9.bg9_40323250_2
 
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -319,13 +338,18 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 def index():
     #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
     # 將標準答案存入 answer session 對應區
+
     theanswer = random.randint(1, 100)
     thecount = 0
     # 將答案與計算次數變數存進 session 對應變數
     session['answer'] = theanswer
     session['count'] = thecount
 
+
     return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
 </t>
 <t tx="amd.20160501221001.4">@app.route('/user/&lt;name&gt;')
 def user(name):
@@ -2305,18 +2329,28 @@ def spur(cx, cy, m, n, pa, theta):
 n1 = 17
 n2 = 29
 n3 = 15
+n4 = 18
  
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 # Module = mm of pitch diameter per tooth
 # 利用 80% 的畫布寬度進行繪圖
 # 計算模數的對應尺寸
-m = canvas.width*0.8/(n1+n2+n3)
+m = canvas.width*0.8/(n1+n2+n3+n4)
  
 # 根據齒數與模組計算各齒輪的節圓半徑
 pr1 = n1*m/2
 pr2 = n2*m/2
 pr3 = n3*m/2
+pr4 = n4*m/2
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
  
+# pa 為壓力角
+pa = 25
+ 
+
 # 畫布左右兩側都保留畫布寬度的 10%
 # 依此計算對應的最左邊齒輪的軸心座標
 cx = canvas.width*0.1+pr1
@@ -2336,8 +2370,13 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 # 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+
+spur(cx+pr1+pr2+pr2+pr3++pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4)
+
+
 &lt;/script&gt;
-&lt;/body&gt;&lt;/html&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 '''
     return outstring</t>
 <t tx="leo.20160602091704.1"></t>
@@ -2511,6 +2550,229 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 
+</t>
+<t tx="leo.20160602155545.2"></t>
+<t tx="leo.20160602155545.3">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+  import users.b.g9.bg9_40323218
+  import users.b.g9.bg9_40323231_1
+  import users.b.g9.bg9_40323231_2
+- import users.b.g9.bg9_40323231_3
+  import users.b.g9.bg9_40323230_2
+  import users.b.g9.bg9_40323230
+  import users.b.g9.bg9_40323250
+  import users.b.g9.bg9_40323250_2
+  
+  import users.b.g9.bg9_40323233_1
+  import users.b.g9.bg9_40323233_2
+- 
+- 
+- #import users.b.g9.bg9_40323250_3
+- 
+  
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160602155545.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160602155545.5"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160602155545.6">(uncached) amd.20160501221001.3
+Diff...
+  @app.route("/")
+  def index():
+      #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
+      # 將標準答案存入 answer session 對應區
+- 
+      theanswer = random.randint(1, 100)
+      thecount = 0
+      # 將答案與計算次數變數存進 session 對應變數
+      session['answer'] = theanswer
+      session['count'] = thecount
+  
+- 
+      return render_template("index.html", answer=theanswer, count=thecount)
+- 
+- 
+-   
+</t>
+<t tx="leo.20160602155545.7">@app.route("/")
+def index():
+    #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
+    # 將標準答案存入 answer session 對應區
+    theanswer = random.randint(1, 100)
+    thecount = 0
+    # 將答案與計算次數變數存進 session 對應變數
+    session['answer'] = theanswer
+    session['count'] = thecount
+
+    return render_template("index.html", answer=theanswer, count=thecount)
+</t>
+<t tx="leo.20160602155545.8">@app.route("/")
+def index():
+    #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
+    # 將標準答案存入 answer session 對應區
+
+    theanswer = random.randint(1, 100)
+    thecount = 0
+    # 將答案與計算次數變數存進 session 對應變數
+    session['answer'] = theanswer
+    session['count'] = thecount
+
+
+    return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
 </t>
 </tnodes>
 </leo_file>
