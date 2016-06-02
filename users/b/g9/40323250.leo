@@ -10,7 +10,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2"><vh>40323250-pelican 網誌</vh>
+<v t="amd.20160501215436.2" a="E"><vh>40323250-pelican 網誌</vh>
 <v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
 <v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
@@ -22,6 +22,7 @@
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160505085006.1"><vh>@edit 40323250-w11.md</vh></v>
 <v t="leo.20160519114317.1"><vh>@edit 40323250-w13.md</vh></v>
+<v t="leo.20160602120654.1"><vh>@edit 40323250-w14.md</vh></v>
 </v>
 </v>
 </v>
@@ -577,6 +578,13 @@ brython(1);
 '''
  
 tail_str = '''
+&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
@@ -1505,6 +1513,13 @@ brython(1);
 '''
  
 tail_str = '''
+&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;

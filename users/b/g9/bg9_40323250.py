@@ -31,6 +31,13 @@ brython(1);
  
 tail_str = '''
 </script>
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+</script>
 </body>
 </html>
 '''
