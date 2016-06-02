@@ -14,13 +14,10 @@ import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
-<<<<<<< HEAD
+
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
-=======
-import users.b.g9.bg9_40323250_3
 
->>>>>>> c1ee0d24a6ce3aa8fffd0e1b1f7891bc359715f8
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -403,10 +400,8 @@ app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
 
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
-<<<<<<< HEAD
+
 
 app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
 app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
-=======
-app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
->>>>>>> c1ee0d24a6ce3aa8fffd0e1b1f7891bc359715f8
+

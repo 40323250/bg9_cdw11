@@ -54,7 +54,7 @@
 <v t="leo.20160526103117.1"><vh>gear</vh></v>
 </v>
 </v>
-<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
@@ -129,13 +129,11 @@ app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
 
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
 
 app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
 app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
-=======
-app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; c1ee0d24a6ce3aa8fffd0e1b1f7891bc359715f8
+
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
@@ -278,13 +276,10 @@ import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
-=======
-import users.b.g9.bg9_40323250_3
 
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; c1ee0d24a6ce3aa8fffd0e1b1f7891bc359715f8
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -1440,7 +1435,13 @@ async=1;ga.src='//www.onwebchat.com/clientchat/306321103e7a903e23dcad8d1fee80f9/
 var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 &lt;/script&gt;
 
-
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/306321103e7a903e23dcad8d1fee80f9/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
 
 
 &lt;/body&gt;&lt;/html&gt;
