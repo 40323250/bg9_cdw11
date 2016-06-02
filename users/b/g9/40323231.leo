@@ -27,14 +27,14 @@
 </v>
 </v>
 <v t="leo.20160519182004.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519182004.2" a="E"><vh>@clean bg9_40323231_1.py</vh>
+<v t="leo.20160519182004.2"><vh>@clean bg9_40323231_1.py</vh>
 <v t="leo.20160519182004.3"><vh>bg9_40323231_1 declarations</vh></v>
 <v t="leo.20160519182004.4"><vh>a</vh></v>
 <v t="leo.20160519182004.5"><vh>draw_a</vh></v>
 <v t="leo.20160519182004.6"><vh>circle36</vh></v>
 <v t="leo.20160519182004.7"><vh>drawcircle36</vh></v>
 </v>
-<v t="leo.20160519182004.8" a="E"><vh>@clean bg9_40323231_2.py</vh>
+<v t="leo.20160519182004.8"><vh>@clean bg9_40323231_2.py</vh>
 <v t="leo.20160519182004.9"><vh>bg9_40323231_2 declarations</vh></v>
 <v t="leo.20160519182004.10"><vh>circle</vh></v>
 <v t="leo.20160519182004.11"><vh>twocircle</vh></v>
@@ -48,7 +48,7 @@
 <v t="leo.20160519182004.19"><vh>snap_link</vh></v>
 <v t="leo.20160519182004.20"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160602091629.1" a="E"><vh>@clean bg9_40323231_3.py</vh>
+<v t="leo.20160602091629.1"><vh>@clean bg9_40323231_3.py</vh>
 <v t="leo.20160602095133.1"><vh>bg9_40323231_3 declarations</vh></v>
 <v t="leo.20160602095133.2"><vh>draw_threecircle</vh></v>
 </v>
