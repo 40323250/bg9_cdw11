@@ -2326,10 +2326,10 @@ def spur(cx, cy, m, n, pa, theta):
     cgo.render(Line)
  
 # 3個齒輪的齒數
-n1 = 17
-n2 = 29
-n3 = 15
-n4 = 18
+n1 = 10
+n2 = 12
+n3 = 14
+n4 = 16
  
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 # Module = mm of pitch diameter per tooth
@@ -2371,7 +2371,7 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 
-spur(cx+pr1+pr2+pr2+pr3++pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
 
 
 &lt;/script&gt;
