@@ -55,13 +55,18 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 def index():
     #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
     # 將標準答案存入 answer session 對應區
+
     theanswer = random.randint(1, 100)
     thecount = 0
     # 將答案與計算次數變數存進 session 對應變數
     session['answer'] = theanswer
     session['count'] = thecount
 
+
     return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
 @app.route('/user/<name>')
 def user(name):
     return render_template("user.html", name=name)
