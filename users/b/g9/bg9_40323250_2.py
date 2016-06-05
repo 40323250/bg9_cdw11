@@ -29,6 +29,8 @@ brython(1);
  
 tail_str = '''
 </script>
+
+
 <script type='text/javascript'>
 var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
 push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
@@ -36,6 +38,8 @@ push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a
 async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
 var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 </script>
+
+
 </body>
 </html>
 '''
@@ -412,6 +416,17 @@ document['circle'].bind('click', ctogreen)
 document['tux'].bind('mouseover', hoverover)
 document['tux'].bind('mouseleave', hoverout)
 </script>
+
+
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+</script>
+
+
 </body>
 </html>
 '''
@@ -494,6 +509,17 @@ g4 = s.group(r4,c4).attr({ 'id': 'g4' });
 g4.appendTo( g3 )
 g4.animate( { 'transform' : 'r360,25,25' },4000)
 </script>
+
+
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+</script>
+
+
 </body>
 </html>
 '''
@@ -535,6 +561,17 @@ s = snap("#svgout")
 # 畫直線
 s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
 </script>
+
+
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+</script>
+
+
 </body>
 </html>
 '''

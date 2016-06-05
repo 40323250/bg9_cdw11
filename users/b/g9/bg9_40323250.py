@@ -468,6 +468,12 @@ x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
 mychain.basic(x10, y10, x1, y1, color="green")
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 </script>
 </body></html>
 '''
@@ -679,6 +685,12 @@ x10, y10 = mychain.basic_rot(x9, y9, -140)
 # 水平接回原點
 mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 </script>
 </body></html>
 '''
@@ -917,7 +929,7 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
 push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
 :(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
-async=1;ga.src='//www.onwebchat.com/clientchat/306321103e7a903e23dcad8d1fee80f9/1/1';
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
 var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 </script>
 
@@ -1079,6 +1091,14 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
 
 
+</script>
+
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 </script>
 </body>
 </html>
