@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-40323250.rhcloud.com/static/blog/feeds/bg9.atom.xml" rel="self"></link><id>http://cdw11-40323250.rhcloud.com/static/blog/</id><updated>2016-06-05T08:20:29+08:00</updated><entry><title>40323250 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-05T08:20:29+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-05:static/blog/40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 
-&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-40323250.rhcloud.com/static/blog/feeds/bg9.atom.xml" rel="self"></link><id>http://cdw11-40323250.rhcloud.com/static/blog/</id><updated>2016-06-05T08:20:29+08:00</updated><entry><title>40323250 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-05T08:20:29+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-05:static/blog/40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 (統整)
+&lt;!-- PELI
+CAN_END_SUMMARY --&gt;
+&lt;h3&gt;鍊條上30下18齒&lt;/h3&gt;
+從老師的18及30齒中，找到eighteenthirty 或是 其他程式拿來修改，我是用eighteenthirty，然後將兩部分的鏈條分開，並定位到(0,0)位置，就可以開始計算需要移動的距離，就可以很容易的接合，但是修改容易寫程式難，還是要想辦法搞懂程式才行。
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/GrKllX7.png"&gt;&lt;br /&gt;
+&lt;/br&gt;&lt;/p&gt;
+&lt;h3&gt;2D齒輪嚙合&lt;/h3&gt;
+
 &lt;pre class="brush: python"&gt;
 @bg9_40323250.route('/gear_50')
 def gear_50():
@@ -170,7 +178,10 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
     return outstring
 &lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/2lnrHnc.png"&gt;&lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw13報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-05T08:20:29+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-05:static/blog/40323250-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
+&lt;p&gt;&lt;/br&gt;
+&lt;/br&gt;
+&lt;h3&gt;完成圖&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/2lnrHnc.png"&gt;&lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw13報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-05T08:20:29+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-05:static/blog/40323250-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
 
 &lt;h2&gt;將老師的鏈條轉90度&lt;/h2&gt;
 &lt;br/&gt;
