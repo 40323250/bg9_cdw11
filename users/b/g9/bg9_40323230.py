@@ -190,6 +190,39 @@ def drawcircle36(x,y,degree):
     return head_str + chain_str + circle36(int(x), int(y), int(degree)) + tail_str
     
     
+def circle72(x, y, degree,a,b,degree2):
+    # 20 為鏈條輪廓之圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #degree = 10
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    sec_degree = 90 - degree2
+    repeat2 = 360 / degree2
+    outstring1 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    outstring2 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring1 += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+    for e in range(2, int(repeat2)+1):
+        outstring2 += "x"+str(e)+", y"+str(e)+"=mychain.basic_rot(x"+str(e-1)+", y"+str(e-1)+", 90-"+str(e*degree2)+") \n"
+            
+    outstring = outstring1 + outstring2 
+    
+    return outstring
+    
+@bg9_40323230.route('/circle72/<degree>', defaults={'x': 0, 'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/<x>/<degree>', defaults={'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/<x>/<y>/<degree>', defaults={'a': 50, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/<x>/<y>/<degree>/<a>/<b>/<degree2>')
+
+def drawcircle72(x,y,degree, a, b, degree2):
+    return head_str + chain_str + circle72(int(x), int(y), int(degree), int(a), int(b), int(degree2)) + tail_str
 @bg9_40323230.route('/threegear', defaults={'n1':15,'n2':15,'n3':15})
 @bg9_40323230.route('/threegear/<n1>/<n2>/<n3>')
 def threegear(n1, n2, n3):

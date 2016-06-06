@@ -10,17 +10,17 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2"><vh>pelican 部份</vh>
-<v t="amd.20160501215558.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
+<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160501215634.1"><vh>@path static</vh>
+<v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
 <v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
 <v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1"><vh>@path content/b/g9</vh>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160505085006.1"><vh>@edit 40323230-w11.md</vh></v>
 </v>
 </v>
@@ -33,6 +33,8 @@
 <v t="leo.20160519105006.4"><vh>draw_a</vh></v>
 <v t="leo.20160519105006.5"><vh>circle36</vh></v>
 <v t="leo.20160519105006.6"><vh>drawcircle36</vh></v>
+<v t="leo.20160606112546.1"><vh>circle72</vh></v>
+<v t="leo.20160606112539.1"><vh>drawcircle72</vh></v>
 <v t="leo.20160526103254.1"><vh>threegear</vh></v>
 <v t="leo.20160605154840.1"><vh>fivegear</vh></v>
 </v>
@@ -1582,5 +1584,38 @@ spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n5+(180-180/n4)*
 &lt;/script&gt;
 '''
     return outstring</t>
+<t tx="leo.20160606112539.1">@bg9_40323230.route('/circle72/&lt;degree&gt;', defaults={'x': 0, 'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;', defaults={'a': 50, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;a&gt;/&lt;b&gt;/&lt;degree2&gt;')
+
+def drawcircle72(x,y,degree, a, b, degree2):
+    return head_str + chain_str + circle72(int(x), int(y), int(degree), int(a), int(b), int(degree2)) + tail_str</t>
+<t tx="leo.20160606112546.1">def circle72(x, y, degree,a,b,degree2):
+    # 20 為鏈條輪廓之圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #degree = 10
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    sec_degree = 90 - degree2
+    repeat2 = 360 / degree2
+    outstring1 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    outstring2 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring1 += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+    for e in range(2, int(repeat2)+1):
+        outstring2 += "x"+str(e)+", y"+str(e)+"=mychain.basic_rot(x"+str(e-1)+", y"+str(e-1)+", 90-"+str(e*degree2)+") \n"
+            
+    outstring = outstring1 + outstring2 
+    
+    return outstring
+    </t>
 </tnodes>
 </leo_file>
