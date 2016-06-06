@@ -216,9 +216,12 @@ x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
     
     return outstring
     
-@bg9_40323230.route('/circle72/<degree>', defaults={'x': 0, 'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
-@bg9_40323230.route('/circle72/<x>/<degree>', defaults={'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
-@bg9_40323230.route('/circle72/<x>/<y>/<degree>', defaults={'a': 50, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/<degree>', defaults={'x': 0, 'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/<x>/<degree>', defaults={'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/<x>/<y>/<degree>', defaults={'a': 0, 'b': 0, 'degree2': 30})
+
+@bg9_40323230.route('/circle72/<x>/<y>/<degree>/<degree2>', defaults={'a': 0, 'b': 0})
+@bg9_40323230.route('/circle72/<x>/<y>/<degree>/<a>/<degree2>', defaults={'b': 0})
 @bg9_40323230.route('/circle72/<x>/<y>/<degree>/<a>/<b>/<degree2>')
 
 def drawcircle72(x,y,degree, a, b, degree2):

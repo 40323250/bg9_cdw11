@@ -1584,9 +1584,12 @@ spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n5+(180-180/n4)*
 &lt;/script&gt;
 '''
     return outstring</t>
-<t tx="leo.20160606112539.1">@bg9_40323230.route('/circle72/&lt;degree&gt;', defaults={'x': 0, 'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
-@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0, 'a': 50, 'b': 0, 'degree2': 30})
-@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;', defaults={'a': 50, 'b': 0, 'degree2': 30})
+<t tx="leo.20160606112539.1">@bg9_40323230.route('/circle72/&lt;degree&gt;', defaults={'x': 0, 'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;', defaults={'a': 0, 'b': 0, 'degree2': 30})
+
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;degree2&gt;', defaults={'a': 0, 'b': 0})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;a&gt;/&lt;degree2&gt;', defaults={'b': 0})
 @bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;a&gt;/&lt;b&gt;/&lt;degree2&gt;')
 
 def drawcircle72(x,y,degree, a, b, degree2):
