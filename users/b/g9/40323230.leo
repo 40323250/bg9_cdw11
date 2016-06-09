@@ -10,17 +10,17 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2"><vh>pelican 部份</vh>
-<v t="amd.20160501215558.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
+<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160501215634.1"><vh>@path static</vh>
+<v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
 <v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
 <v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1"><vh>@path content/b/g9</vh>
+<v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160505085006.1"><vh>@edit 40323230-w11.md</vh></v>
 </v>
 </v>
@@ -33,7 +33,10 @@
 <v t="leo.20160519105006.4"><vh>draw_a</vh></v>
 <v t="leo.20160519105006.5"><vh>circle36</vh></v>
 <v t="leo.20160519105006.6"><vh>drawcircle36</vh></v>
+<v t="leo.20160606112546.1"><vh>circle72</vh></v>
+<v t="leo.20160606112539.1"><vh>drawcircle72</vh></v>
 <v t="leo.20160526103254.1"><vh>threegear</vh></v>
+<v t="leo.20160605154840.1"><vh>fivegear</vh></v>
 </v>
 <v t="leo.20160519112941.1"><vh>@clean bg9_40323230_2.py</vh>
 <v t="leo.20160519112941.2"><vh>bg9_40323230_2 declarations</vh></v>
@@ -108,11 +111,18 @@ app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
+app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
 
-
-app.register_blueprint(users.b.g9.bg9_40323233.bg9_40323233)
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
+
+
+app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
+app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
+
+
+#app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
+
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -252,11 +262,18 @@ import init
 import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
-import users.b.g9.bg9_40323233
+import users.b.g9.bg9_40323231_3
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
 
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
@@ -296,13 +313,18 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 def index():
     #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
     # 將標準答案存入 answer session 對應區
+
     theanswer = random.randint(1, 100)
     thecount = 0
     # 將答案與計算次數變數存進 session 對應變數
     session['answer'] = theanswer
     session['count'] = thecount
 
+
     return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
 </t>
 <t tx="amd.20160501221001.4">@app.route('/user/&lt;name&gt;')
 def user(name):
@@ -1268,7 +1290,7 @@ def drawtwocircle(x,y):
  
  
 </t>
-<t tx="leo.20160526103254.1">@bg9_40323230.route('/threegear')
+<t tx="leo.20160526103254.1">@bg9_40323230.route('/threegear', defaults={'n1':15,'n2':15,'n3':15})
 @bg9_40323230.route('/threegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;')
 def threegear(n1, n2, n3):
     outstring = '''
@@ -1411,5 +1433,192 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 &lt;/script&gt;
 '''
     return outstring</t>
+<t tx="leo.20160605154840.1">@bg9_40323230.route('/fivegear', defaults={'n1':15,'n2':15,'n3':15,'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;/&lt;n5&gt;')
+def fivegear(n1, n2, n3, n4, n5):
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 snap 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 5個齒輪的齒數
+n1 = '''+str(n1)+'''
+n2 = '''+str(n2)+'''
+n3 = '''+str(n3)+'''
+n4 = '''+str(n4)+'''
+n5 = '''+str(n5)+'''
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4+n5)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+pr5 = n5*m/2
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4+180)
+
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n5+(180-180/n4)*n4/n5)
+&lt;/script&gt;
+'''
+    return outstring</t>
+<t tx="leo.20160606112539.1">@bg9_40323230.route('/circle72/&lt;degree&gt;', defaults={'x': 0, 'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;', defaults={'a': 0, 'b': 0, 'degree2': 30})
+
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;degree2&gt;', defaults={'a': 0, 'b': 0})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;a&gt;/&lt;degree2&gt;', defaults={'b': 0})
+@bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;/&lt;a&gt;/&lt;b&gt;/&lt;degree2&gt;')
+
+def drawcircle72(x,y,degree, a, b, degree2):
+    return head_str + chain_str + circle72(int(x), int(y), int(degree), int(a), int(b), int(degree2)) + tail_str</t>
+<t tx="leo.20160606112546.1">def circle72(x, y, degree,a,b,degree2):
+    # 20 為鏈條輪廓之圓距
+    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
+    # degree = math.asin(20/2/radius)*180/math.pi
+    #degree = 10
+    first_degree = 90 - degree
+    repeat = 360 / degree
+    sec_degree = 90 - degree2
+    repeat2 = 360 / degree2
+    outstring1 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
+'''
+    outstring2 = '''
+mychain = chain()
+x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
+'''
+    for i in range(2, int(repeat)+1):
+        outstring1 += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
+    for e in range(2, int(repeat2)+1):
+        outstring2 += "x"+str(e)+", y"+str(e)+"=mychain.basic_rot(x"+str(e-1)+", y"+str(e-1)+", 90-"+str(e*degree2)+") \n"
+            
+    outstring = outstring1 + outstring2 
+    
+    return outstring
+    </t>
 </tnodes>
 </leo_file>
