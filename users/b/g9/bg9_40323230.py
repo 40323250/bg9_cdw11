@@ -372,6 +372,10 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 '''
     return outstring
 @bg9_40323230.route('/fivegear', defaults={'n1':15,'n2':15,'n3':15,'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/<n1>', defaults={'n2':15,'n3':15,'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/<n1>/<n2>', defaults={'n3':15,'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/<n1>/<n2>/<n3>', defaults={'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/<n1>/<n2>/<n3>/<n4>', defaults={'n5':15})
 @bg9_40323230.route('/fivegear/<n1>/<n2>/<n3>/<n4>/<n5>')
 def fivegear(n1, n2, n3, n4, n5):
     outstring = '''

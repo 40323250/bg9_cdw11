@@ -22,6 +22,8 @@
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160505085006.1"><vh>@edit 40323230-w11.md</vh></v>
+<v t="leo.20160615110528.1"><vh>@edit 40323230-w13.md</vh></v>
+<v t="leo.20160615111636.1"><vh>@edit 40323230-w14.md</vh></v>
 </v>
 </v>
 </v>
@@ -38,7 +40,7 @@
 <v t="leo.20160526103254.1"><vh>threegear</vh></v>
 <v t="leo.20160605154840.1"><vh>fivegear</vh></v>
 </v>
-<v t="leo.20160519112941.1" a="E"><vh>@clean bg9_40323230_2.py</vh>
+<v t="leo.20160519112941.1"><vh>@clean bg9_40323230_2.py</vh>
 <v t="leo.20160519112941.2"><vh>bg9_40323230_2 declarations</vh></v>
 <v t="leo.20160519112941.3"><vh>circle</vh></v>
 <v t="leo.20160519112941.4"><vh>twocircle</vh></v>
@@ -1437,6 +1439,10 @@ spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 '''
     return outstring</t>
 <t tx="leo.20160605154840.1">@bg9_40323230.route('/fivegear', defaults={'n1':15,'n2':15,'n3':15,'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/&lt;n1&gt;', defaults={'n2':15,'n3':15,'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/&lt;n1&gt;/&lt;n2&gt;', defaults={'n3':15,'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;', defaults={'n4':15,'n5':15})
+@bg9_40323230.route('/fivegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;', defaults={'n5':15})
 @bg9_40323230.route('/fivegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;/&lt;n5&gt;')
 def fivegear(n1, n2, n3, n4, n5):
     outstring = '''
