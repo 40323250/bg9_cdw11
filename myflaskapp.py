@@ -11,6 +11,7 @@ import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
 import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
@@ -407,6 +408,7 @@ app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
 app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
+app.register_blueprint(users.b.g9.bg9_40323231_4.bg9_40323231_4)
 
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
