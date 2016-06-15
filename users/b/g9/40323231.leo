@@ -52,6 +52,7 @@
 <v t="leo.20160602095133.1"><vh>bg9_40323231_3 declarations</vh></v>
 <v t="leo.20160602095133.2"><vh>draw_threecircle</vh></v>
 </v>
+<v t="leo.20160614215445.1"><vh>@edit bg9_40323231_4.py</vh></v>
 <v t="leo.20160519182004.21" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519182004.22" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="leo.20160519182004.23"><vh>myflaskapp declarations</vh></v>
@@ -524,6 +525,7 @@ app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
 app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
+app.register_blueprint(users.b.g9.bg9_40323231_4.bg9_40323231_4)
 
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
@@ -550,6 +552,7 @@ import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
 import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
