@@ -10,24 +10,27 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160501215436.2"><vh>pelican 部份</vh>
-<v t="amd.20160501215558.1"><vh>@path ./../../../</vh>
+<v t="amd.20160501215436.2" a="E"><vh>pelican 部份</vh>
+<v t="amd.20160501215558.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501223113.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160501215634.1"><vh>@path static</vh>
+<v t="amd.20160501215634.1" a="E"><vh>@path static</vh>
 <v t="amd.20160501220009.1"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
 <v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
-<v t="amd.20160501215942.1"><vh>@path content/b/g9</vh>
-<v t="amd.20160501215720.1"><vh>@edit 40323218-20160505.md</vh></v>
+<v t="leo.20160616031850.1" a="E"><vh>@path content/b/g9</vh>
+<v t="leo.20160616031850.2"><vh>@edit 40323218-w11.md</vh></v>
+<v t="leo.20160616031850.3"><vh>@edit 40323218-w13.md</vh></v>
+<v t="leo.20160616031850.4"><vh>@edit 40323218-w14.md</vh></v>
+<v t="leo.20160616031850.5"><vh>@edit 40323218-期末報告.md</vh></v>
 </v>
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519114041.1" a="E"><vh>@clean bg9_40323218_1.py</vh>
+<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
+<v t="leo.20160519114041.1"><vh>@clean bg9_40323218_1.py</vh>
 <v t="leo.20160519114236.1"><vh>bg9_40323218_1 declarations</vh></v>
 <v t="leo.20160519095246.5"><vh>circle36</vh></v>
 <v t="leo.20160519095246.6"><vh>drawcircle36</vh></v>
@@ -51,7 +54,7 @@
 <v t="leo.20160615104906.2"><vh>bg9_40323218_2 declarations</vh></v>
 <v t="leo.20160615104906.3"><vh>draw_threecircle</vh></v>
 </v>
-<v t="leo.20160615105135.1" a="E"><vh>@clean bg9_40323218_3.py</vh>
+<v t="leo.20160615105135.1"><vh>@clean bg9_40323218_3.py</vh>
 <v t="leo.20160615105529.1"><vh>bg9_40323218_3 declarations</vh></v>
 <v t="leo.20160615105529.2"><vh>draw_fourcircle</vh></v>
 </v>
@@ -83,7 +86,6 @@
 <t tx="amd.20160501215545.1"></t>
 <t tx="amd.20160501215558.1"></t>
 <t tx="amd.20160501215634.1"></t>
-<t tx="amd.20160501215942.1"></t>
 <t tx="amd.20160501220009.1"></t>
 <t tx="amd.20160501220009.2">@language python
 import os
@@ -109,7 +111,7 @@ if __name__ == "__main__":
     
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
+app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
 app.register_blueprint(users.b.g9.bg9_40323218_1.bg9_40323218_1)
 app.register_blueprint(users.b.g9.bg9_40323218_2.bg9_40323218_2)
 app.register_blueprint(users.b.g9.bg9_40323218_3.bg9_40323218_3)
@@ -128,7 +130,6 @@ app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
 
 
 #app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
-
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -275,7 +276,7 @@ import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
-import users.b.g9.bg9_40323250_2
+import users.b.g9.bg9_40323233_1
 
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
@@ -309,7 +310,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
@@ -1872,5 +1872,6 @@ spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4)
 '''
     return outstring
 </t>
+<t tx="leo.20160616031850.1"></t>
 </tnodes>
 </leo_file>
