@@ -10,5 +10,5 @@ if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
     application = myflaskapp.app
 else:
     # 表示在近端執行, 以 python3 wsgi.py 執行,  若採 uwsgi 則與 Openshift 運作模式相同
-    myflaskapp.app.run(debug=True)
+   myflaskapp.app.run(debug=True)
 
