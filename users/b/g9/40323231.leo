@@ -10,31 +10,31 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20160519181650.1"><vh>pelican 部份</vh>
+<v t="leo.20160519181650.1" a="E"><vh>pelican 部份</vh>
 <v t="leo.20160519181650.2" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519181650.3"><vh>@edit README.md</vh></v>
 <v t="leo.20160519181650.4" a="E"><vh>@path static</vh>
-<v t="leo.20160519181650.5"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="leo.20160519181650.5" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="leo.20160519181650.6"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="leo.20160519181650.7"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="leo.20160519181650.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20160519181650.8"><vh>@button local pelican</vh></v>
 </v>
 <v t="leo.20160519181650.9" a="E"><vh>@path content/b/g9</vh>
-<v t="leo.20160519181650.10"><vh>@edit 40323231-w11.md</vh></v>
+<v t="leo.20160519181650.10"><vh>@edit 40323231-1.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="leo.20160519182004.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519182004.2"><vh>@clean bg9_40323231_1.py</vh>
+<v t="leo.20160519182004.2" a="E"><vh>@clean bg9_40323231_1.py</vh>
 <v t="leo.20160519182004.3"><vh>bg9_40323231_1 declarations</vh></v>
 <v t="leo.20160519182004.4"><vh>a</vh></v>
 <v t="leo.20160519182004.5"><vh>draw_a</vh></v>
 <v t="leo.20160519182004.6"><vh>circle36</vh></v>
 <v t="leo.20160519182004.7"><vh>drawcircle36</vh></v>
 </v>
-<v t="leo.20160519182004.8"><vh>@clean bg9_40323231_2.py</vh>
+<v t="leo.20160519182004.8" a="E"><vh>@clean bg9_40323231_2.py</vh>
 <v t="leo.20160519182004.9"><vh>bg9_40323231_2 declarations</vh></v>
 <v t="leo.20160519182004.10"><vh>circle</vh></v>
 <v t="leo.20160519182004.11"><vh>twocircle</vh></v>
@@ -523,7 +523,9 @@ if __name__ == "__main__":
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+app.register_blueprint(users.b.g9.bg9_40323218_1.bg9_40323218_1)
+app.register_blueprint(users.b.g9.bg9_40323218_2.bg9_40323218_2)
+app.register_blueprint(users.b.g9.bg9_40323218_3.bg9_40323218_3)
 
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
@@ -551,7 +553,9 @@ import os
 import init
 
 
-import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323218_1
+import users.b.g9.bg9_40323218_2
+import users.b.g9.bg9_40323218_3
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
 import users.b.g9.bg9_40323231_3
