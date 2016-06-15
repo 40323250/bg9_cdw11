@@ -26,8 +26,8 @@
 </v>
 </v>
 </v>
-<v t="leo.20160519182004.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519182004.2" a="E"><vh>@clean bg9_40323233_1.py</vh>
+<v t="leo.20160519182004.1"><vh>wsgi 程式部份</vh>
+<v t="leo.20160519182004.2"><vh>@clean bg9_40323233_1.py</vh>
 <v t="leo.20160519182004.3"><vh>bg9_40323233_1 declarations</vh></v>
 <v t="leo.20160519182004.4"><vh>a</vh></v>
 <v t="leo.20160519182004.5"><vh>draw_a</vh></v>
@@ -520,13 +520,21 @@ app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
-
+app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
+app.register_blueprint(users.b.g9.bg9_40323231_4.bg9_40323231_4)
 
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
 
+
 app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
-app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)</t>
+app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
+
+
+#app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
+
+
+</t>
 <t tx="leo.20160519182004.23"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
@@ -539,12 +547,20 @@ import init
 import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
+
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -583,13 +599,18 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 def index():
     #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
     # 將標準答案存入 answer session 對應區
+
     theanswer = random.randint(1, 100)
     thecount = 0
     # 將答案與計算次數變數存進 session 對應變數
     session['answer'] = theanswer
     session['count'] = thecount
 
+
     return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
 </t>
 <t tx="leo.20160519182004.25">@app.route('/user/&lt;name&gt;')
 def user(name):
