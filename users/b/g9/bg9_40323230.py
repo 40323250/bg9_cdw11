@@ -182,6 +182,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
     return outstring
     
+@bg9_40323230.route('/circle36', defaults={'x': 0, 'y': 0, 'degree':50})
 @bg9_40323230.route('/circle36/<degree>', defaults={'x': 0, 'y': 0})
 @bg9_40323230.route('/circle36/<x>/<degree>', defaults={'y': 0})
 @bg9_40323230.route('/circle36/<x>/<y>/<degree>')
@@ -216,6 +217,7 @@ x1, y1 = mychain.basic_rot('''+str(a)+","+str(b)+", "+str(sec_degree)+''')
     
     return outstring
     
+@bg9_40323230.route('/circle72', defaults={'x': 0, 'y': 0, 'degree':50, 'a': 0, 'b': 0, 'degree2': 30})
 @bg9_40323230.route('/circle72/<degree>', defaults={'x': 0, 'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
 @bg9_40323230.route('/circle72/<x>/<degree>', defaults={'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
 @bg9_40323230.route('/circle72/<x>/<y>/<degree>', defaults={'a': 0, 'b': 0, 'degree2': 30})
@@ -514,9 +516,9 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 
-spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4+180)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
 
-spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n5+(180-180/n4)*n4/n5)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n4*n4/n5+(180-180/n2)*n2/n3*n3/n4*n4/n5+(180-180/n3)*n3/n4*n4/n5+(180-180/n4)*n4/n5)
 </script>
 '''
     return outstring

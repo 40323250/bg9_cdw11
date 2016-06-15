@@ -38,7 +38,7 @@
 <v t="leo.20160526103254.1"><vh>threegear</vh></v>
 <v t="leo.20160605154840.1"><vh>fivegear</vh></v>
 </v>
-<v t="leo.20160519112941.1"><vh>@clean bg9_40323230_2.py</vh>
+<v t="leo.20160519112941.1" a="E"><vh>@clean bg9_40323230_2.py</vh>
 <v t="leo.20160519112941.2"><vh>bg9_40323230_2 declarations</vh></v>
 <v t="leo.20160519112941.3"><vh>circle</vh></v>
 <v t="leo.20160519112941.4"><vh>twocircle</vh></v>
@@ -112,6 +112,7 @@ app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
 app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
+app.register_blueprint(users.b.g9.bg9_40323231_4.bg9_40323231_4)
 
 app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
 app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
@@ -263,6 +264,7 @@ import users.b.g9.bg9_40323218
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
 import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
@@ -733,7 +735,8 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
     return outstring
     
 </t>
-<t tx="leo.20160519105006.6">@bg9_40323230.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+<t tx="leo.20160519105006.6">@bg9_40323230.route('/circle36', defaults={'x': 0, 'y': 0, 'degree':50})
+@bg9_40323230.route('/circle36/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
 @bg9_40323230.route('/circle36/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
 @bg9_40323230.route('/circle36/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
 #@bg9_40323230.route('/circle36/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
@@ -1578,13 +1581,14 @@ spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
 # 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
 spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
 
-spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4+180)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
 
-spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n5+(180-180/n4)*n4/n5)
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n4*n4/n5+(180-180/n2)*n2/n3*n3/n4*n4/n5+(180-180/n3)*n3/n4*n4/n5+(180-180/n4)*n4/n5)
 &lt;/script&gt;
 '''
     return outstring</t>
-<t tx="leo.20160606112539.1">@bg9_40323230.route('/circle72/&lt;degree&gt;', defaults={'x': 0, 'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
+<t tx="leo.20160606112539.1">@bg9_40323230.route('/circle72', defaults={'x': 0, 'y': 0, 'degree':50, 'a': 0, 'b': 0, 'degree2': 30})
+@bg9_40323230.route('/circle72/&lt;degree&gt;', defaults={'x': 0, 'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
 @bg9_40323230.route('/circle72/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0, 'a': 0, 'b': 0, 'degree2': 30})
 @bg9_40323230.route('/circle72/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;', defaults={'a': 0, 'b': 0, 'degree2': 30})
 
