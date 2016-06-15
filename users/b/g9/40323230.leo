@@ -40,7 +40,7 @@
 <v t="leo.20160526103254.1"><vh>threegear</vh></v>
 <v t="leo.20160605154840.1"><vh>fivegear</vh></v>
 </v>
-<v t="leo.20160519112941.1"><vh>@clean bg9_40323230_2.py</vh>
+<v t="leo.20160519112941.1" a="E"><vh>@clean bg9_40323230_2.py</vh>
 <v t="leo.20160519112941.2"><vh>bg9_40323230_2 declarations</vh></v>
 <v t="leo.20160519112941.3"><vh>circle</vh></v>
 <v t="leo.20160519112941.4"><vh>twocircle</vh></v>
@@ -108,7 +108,7 @@ if __name__ == "__main__":
     
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
+app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
 app.register_blueprint(users.b.g9.bg9_40323218_1.bg9_40323218_1)
 app.register_blueprint(users.b.g9.bg9_40323218_2.bg9_40323218_2)
 app.register_blueprint(users.b.g9.bg9_40323218_3.bg9_40323218_3)
@@ -127,7 +127,6 @@ app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
 
 
 #app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
-
 
 </t>
 <t tx="amd.20160501221001.10">@app.route('/fileaxupload', methods=['POST'])
@@ -274,7 +273,7 @@ import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
-import users.b.g9.bg9_40323250_2
+import users.b.g9.bg9_40323233_1
 
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
@@ -308,7 +307,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
