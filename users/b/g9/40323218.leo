@@ -51,11 +51,11 @@
 <v t="leo.20160615104906.2"><vh>bg9_40323218_2 declarations</vh></v>
 <v t="leo.20160615104906.3"><vh>draw_threecircle</vh></v>
 </v>
-<v t="leo.20160615105135.1"><vh>@clean bg9_40323218_3.py</vh>
+<v t="leo.20160615105135.1" a="E"><vh>@clean bg9_40323218_3.py</vh>
 <v t="leo.20160615105529.1"><vh>bg9_40323218_3 declarations</vh></v>
 <v t="leo.20160615105529.2"><vh>draw_threecircle</vh></v>
 </v>
-<v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
+<v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
 <v t="amd.20160501221001.3"><vh>index</vh></v>
@@ -1726,7 +1726,7 @@ bg9_40323218_3 = Blueprint('bg9_40323218_3', __name__, url_prefix='/bg9_40323218
 </t>
 <t tx="leo.20160615105529.2">@bg9_40323218_3.route('/fourcircle', defaults={'n1':17,'n2':29,'n3':15,'n4':23})
 @bg9_40323218_3.route('/fourcircle/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;')
-def draw_threecircle(n1, n2, n3,n4):
+def draw_fourcircle(n1, n2, n3,n4):
     outstring='''
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;

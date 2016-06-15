@@ -4,7 +4,7 @@ bg9_40323218_3 = Blueprint('bg9_40323218_3', __name__, url_prefix='/bg9_40323218
 
 @bg9_40323218_3.route('/fourcircle', defaults={'n1':17,'n2':29,'n3':15,'n4':23})
 @bg9_40323218_3.route('/fourcircle/<n1>/<n2>/<n3>/<n4>')
-def draw_threecircle(n1, n2, n3,n4):
+def draw_fourcircle(n1, n2, n3,n4):
     outstring='''
 <!DOCTYPE html>
 <html>
