@@ -532,7 +532,9 @@ app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
 app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
 app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
 
+
 #app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
+
 
 </t>
 <t tx="leo.20160519182004.23"># coding: utf-8
@@ -555,6 +557,7 @@ import users.b.g9.bg9_40323250_2
 
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
+
 
 #import users.b.g9.bg9_40323250_3
 
@@ -597,13 +600,18 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 def index():
     #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
     # 將標準答案存入 answer session 對應區
+
     theanswer = random.randint(1, 100)
     thecount = 0
     # 將答案與計算次數變數存進 session 對應變數
     session['answer'] = theanswer
     session['count'] = thecount
 
+
     return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
 </t>
 <t tx="leo.20160519182004.25">@app.route('/user/&lt;name&gt;')
 def user(name):
