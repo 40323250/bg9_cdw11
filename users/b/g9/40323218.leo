@@ -27,7 +27,7 @@
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519114041.1"><vh>@clean bg9_40323218_1.py</vh>
+<v t="leo.20160519114041.1" a="E"><vh>@clean bg9_40323218_1.py</vh>
 <v t="leo.20160519114236.1"><vh>bg9_40323218_1 declarations</vh></v>
 <v t="leo.20160519095246.5"><vh>circle36</vh></v>
 <v t="leo.20160519095246.6"><vh>drawcircle36</vh></v>
@@ -53,7 +53,7 @@
 </v>
 <v t="leo.20160615105135.1" a="E"><vh>@clean bg9_40323218_3.py</vh>
 <v t="leo.20160615105529.1"><vh>bg9_40323218_3 declarations</vh></v>
-<v t="leo.20160615105529.2"><vh>draw_threecircle</vh></v>
+<v t="leo.20160615105529.2"><vh>draw_fourcircle</vh></v>
 </v>
 <v t="amd.20160501221015.1"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
@@ -1130,9 +1130,9 @@ class chain():
     x = 50
     y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
+    first_degree = 20.78+90
+    startx = -50
+    starty = -150
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -1153,10 +1153,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
-    k = 93.98
+    p = -94.5
+    k = 68
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -1174,7 +1174,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78
+    first_degree = 10.78+90
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -1184,7 +1184,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78
+    first_degree = -10.78+90
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
