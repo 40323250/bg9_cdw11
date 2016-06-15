@@ -22,12 +22,16 @@
 </v>
 <v t="leo.20160519181650.9" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160519181650.10"><vh>@edit 40323231-1.md</vh></v>
+<v t="leo.20160616000711.1"><vh>@edit 40323231-2.md</vh></v>
+<v t="leo.20160616005826.1"><vh>@edit 40323231-3.md</vh></v>
+<v t="leo.20160616013246.1"><vh>@edit 40323231-4.md</vh></v>
+<v t="leo.20160616031736.1"><vh>@edit 40323231-5.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="leo.20160519182004.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519182004.2" a="E"><vh>@clean bg9_40323231_1.py</vh>
+<v t="leo.20160519182004.2"><vh>@clean bg9_40323231_1.py</vh>
 <v t="leo.20160519182004.3"><vh>bg9_40323231_1 declarations</vh></v>
 <v t="leo.20160519182004.4"><vh>a</vh></v>
 <v t="leo.20160519182004.5"><vh>draw_a</vh></v>
@@ -48,11 +52,11 @@
 <v t="leo.20160519182004.19"><vh>snap_link</vh></v>
 <v t="leo.20160519182004.20"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160602091629.1"><vh>@clean bg9_40323231_3.py</vh>
+<v t="leo.20160602091629.1" a="E"><vh>@clean bg9_40323231_3.py</vh>
 <v t="leo.20160602095133.1"><vh>bg9_40323231_3 declarations</vh></v>
 <v t="leo.20160602095133.2"><vh>draw_threecircle</vh></v>
 </v>
-<v t="leo.20160614215445.1"><vh>@clean bg9_40323231_4.py</vh>
+<v t="leo.20160614215445.1" a="E"><vh>@clean bg9_40323231_4.py</vh>
 <v t="leo.20160615105907.1"><vh>bg9_40323231_4 declarations</vh></v>
 <v t="leo.20160615105907.2"><vh>draw_threecircle</vh></v>
 </v>
