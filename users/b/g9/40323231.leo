@@ -10,18 +10,22 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20160519181650.1"><vh>pelican 部份</vh>
+<v t="leo.20160519181650.1" a="E"><vh>pelican 部份</vh>
 <v t="leo.20160519181650.2" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519181650.3"><vh>@edit README.md</vh></v>
 <v t="leo.20160519181650.4" a="E"><vh>@path static</vh>
-<v t="leo.20160519181650.5"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="leo.20160519181650.5" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="leo.20160519181650.6"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="leo.20160519181650.7"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="leo.20160519181650.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20160519181650.8"><vh>@button local pelican</vh></v>
 </v>
 <v t="leo.20160519181650.9" a="E"><vh>@path content/b/g9</vh>
-<v t="leo.20160519181650.10"><vh>@edit 40323231-w11.md</vh></v>
+<v t="leo.20160519181650.10"><vh>@edit 40323231-1.md</vh></v>
+<v t="leo.20160616000711.1"><vh>@edit 40323231-2.md</vh></v>
+<v t="leo.20160616005826.1"><vh>@edit 40323231-3.md</vh></v>
+<v t="leo.20160616013246.1"><vh>@edit 40323231-4.md</vh></v>
+<v t="leo.20160616031736.1"><vh>@edit 40323231-5.md</vh></v>
 </v>
 </v>
 </v>
@@ -34,7 +38,7 @@
 <v t="leo.20160519182004.6"><vh>circle36</vh></v>
 <v t="leo.20160519182004.7"><vh>drawcircle36</vh></v>
 </v>
-<v t="leo.20160519182004.8"><vh>@clean bg9_40323231_2.py</vh>
+<v t="leo.20160519182004.8" a="E"><vh>@clean bg9_40323231_2.py</vh>
 <v t="leo.20160519182004.9"><vh>bg9_40323231_2 declarations</vh></v>
 <v t="leo.20160519182004.10"><vh>circle</vh></v>
 <v t="leo.20160519182004.11"><vh>twocircle</vh></v>
@@ -48,11 +52,11 @@
 <v t="leo.20160519182004.19"><vh>snap_link</vh></v>
 <v t="leo.20160519182004.20"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160602091629.1"><vh>@clean bg9_40323231_3.py</vh>
+<v t="leo.20160602091629.1" a="E"><vh>@clean bg9_40323231_3.py</vh>
 <v t="leo.20160602095133.1"><vh>bg9_40323231_3 declarations</vh></v>
 <v t="leo.20160602095133.2"><vh>draw_threecircle</vh></v>
 </v>
-<v t="leo.20160614215445.1"><vh>@clean bg9_40323231_4.py</vh>
+<v t="leo.20160614215445.1" a="E"><vh>@clean bg9_40323231_4.py</vh>
 <v t="leo.20160615105907.1"><vh>bg9_40323231_4 declarations</vh></v>
 <v t="leo.20160615105907.2"><vh>draw_threecircle</vh></v>
 </v>
@@ -76,6 +80,12 @@
 <v t="leo.20160519182004.38"><vh>send_blog</vh></v>
 <v t="leo.20160519182004.39"><vh>send_file</vh></v>
 </v>
+</v>
+</v>
+<v t="leo.20160616043624.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160616043624.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160616043624.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160616043624.5"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -522,8 +532,10 @@ if __name__ == "__main__":
     
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
-app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
-app.register_blueprint(users.b.g9.bg9_40323218.bg9_40323218)
+app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
+app.register_blueprint(users.b.g9.bg9_40323218_1.bg9_40323218_1)
+app.register_blueprint(users.b.g9.bg9_40323218_2.bg9_40323218_2)
+app.register_blueprint(users.b.g9.bg9_40323218_3.bg9_40323218_3)
 
 app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
 app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
@@ -540,7 +552,6 @@ app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
 
 #app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
 
-
 </t>
 <t tx="leo.20160519182004.23"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
@@ -551,7 +562,9 @@ import os
 import init
 
 
-import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323218_1
+import users.b.g9.bg9_40323218_2
+import users.b.g9.bg9_40323218_3
 import users.b.g9.bg9_40323231_1
 import users.b.g9.bg9_40323231_2
 import users.b.g9.bg9_40323231_3
@@ -559,7 +572,7 @@ import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
-import users.b.g9.bg9_40323250_2
+import users.b.g9.bg9_40323233_1
 
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
@@ -593,7 +606,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
@@ -1605,6 +1617,197 @@ spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n4+(180-180/n3)*n3/n4)
 &lt;/script&gt;
 '''
     return outstring
+</t>
+<t tx="leo.20160616043624.2"></t>
+<t tx="leo.20160616043624.3">(uncached) leo.20160519182004.23
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+  import users.b.g9.bg9_40323218_1
+  import users.b.g9.bg9_40323218_2
+  import users.b.g9.bg9_40323218_3
+  import users.b.g9.bg9_40323231_1
+  import users.b.g9.bg9_40323231_2
+  import users.b.g9.bg9_40323231_3
+  import users.b.g9.bg9_40323231_4
+  import users.b.g9.bg9_40323230_2
+  import users.b.g9.bg9_40323230
+  import users.b.g9.bg9_40323250
+- import users.b.g9.bg9_40323233_1
+?                             ^^ ^
++ import users.b.g9.bg9_40323250_2
+?                             ^^ ^
+  
+  import users.b.g9.bg9_40323233_1
+  import users.b.g9.bg9_40323233_2
+  
+  
+  #import users.b.g9.bg9_40323250_3
+  
+  
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
++ 
+</t>
+<t tx="leo.20160616043624.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218_1
+import users.b.g9.bg9_40323218_2
+import users.b.g9.bg9_40323218_3
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160616043624.5"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218_1
+import users.b.g9.bg9_40323218_2
+import users.b.g9.bg9_40323218_3
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323233_1
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
 </t>
 </tnodes>
 </leo_file>

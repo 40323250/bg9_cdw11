@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/bg9.atom.xml" rel="self"></link><id>./</id><updated>2016-05-19T09:28:45+08:00</updated><entry><title>40323214 w11 報告</title><link href="./40323214-w11-bao-gao.html" rel="alternate"></link><updated>2016-05-19T09:28:45+08:00</updated><author><name>40323214</name></author><id>tag:,2016-05-19:./40323214-w11-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;pelican 網誌位置: &lt;a href="http://cdw11-ag100.rhcloud.com/static/"&gt;http://cdw11-ag100.rhcloud.com/static/&lt;/a&gt;&lt;/p&gt;
@@ -14,6 +15,275 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-40323250.rhcloud.com/static/blog/feeds/bg9.atom.xml" rel="self"></link><id>http://cdw11-40323250.rhcloud.com/static/blog/</id><updated>2016-06-15T22:21:51+08:00</updated><entry><title>40323233 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323233-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-15T22:21:51+08:00</updated><author><name>40323233</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323233-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末協同報告 
 &lt;/p&gt;</summary><category term="40323233"></category></entry><entry><title>40323250 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-15T22:01:28+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 (統整)
 >>>>>>> 1b65f5757f72fee64bf40e0973a5b081a0561107
+=======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CDW11 網頁 (虎尾科大MDE)</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/" rel="alternate"></link><link href="http://cdw11-40323250.rhcloud.com/static/blog/feeds/bg9.atom.xml" rel="self"></link><id>http://cdw11-40323250.rhcloud.com/static/blog/</id><updated>2016-06-16T05:08:52+08:00</updated><entry><title>40323218 cdw11報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323218-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-16T05:08:52+08:00</updated><author><name>40323218</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323218-cdw11bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;cdw11 內容 : &lt;/h2&gt;
+
+&lt;h3&gt;複製在kmolab上的程式碼，嘗試修改參數做出鍊條。&lt;/h3&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;img src="http://imgur.com/PI36r4j.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;網址紅線處重左至右分別是代表 x , y  , degree可以自行設定&lt;br/&gt;xy可控制圖中圓心紅點位置&lt;br/&gt;degree控制鍊條角度，最後繪出一個圓。&lt;/h4&gt;
+&lt;br/&gt;
+&lt;h3&gt;自評：70分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323218"></category></entry><entry><title>40323233 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323233-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T03:39:28+08:00</updated><author><name>40323233</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323233-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末協同報告 
+
+&lt;h3&gt;鍊條轉90度&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/vG6xFgy.png"&gt; 
+&lt;h3&gt;4個齒輪嚙合&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/ZD8IQXa.png"&gt;&lt;br /&gt;
+&lt;h3&gt;onshape齒輪&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/pj9QuDz.png"&gt;&lt;br /&gt;
+&lt;h3&gt;心得:&lt;/h3&gt;
+&lt;p&gt;這個學期上課，從期中前的報告到期末的報告都是需要組員共同來完成的，
+像是其中的鏈條設計，還有期末的齒輪的功能設定(齒數)(模數)(截圓直徑)
+最後再把多個齒輪組立在一起，大家都是各出一份心力，一起去完成。&lt;/p&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;p&gt;(3D正齒輪傳動模擬)&lt;/p&gt;
+&lt;p&gt;Onshape 的正齒輪設計繪圖與組立, 
+跟與先前的 2D 網際繪圖類似, 只是在 3D 正齒輪傳動組立過程, Onshape Part Studio 中,所有的零件可以透過統一的設計變數進行控管, 但若一旦設計流程的變化超出原先表單的設定範圍 (例如: SG Featurescript 中的 Offset angle 只允許 0-360 的正值角度輸入)&lt;/p&gt;&lt;/p&gt;</summary><category term="40323233"></category></entry><entry><title>40323230 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323230-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T03:39:28+08:00</updated><author><name>40323230</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323230-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 :&lt;br /&gt;
+
+&lt;h3&gt;使用Onshape做最終3D參數式繪圖，已達成使用變數調整客戶需求的目的。&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;Onshape自從推出Feature Studio的功能，便能實現使用變數調整3D模型的能力，實在是參數式繪圖的一大進步。&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;在這個作業中，我繪製了模擬用的齒輪箱，並使用變數調整齒輪箱的大小，以利所有齒輪皆不會因為太大而跑出原本的底板。&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;3D齒輪繪圖&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;&lt;a href="https://cad.onshape.com/documents/6e76f3b8127eb09822f5682e/w/55d1cb559a2f4c4b5bd4c216/e/f29818a47bd9d7a8494642f0&lt;/a&gt;&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/NJBS7w5.jpg"&gt;
+&lt;br/&gt;
+&lt;h3&gt;完成圖:&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;整體外觀&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/OBoC4Yl.jpg"&gt;
+&lt;br/&gt;
+&lt;h3&gt;變數調整箱體尺寸&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/FcucF4I.jpg"&gt;
+&lt;br/&gt;
+&lt;h3&gt;設定齒輪位置&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/em8KVXO.jpg"&gt;
+&lt;br/&gt;
+&lt;h3&gt;設定齒輪角度位移以利嚙合（常數項總和必須在0-360範圍內）&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/y7KOs4Y.jpg"&gt;
+&lt;br/&gt;
+&lt;h3&gt;齒輪嚙合模擬&lt;/h3&gt;
+&lt;img src="http://i.imgur.com/0b3qjd5.jpg"&gt;
+&lt;hr&gt;
+&lt;h2&gt;期末整理&lt;/h2&gt;
+&lt;br/&gt;
+&lt;h3&gt;旋轉鍊條&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/3AUl5yu.jpg"&gt;
+&lt;h3&gt;鍊條圈&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/heHSknY.jpg"&gt;
+&lt;h3&gt;5個齒輪&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://i.imgur.com/oDScRcY.jpg"&gt;
+&lt;br/&gt;
+&lt;h3&gt;期末心得：&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h3&gt;本學期學得的知識受到Onshape最新的Feature Studio影響，離協同參數式繪圖又更進一步。近日科技日新月異，學習使用及應用應屬現代工程師的當務之急。&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323230"></category></entry><entry><title>40323218 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323218-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-16T03:39:28+08:00</updated><author><name>40323218</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323218-qi-mo-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;期末統整 : &lt;/h2&gt;
+
+&lt;p&gt;&lt;hr&gt;
+&lt;h2&gt;cdw11 內容 : &lt;/h2&gt;
+&lt;h3&gt;複製在kmolab上的程式碼，嘗試修改參數做出鍊條。&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/PI36r4j.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;網址紅線處重左至右分別是代表 x , y  , degree可以自行設定&lt;br/&gt;xy可控制圖中圓心紅點位置&lt;br/&gt;degree控制鍊條角度，最後繪出一個圓。&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h2&gt;cdw13 內容 : &lt;/h2&gt;
+&lt;h3&gt;Copy 在kmolab上的程式碼，嘗試調整程式使水平鍊條變成垂直鍊條。&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/O1y1fEV.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;水平鍊條&lt;/h4&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/JvC60yU.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;垂直鍊條&lt;/h4&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/0N3rSC9.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;(startx , starty)、(p , k)是設定圖形位置，first_degree加90度使圖形成垂直。&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h2&gt;cdw14 內容 : &lt;/h2&gt;
+&lt;h3&gt;複製老師程式碼，嘗試製作第四個齒輪，而且需要跟第三個齒輪嚙合，再利用OnShape來模擬&lt;/h3&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/Tgo0N3l.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;繪製第四個齒輪，需嚙合第三個。&lt;/h4&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/1sEVNLL.png"&gt;
+&lt;h4&gt;紅框部分為第四個齒輪之程式。&lt;/h4&gt;
+&lt;br/&gt;
+&lt;iframe src="https://player.vimeo.com/video/170812747" width="640" height="319" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/170812747"&gt;在Onshape上執行齒輪轉動&lt;/a&gt; from &lt;a href="https://vimeo.com/user44943624"&gt;Li Steven&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3&gt;心得：&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h4&gt;這學期一樣是一起協同來完成課題，每個人專研不同的部分，在一起分享教導自己所學的。在OnShape上進步了許多，也對python有更進一步的了解，這學期過得很充實!暑假將至，升大三後需要自訂目標，努力去達成。&lt;/h4&gt;
+&lt;br/&gt;
+&lt;h3&gt;自評：80分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323218"></category></entry><entry><title>40323218 cdw14 報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323218-cdw14-bao-gao.html" rel="alternate"></link><updated>2016-06-16T03:39:28+08:00</updated><author><name>40323218</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323218-cdw14-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;cdw14 內容 : &lt;/h2&gt;
+
+&lt;h3&gt;複製老師程式碼，嘗試製作第四個齒輪，而且需要跟第三個齒輪嚙合，再利用OnShape來模擬&lt;/h3&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;img src="http://imgur.com/Tgo0N3l.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;繪製第四個齒輪，需嚙合第三個。&lt;/h4&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/1sEVNLL.png"&gt;
+&lt;h4&gt;紅框部分為第四個齒輪之程式。&lt;/h4&gt;
+&lt;br/&gt;
+&lt;iframe src="https://player.vimeo.com/video/170812747" width="640" height="319" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/170812747"&gt;在Onshape上執行齒輪轉動&lt;/a&gt; from &lt;a href="https://vimeo.com/user44943624"&gt;Li Steven&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h3&gt;自評：75分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323218"></category></entry><entry><title>40323218 cdw13 報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323218-cdw13-bao-gao.html" rel="alternate"></link><updated>2016-06-16T03:39:28+08:00</updated><author><name>40323218</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323218-cdw13-bao-gao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;cdw13 內容 : &lt;/h2&gt;
+
+&lt;h3&gt;Copy 在kmolab上的程式碼，嘗試調整程式使水平鍊條變成垂直鍊條。&lt;/h3&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;img src="http://imgur.com/O1y1fEV.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;水平鍊條&lt;/h4&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/JvC60yU.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;垂直鍊條&lt;/h4&gt;
+&lt;br/&gt;
+&lt;img src="http://imgur.com/0N3rSC9.png"&gt;
+&lt;br/&gt;
+&lt;h4&gt;(startx , starty)、(p , k)是設定圖形位置，first_degree加90度使圖形成垂直。&lt;/h4&gt;
+&lt;br/&gt;
+&lt;h3&gt;自評：75分&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323218"></category></entry><entry><title>40323231 - 5報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323231-5bao-gao.html" rel="alternate"></link><updated>2016-06-16T03:24:27+08:00</updated><author><name>40323231</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323231-5bao-gao.html</id><summary type="html">&lt;p&gt;40323231-5內容&lt;/p&gt;
+
+
+&lt;h3&gt;用onshape繪製齒輪，並能夠轉動&lt;/h3&gt;
+
+&lt;h4&gt;個人Onshape圖檔 : &lt;/h4&gt;
+
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/653f7a78f2348bbe113bac8e/w/aa6dc32eff7660a0e65f8014/e/b060ad4a9b8e664b3d3228a7"&gt;onshape&lt;/a&gt; 
+&lt;h3&gt;心得 :&lt;/h3&gt;
+&lt;h4&gt;用onshape繪製能夠轉動的齒輪很有成就感，雖然中途有碰到很多問題，可是經過很多次的測試和和同學討論，像是齒輪和齒輪的配和條件，這個部分就花了很多時間摸索，最後還是完成了。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;h3&gt;自評分數 : 80&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323231"></category></entry><entry><title>40323231 - 4報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323231-4bao-gao.html" rel="alternate"></link><updated>2016-06-16T01:36:27+08:00</updated><author><name>40323231</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323231-4bao-gao.html</id><summary type="html">&lt;p&gt;40323231-4內容&lt;/p&gt;
+
+
+&lt;h3&gt;本次的作業是多增加一個齒輪，而且要符合現實&lt;/h3&gt;
+
+&lt;p&gt;&lt;/br&gt;
+&lt;img src="http://i.imgur.com/J4mWmPL.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;定義第四個齒輪的齒數&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/UH3hDtI.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;增加第四齒&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/2ImUm14.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;定義第四齒的節圓半徑&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/HwhpUKp.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;定義第四齒X方向Y方向和旋轉角度等等。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/7xyiIzD.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;完成圖&lt;/h4&gt;
+&lt;/br&gt;
+&lt;h3&gt;心得 :&lt;/h3&gt;
+&lt;/br&gt;
+&lt;h4&gt;這次的作業非常的好玩有趣，因為能夠自己建立新的齒輪，自己設計，想要多大就多大，想要放哪裡就放哪裡，想要幾個就幾個，而且要配合的那個旋轉角度也很有學問，因為我測試過很多種方式可是都失敗，像是我有測試過旋轉前三個的單齒角度，可是他有基準線，所以變得很難用參數去定義，雖然最後還是只能沿用教材，可是還是理解函數的轉換。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;h3&gt;自評分數 : 85&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323231"></category></entry><entry><title>40323231 - 3報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323231-3bao-gao.html" rel="alternate"></link><updated>2016-06-16T01:17:01+08:00</updated><author><name>40323231</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-16:static/blog/40323231-3bao-gao.html</id><summary type="html">&lt;p&gt;40323231-3內容&lt;/p&gt;
+
+
+&lt;h3&gt;本次是將固定齒數的三個齒輪，變成可以直接在遠端或近端改變&lt;/h3&gt;
+
+&lt;p&gt;&lt;/br&gt;
+&lt;img src="http://i.imgur.com/8c4mTqV.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;先將原本固定數值變成可改變的數值&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/x3gvngi.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;1.設定在輸入threecircle的檔案後，先呈現內定的數值&lt;/h4&gt;
+&lt;/br&gt;
+&lt;h4&gt;2.在threecircle後面輸入"/數值"即可直接設定三個齒輪中各個的齒數。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/9Y3e6lT.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;圖1.&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/UmU6NNA.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;圖2.&lt;/h4&gt;
+&lt;/br&gt;
+&lt;h3&gt;心得 :&lt;/h3&gt;
+&lt;/br&gt;
+&lt;h4&gt;這次的作業其實滿簡單的，因為前幾次在做作業中就有曾經用到本次作業的內容，所以很快地就完成了這次作業。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;h3&gt;自評分數 : 80&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323231"></category></entry><entry><title>40323231 - 2報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323231-2bao-gao.html" rel="alternate"></link><updated>2016-06-15T23:32:05+08:00</updated><author><name>40323231</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323231-2bao-gao.html</id><summary type="html">&lt;p&gt;40323231-2內容&lt;/p&gt;
+
+
+&lt;h3&gt;本次的作業是要將倒的圖形變正的圖形&lt;/h3&gt;
+
+&lt;p&gt;&lt;/br&gt;
+&lt;img src="http://i.imgur.com/23Tukk6.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;本圖為倒立的&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/746LfpC.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;本圖為正立的，並且位移圖形&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/746LfpC.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;更改照片中以及程式中相關的數值和參數就可以改變&lt;/h4&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h3&gt;心得 :&lt;/h3&gt;
+&lt;/br&gt;
+&lt;h4&gt;本次的課程和作業用solvespace可以得出很多的參數數值，然後這些數值可以直接改變圖的外型、方向、位置等等，所以本次的內容較於多變，而且有很多地方可以呼叫，之後可以增加圖形及改變形狀，所以本周的課程滿喜歡的。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;h3&gt;自評分數 : 85&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323231"></category></entry><entry><title>40323231 - 1報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323231-1bao-gao.html" rel="alternate"></link><updated>2016-06-15T21:26:00+08:00</updated><author><name>40323231</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323231-1bao-gao.html</id><summary type="html">&lt;p&gt;40323231-1內容&lt;/p&gt;
+
+
+&lt;h3&gt;將複雜的程式分成多項且有序的程式&lt;/h3&gt;
+
+&lt;p&gt;&lt;/br&gt;
+&lt;img src="http://i.imgur.com/Rej187u.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;先創立一個py前面是edit，因為本程式比較長已經超過內定，所以如果直接用auto則無法直接分行，再來是把網路上的所有程式放置到leo，更改內容文的所有名稱(指的是畫布使用者名稱和呼叫檔案的名稱)。之後再myflaskapp創立使用者。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/iqXqdvx.png&gt; 
+&lt;h4&gt;把edit換成auto之後存檔，一定要做此動作，因為如果沒有存檔他會無法繼續作下面的動作。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/Djm3XsJ.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;點選打勾處即可將複雜的程式分成有序地排列。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;img src="http://i.imgur.com/aqGesOd.png"&gt;
+&lt;/br&gt;
+&lt;h4&gt;之後再將auto改成clean，完成。&lt;/h4&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;h3&gt;心得 :&lt;/h3&gt;
+&lt;h4&gt;本週上的內容能夠快速地找到問題點進而做更改，不用再一行一行找，使整個流程更順暢更快速。&lt;/h4&gt;
+&lt;h3&gt;自評分數 : 70&lt;/h3&gt;&lt;/p&gt;</summary><category term="40323231"></category></entry><entry><title>40323250 期末報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-qi-mo-bao-gao.html" rel="alternate"></link><updated>2016-06-15T21:21:20+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323250-qi-mo-bao-gao.html</id><summary type="html">&lt;p&gt;期末報告 (統整)
+>>>>>>> c78548071cbc2947fba6bd95c2c99acc3c308d2a
 
 &lt;h3&gt;鍊條上30下18齒&lt;/h3&gt;
 從老師的18及30齒中，找到eighteenthirty 或是 其他程式拿來修改，我是用eighteenthirty，然後將兩部分的鏈條分開，並定位到(0,0)位置，就可以開始計算需要移動的距離，就可以很容易的接合，但是修改容易寫程式難，還是要想辦法搞懂程式才行。
@@ -204,22 +474,21 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;h3&gt;心得&lt;/h3&gt;
 &lt;h4&gt;期中以後，以程式繪圖的方法大概弄懂了，Onshape也開放了feature studio，畫圖的方式也近似於我們的畫法，還可以設定變數，現在連齒輪都能直接呼叫了。&lt;/h4&gt;
 &lt;/br&gt;
-&lt;h4&gt;creo 2.0 已經正式被放棄，隨著時代的進步，我們要有更強的能力，而不是原地踏步&lt;/h4&gt;&lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw13報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-15T22:01:28+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323250-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
+&lt;h4&gt;creo 2.0 已經正式被放棄，隨著時代的進步，我們要有更強的能力，而不是原地踏步&lt;/h4&gt;&lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw13報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-cdw13bao-gao.html" rel="alternate"></link><updated>2016-06-15T21:21:20+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323250-cdw13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
 
 &lt;h2&gt;將老師的鏈條轉90度&lt;/h2&gt;
 &lt;br/&gt;
 &lt;h3&gt;構想 : 將老師的eighteenthirty的起始角度轉90度之後，會有兩部分分開，只要將兩個圖形都定位到(0, 0)後，找到重疊的部分，再利用三角函數算出座標點差距，就可以接再一起了&lt;/h3&gt;
 &lt;br/&gt;
 &lt;h3&gt;完成圖:&lt;/h3&gt; 
-&lt;img src="http://i.imgur.com/GrKllX7.png"&gt;  &lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323230 W13報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323230-w13bao-gao.html" rel="alternate"></link><updated>2016-06-15T22:01:28+08:00</updated><author><name>40323230</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323230-w13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
+&lt;img src="http://i.imgur.com/GrKllX7.png"&gt;  &lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323250 cdw11報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323250-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-15T21:21:20+08:00</updated><author><name>40323250</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323250-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
 
-&lt;h3&gt;對照不同的參數做5個齒輪的設定，以符合嚙合的角度，使用者輸入不同參數亦可有相對應的變化。&lt;/h3&gt;
+&lt;h3&gt;利用老師開放之鍊條程式碼，嘗試做出兩個鍊條，並能透過6個參數調整外角、x座標及y座標。&lt;/h3&gt;
 &lt;br/&gt;
 &lt;h3&gt;完成圖:&lt;/h3&gt;
-&lt;br/&gt;
-&lt;img src="http://i.imgur.com/oDScRcY.jpg"&gt;&lt;/p&gt;</summary><category term="40323230"></category></entry><entry><title>40323230 W14報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323230-w14bao-gao.html" rel="alternate"></link><updated>2016-06-15T22:01:28+08:00</updated><author><name>40323230</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323230-w14bao-gao.html</id><summary type="html">&lt;p&gt;cdw14內容規畫 :&lt;br /&gt;
+&lt;img src="http://i.imgur.com/uFnrGsS.png"&gt; &lt;/p&gt;</summary><category term="40323250"></category></entry><entry><title>40323230 W13報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323230-w13bao-gao.html" rel="alternate"></link><updated>2016-06-15T21:21:20+08:00</updated><author><name>40323230</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323230-w13bao-gao.html</id><summary type="html">&lt;p&gt;cdw13內容規畫 :&lt;br /&gt;
 
-&lt;h3&gt;&lt;/h3&gt;
+&lt;h3&gt;對照不同的參數做5個齒輪的設定，以符合嚙合的角度，使用者輸入不同參數亦可有相對應的變化。&lt;/h3&gt;
 &lt;br/&gt;
 &lt;h3&gt;完成圖:&lt;/h3&gt;
 <<<<<<< HEAD
@@ -230,6 +499,7 @@ var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)
 &lt;p&gt;編輯&lt;/p&gt;</summary><category term="40323230"></category></entry><entry><title>40323218 cdw11 報告</title><link href="./40323218-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-05-19T09:24:34+08:00</updated><author><name>40323218</name></author><id>tag:,2016-05-19:./40323218-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
 =======
 &lt;br/&gt;
+<<<<<<< HEAD
 &lt;img src=""&gt;&lt;/p&gt;</summary><category term="40323230"></category></entry><entry><title>40323233 cdw11報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323233-cdw11bao-gao.html" rel="alternate"></link><updated>2016-06-15T22:01:28+08:00</updated><author><name>40323233</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323233-cdw11bao-gao.html</id><summary type="html">&lt;p&gt;1
 cdw11
 &lt;/p&gt;
@@ -255,6 +525,9 @@ cdw11
 &lt;p&gt;&lt;img src="http://cdw11-ag100.rhcloud.com/images/cdw11_abcd.png" width="100%" /&gt;&lt;/p&gt;</summary><category term="40323218"></category><category term="cdw11"></category></entry></feed>
 =======
 &lt;p&gt;123&lt;/p&gt;</summary><category term="40323218"></category><category term="cdw11"></category></entry><entry><title>40323230 W11報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323230-w11bao-gao.html" rel="alternate"></link><updated>2016-06-15T22:01:28+08:00</updated><author><name>40323230</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323230-w11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+=======
+&lt;img src="http://i.imgur.com/oDScRcY.jpg"&gt;&lt;/p&gt;</summary><category term="40323230"></category></entry><entry><title>40323230 W11報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323230-w11bao-gao.html" rel="alternate"></link><updated>2016-06-15T21:21:20+08:00</updated><author><name>40323230</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323230-w11bao-gao.html</id><summary type="html">&lt;p&gt;cdw11內容規畫 :&lt;br /&gt;
+>>>>>>> c78548071cbc2947fba6bd95c2c99acc3c308d2a
 
 &lt;h3&gt;改變鍊條的程式碼，增加第二個鍊條，並能使用6個變數調整兩個鍊條的大小。此外能自行調整使用者變數數量來產生鍊條。&lt;/h3&gt;
 &lt;br/&gt;
@@ -276,5 +549,14 @@ cdw11
 &lt;img src="http://i.imgur.com/SQpmEMH.jpg"&gt;
 &lt;br/&gt;
 &lt;h3&gt;6個變數:&lt;/h3&gt;
+<<<<<<< HEAD
 &lt;img src="http://i.imgur.com/heHSknY.jpg"&gt;&lt;/p&gt;</summary><category term="40323230"></category></entry></feed>
 >>>>>>> 1b65f5757f72fee64bf40e0973a5b081a0561107
+=======
+&lt;img src="http://i.imgur.com/heHSknY.jpg"&gt;&lt;/p&gt;</summary><category term="40323230"></category></entry><entry><title>40323218 cdw11 報告</title><link href="http://cdw11-40323250.rhcloud.com/static/blog/40323218-cdw11-bao-gao.html" rel="alternate"></link><updated>2016-06-15T21:21:20+08:00</updated><author><name>40323218</name></author><id>tag:cdw11-40323250.rhcloud.com,2016-06-15:static/blog/40323218-cdw11-bao-gao.html</id><summary type="html">&lt;p&gt;啟動 cdw11 協同專案&lt;/p&gt;
+
+
+&lt;h3&gt;心得 : &lt;/h3&gt;
+
+&lt;p&gt;123&lt;/p&gt;</summary><category term="40323218"></category><category term="cdw11"></category></entry></feed>
+>>>>>>> c78548071cbc2947fba6bd95c2c99acc3c308d2a
