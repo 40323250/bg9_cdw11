@@ -16,46 +16,32 @@
 <v t="amd.20160501220009.1" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
 <v t="amd.20160501220009.2"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="amd.20160501220029.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="amd.20160501220029.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="amd.20160501220029.2"><vh>@button local pelican</vh></v>
 </v>
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g9</vh>
 <v t="leo.20160505085006.1"><vh>@edit 40323250-w11.md</vh></v>
+<v t="leo.20160519114317.1"><vh>@edit 40323250-w13.md</vh></v>
+<v t="leo.20160602120654.1"><vh>@edit 40323250-w14.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 <v t="amd.20160501215545.1" a="E"><vh>40323250-wsgi 繪圖程式</vh>
-<v t="leo.20160519092446.1"><vh>@clean bg9_40323250_2.py</vh>
+<v t="leo.20160519092446.1" a="E"><vh>@clean bg9_40323250_2.py</vh>
 <v t="leo.20160519092609.1"><vh>bg9_40323250_2 declarations</vh></v>
-<v t="leo.20160519092609.2"><vh>a</vh></v>
-<v t="leo.20160519092609.3"><vh>b</vh></v>
-<v t="leo.20160519092609.4"><vh>c</vh></v>
-<v t="leo.20160519092609.5"><vh>d</vh></v>
 <v t="leo.20160519092609.6"><vh>circle</vh></v>
-<v t="leo.20160519092609.7"><vh>circle1</vh></v>
-<v t="leo.20160519092609.8"><vh>circle2</vh></v>
 <v t="leo.20160519092609.9"><vh>twocircle</vh></v>
-<v t="leo.20160519092609.10"><vh>eighteenthirty</vh></v>
-<v t="leo.20160519092609.11"><vh>draw_a</vh></v>
-<v t="leo.20160519092609.12"><vh>draw_b</vh></v>
-<v t="leo.20160519092609.13"><vh>draw_c</vh></v>
-<v t="leo.20160519092609.14"><vh>draw_d</vh></v>
-<v t="leo.20160519092609.15"><vh>draw_ab</vh></v>
-<v t="leo.20160519092609.16"><vh>draw_ac</vh></v>
-<v t="leo.20160519092609.17"><vh>draw_bc</vh></v>
-<v t="leo.20160519092609.18"><vh>draw_abc</vh></v>
-<v t="leo.20160519092609.19"><vh>draw_aaaa</vh></v>
-<v t="leo.20160519092609.20"><vh>draw_badc</vh></v>
-<v t="leo.20160519092609.21"><vh>draw_abcd</vh></v>
 <v t="leo.20160519092609.22"><vh>drawcircle</vh></v>
 <v t="leo.20160519092609.23"><vh>drawcircle1</vh></v>
+<v t="leo.20160519092609.10"><vh>eighteenthirty</vh></v>
 <v t="leo.20160519092609.24"><vh>drawcircle2</vh></v>
 <v t="leo.20160519092609.25"><vh>drawtwocircle</vh></v>
 <v t="leo.20160519092609.26"><vh>draweithteenthirdy</vh></v>
 <v t="leo.20160519092609.27"><vh>snap</vh></v>
 <v t="leo.20160519092609.28"><vh>snap_link</vh></v>
 <v t="leo.20160519092609.29"><vh>snap_gear</vh></v>
+<v t="leo.20160605083910.1"><vh>#gear_link</vh></v>
 </v>
 <v t="leo.20160505091608.1" a="E"><vh>@clean bg9_40323250.py</vh>
 <v t="leo.20160505153243.1"><vh>bg9_40323250 declarations</vh></v>
@@ -67,6 +53,7 @@
 <v t="leo.20160505153243.5"><vh>task50_1</vh></v>
 <v t="leo.20160505153243.6"><vh>task50_2</vh></v>
 <v t="leo.20160505153243.7"><vh>task50_3</vh></v>
+<v t="leo.20160526103117.1"><vh>gear</vh></v>
 </v>
 </v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
@@ -90,10 +77,32 @@
 <v t="amd.20160501225844.1"><vh>send_file</vh></v>
 </v>
 </v>
-<v t="leo.20160505142428.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160505142428.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160505142428.4"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160505142428.5"><vh>new:myflaskapp declarations</vh></v>
+<v t="leo.20160526102422.2"><vh>Recovered Nodes</vh>
+<v t="leo.20160526102422.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160526102422.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160526102422.5"><vh>new:myflaskapp declarations</vh></v>
+</v>
+</v>
+<v t="leo.20160602091704.1"><vh>Recovered Nodes</vh>
+<v t="leo.20160602091704.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160602091704.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160602091704.4"><vh>new:myflaskapp declarations</vh></v>
+</v>
+</v>
+<v t="leo.20160602155545.2"><vh>Recovered Nodes</vh>
+<v t="leo.20160602155545.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160602155545.4"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160602155545.5"><vh>new:myflaskapp declarations</vh></v>
+</v>
+<v t="leo.20160602155545.6"><vh>Recovered node "index" from @clean myflaskapp.py</vh>
+<v t="leo.20160602155545.7"><vh>old:index</vh></v>
+<v t="leo.20160602155545.8"><vh>new:index</vh></v>
+</v>
+</v>
+<v t="leo.20160615162950.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20160615162950.2"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
+<v t="leo.20160615162950.3"><vh>old:myflaskapp declarations</vh></v>
+<v t="leo.20160615162950.4"><vh>new:myflaskapp declarations</vh></v>
 </v>
 </v>
 </vnodes>
@@ -130,6 +139,24 @@ if __name__ == "__main__":
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
 app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
+app.register_blueprint(users.b.g9.bg9_40323218_1.bg9_40323218_1)
+app.register_blueprint(users.b.g9.bg9_40323218_2.bg9_40323218_2)
+app.register_blueprint(users.b.g9.bg9_40323218_3.bg9_40323218_3)
+
+app.register_blueprint(users.b.g9.bg9_40323231_1.bg9_40323231_1)
+app.register_blueprint(users.b.g9.bg9_40323231_2.bg9_40323231_2)
+app.register_blueprint(users.b.g9.bg9_40323231_3.bg9_40323231_3)
+app.register_blueprint(users.b.g9.bg9_40323231_4.bg9_40323231_4)
+
+app.register_blueprint(users.b.g9.bg9_40323230.bg9_40323230)
+app.register_blueprint(users.b.g9.bg9_40323230_2.bg9_40323230_2)
+
+
+app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
+app.register_blueprint(users.b.g9.bg9_40323233_2.bg9_40323233_2)
+
+
+#app.register_blueprint(users.b.g9.bg9_40323250_3.bg9_40323250_3)
 
 
 </t>
@@ -267,9 +294,25 @@ import os
 import init
 
 
-
+import users.b.g9.bg9_40323218_1
+import users.b.g9.bg9_40323218_2
+import users.b.g9.bg9_40323218_3
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
 import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
 _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
 # 設定在雲端與近端的資料儲存目錄
@@ -308,13 +351,18 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 def index():
     #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
     # 將標準答案存入 answer session 對應區
+
     theanswer = random.randint(1, 100)
     thecount = 0
     # 將答案與計算次數變數存進 session 對應變數
     session['answer'] = theanswer
     session['count'] = thecount
 
+
     return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
 </t>
 <t tx="amd.20160501221001.4">@app.route('/user/&lt;name&gt;')
 def user(name):
@@ -535,155 +583,6 @@ def send_blog():
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20160505142428.2"></t>
-<t tx="leo.20160505142428.3">(uncached) amd.20160501221001.2
-Diff...
-  # coding: utf-8
-  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
-  import random
-  import math
-  import os
-  # init.py 為自行建立的起始物件
-  import init
-  
-  import users.a.g10.ag10_40323139
-  import users.a.g4.ag4_40323138
-  import users.a.g8.ag8_40323131_task1
-- &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-- import users.b.g9.bg9_40323218
-- =======
-  import users.b.g9.bg9_40323250
-- &gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
-  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
-  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
-  # 設定在雲端與近端的資料儲存目錄
-  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
-      # 表示程式在雲端執行
-      data_dir = os.environ['OPENSHIFT_DATA_DIR']
-      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
-      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
-  else:
-      # 表示程式在近端執行
-      data_dir = _curdir + "/local_data/"
-      static_dir = _curdir + "/static"
-      download_dir = _curdir + "/local_data/downloads/"
-  
-  # 利用 init.py 啟動, 建立所需的相關檔案
-  initobj = init.Init()
-  
-  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
-  app = Flask(__name__)
-  #app.config['download_dir'] = download_dir
-  
-  # 使用 session 必須要設定 secret_key
-  # In order to use sessions you have to set a secret key
-  # set the secret key.  keep this really secret:
-  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-  
-  
-  
-  
-  
-  
-  
-  
-</t>
-<t tx="leo.20160505142428.4"># coding: utf-8
-from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
-import random
-import math
-import os
-# init.py 為自行建立的起始物件
-import init
-
-import users.a.g10.ag10_40323139
-import users.a.g4.ag4_40323138
-import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323250
-# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
-_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
-# 設定在雲端與近端的資料儲存目錄
-if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
-    # 表示程式在雲端執行
-    data_dir = os.environ['OPENSHIFT_DATA_DIR']
-    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
-    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
-else:
-    # 表示程式在近端執行
-    data_dir = _curdir + "/local_data/"
-    static_dir = _curdir + "/static"
-    download_dir = _curdir + "/local_data/downloads/"
-
-# 利用 init.py 啟動, 建立所需的相關檔案
-initobj = init.Init()
-
-# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
-app = Flask(__name__)
-#app.config['download_dir'] = download_dir
-
-# 使用 session 必須要設定 secret_key
-# In order to use sessions you have to set a secret key
-# set the secret key.  keep this really secret:
-app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
-
-
-
-
-
-
-</t>
-<t tx="leo.20160505142428.5"># coding: utf-8
-from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
-import random
-import math
-import os
-# init.py 為自行建立的起始物件
-import init
-
-import users.a.g10.ag10_40323139
-import users.a.g4.ag4_40323138
-import users.a.g8.ag8_40323131_task1
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-import users.b.g9.bg9_40323218
-=======
-import users.b.g9.bg9_40323250
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 66b1338a18160a96e12e9c001210eefb19fbf945
-# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
-_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
-# 設定在雲端與近端的資料儲存目錄
-if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
-    # 表示程式在雲端執行
-    data_dir = os.environ['OPENSHIFT_DATA_DIR']
-    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
-    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
-else:
-    # 表示程式在近端執行
-    data_dir = _curdir + "/local_data/"
-    static_dir = _curdir + "/static"
-    download_dir = _curdir + "/local_data/downloads/"
-
-# 利用 init.py 啟動, 建立所需的相關檔案
-initobj = init.Init()
-
-# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
-app = Flask(__name__)
-#app.config['download_dir'] = download_dir
-
-# 使用 session 必須要設定 secret_key
-# In order to use sessions you have to set a secret key
-# set the secret key.  keep this really secret:
-app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
-
-
-
-
-
-
-</t>
 <t tx="leo.20160505153243.1"># 各組分別在各自的 .py 程式中建立應用程式 (第1步/總共3步)
 from flask import Blueprint, render_template, make_response, request
 
@@ -716,6 +615,13 @@ brython(1);
 '''
  
 tail_str = '''
+&lt;/script&gt;
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
@@ -1127,6 +1033,12 @@ x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
 mychain.basic(x10, y10, x1, y1, color="green")
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 &lt;/script&gt;
 &lt;/body&gt;&lt;/html&gt;
 '''
@@ -1339,6 +1251,12 @@ x10, y10 = mychain.basic_rot(x9, y9, -140)
 # 水平接回原點
 mychain.basic(x10, y10, 0+65*3, 0, color="green")
 
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
 &lt;/script&gt;
 &lt;/body&gt;&lt;/html&gt;
 '''
@@ -1554,6 +1472,35 @@ x6, y6 = mychain.basic_rot(x5, y5, -30)
 # 下方水平單元
 x7, y7 = mychain.basic_rot(x6, y6, -0, color="green")
 &lt;/script&gt;
+
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+
+
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/306321103e7a903e23dcad8d1fee80f9/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+
+
 &lt;/body&gt;&lt;/html&gt;
 '''
     return outstring
@@ -1586,7 +1533,8 @@ def drawcircle35(x, y, degree, a, b, degree2):
 @others
 </t>
 <t tx="leo.20160519092609.1">from flask import Blueprint, request
- 
+
+
 bg9_40323250_2 = Blueprint('bg9_40323250_2', __name__, url_prefix='/bg9_40323250_2', template_folder='templates')
  
 head_str = '''
@@ -1616,6 +1564,17 @@ brython(1);
  
 tail_str = '''
 &lt;/script&gt;
+
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+
+
 &lt;/body&gt;
 &lt;/html&gt;
 '''
@@ -1737,9 +1696,9 @@ class chain():
     x = 50
     y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100
-    starty = 49.48
+    first_degree = 20.78+90
+    startx = 44.0532
+    starty = -165.17
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -1760,10 +1719,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100
-    k = 93.98
+    p = 0
+    k = 50
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -1781,7 +1740,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78
+    first_degree = 10.78 +90 
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -1791,7 +1750,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78
+    first_degree = -10.78 +90
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -1800,112 +1759,6 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
         outstring += "r"+str(i)+", s"+str(i)+"=mychain.basic_rot(r"+str(i-1)+", s"+str(i-1)+", "+str(first_degree)+")\n"
  
     return outstring
- 
- 
-</t>
-<t tx="leo.20160519092609.11">@bg9_40323250_2.route('/a')
-def draw_a():
-    return head_str + chain_str + a(0, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.12">@bg9_40323250_2.route('/b')
-def draw_b():
-   # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
-    return head_str + chain_str + b(0+65, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.13">@bg9_40323250_2.route('/c')
-def draw_c():
-    # 每個橫向字元距離為 65 pixels
-    return head_str + chain_str + c(0+65*2, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.14">@bg9_40323250_2.route('/d')
-def draw_d():
-    return head_str + chain_str + d(0+65*3, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.15">@bg9_40323250_2.route('/ab')
-def draw_ab():
-    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
-    return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.16">@bg9_40323250_2.route('/ac')
-def draw_ac():
-    return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.17">@bg9_40323250_2.route('/bc')
-def draw_bc():
-    return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.18">@bg9_40323250_2.route('/abc')
-def draw_abc():
-    return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.19">@bg9_40323250_2.route('/aaaa')
-def draw_aaaa():
-    outstring = head_str + chain_str
-    scale = 2
-    for i in range(20):
-        scale = scale*0.9
-        outstring +=  a(0+10*i, 0, scale=scale)
-    return outstring + tail_str
-    #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.2"># 傳繪 A 函式內容
-def a(x, y, scale=1, color="green"):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain(scale='''+str(scale)+''', fillcolor="'''+str(color)+'''")
- 
-# 畫 A
-# 左邊兩個垂直單元
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-# 左斜邊兩個單元
-x3, y3 = mychain.basic_rot(x2, y2, 80)
-x4, y4 = mychain.basic_rot(x3, y3, 71)
-# 最上方水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜邊兩個單元
-x6, y6 = mychain.basic_rot(x5, y5, -71)
-x7, y7 = mychain.basic_rot(x6, y6, -80)
-# 右邊兩個垂直單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-x9, y9 = mychain.basic_rot(x8, y8, -90)
-# 中間兩個水平單元
-x10, y10 = mychain.basic_rot(x8, y8, -180)
-mychain.basic(x10, y10, x1, y1)
-'''
- 
-    return outstring
- 
- 
-</t>
-<t tx="leo.20160519092609.20">@bg9_40323250_2.route('/badc')
-def draw_badc():
-    return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
- 
- 
-</t>
-<t tx="leo.20160519092609.21">@bg9_40323250_2.route('/abcd')
-def draw_abcd():
-    #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
-    return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
 </t>
@@ -2020,6 +1873,17 @@ document['circle'].bind('click', ctogreen)
 document['tux'].bind('mouseover', hoverover)
 document['tux'].bind('mouseleave', hoverout)
 &lt;/script&gt;
+
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+
+
 &lt;/body&gt;
 &lt;/html&gt;
 '''
@@ -2103,6 +1967,17 @@ g4 = s.group(r4,c4).attr({ 'id': 'g4' });
 g4.appendTo( g3 )
 g4.animate( { 'transform' : 'r360,25,25' },4000)
 &lt;/script&gt;
+
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+
+
 &lt;/body&gt;
 &lt;/html&gt;
 '''
@@ -2145,107 +2020,21 @@ s = snap("#svgout")
 # 畫直線
 s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth': "1"  }).attr({ 'id': 'line1' })
 &lt;/script&gt;
+
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+
+
 &lt;/body&gt;
 &lt;/html&gt;
 '''
     return outstring</t>
-<t tx="leo.20160519092609.3"># 傳繪 B 函式內容
-def b(x, y):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
- 
-# 畫 B
-# 左邊四個垂直單元
-# 每一個字元間隔為 65 pixels
-#x1, y1 = mychain.basic_rot(0+ 65, 0, 90)
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
-# 右上垂直向下單元
-x7, y7 = mychain.basic_rot(x6, y6, -90)
-# 右斜 240 度
-x8, y8 = mychain.basic_rot(x7, y7, 210)
-# 中間水平
-mychain.basic(x8, y8, x2, y2)
-# 右下斜 -30 度
-x10, y10 = mychain.basic_rot(x8, y8, -30)
-# 右下垂直向下單元
-x11, y11 = mychain.basic_rot(x10, y10, -90)
-# 右下斜 240 度
-x12, y12 = mychain.basic_rot(x11, y11, 210)
-# 水平接回起點
-mychain.basic(x12,y12, '''+str(x)+","+str(y)+''')
-'''
- 
-    return outstring
- 
-</t>
-<t tx="leo.20160519092609.4"># 傳繪 C 函式內容
-def c(x, y):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
- 
-# 上半部
-# 左邊中間垂直起點, 圓心位於線段中央, y 方向再向上平移兩個鏈條圓心距單位
-#x1, y1 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+'''-10+10+20*math.sin(80*deg)+20*math.sin(30*deg), 90)
-# 上方轉 80 度
-x2, y2 = mychain.basic_rot(x1, y1, 80)
-# 上方轉 30 度
-x3, y3 = mychain.basic_rot(x2, y2, 30)
-# 上方水平
-x4, y4 = mychain.basic_rot(x3, y3, 0)
-# 下半部, 從起點開始 -80 度
-#x5, y5 = mychain.basic_rot(0+65*2, -10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
-x5, y5 = mychain.basic_rot('''+str(x)+","+str(y)+'''-10+10+20*math.sin(80*deg)+20*math.sin(30*deg), -80)
-# 下斜 -30 度
-x6, y6 = mychain.basic_rot(x5, y5, -30)
-# 下方水平單元
-x7, y7 = mychain.basic_rot(x6, y6, -0)
-'''
- 
-    return outstring
- 
- 
-</t>
-<t tx="leo.20160519092609.5"># 傳繪 D 函式內容
-def d(x, y):
-    outstring = '''
-# 利用 chain class 建立案例, 對應到 mychain 變數
-mychain = chain()
- 
-# 左邊四個垂直單元
-#x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 90)
-x2, y2 = mychain.basic_rot(x1, y1, 90)
-x3, y3 = mychain.basic_rot(x2, y2, 90)
-x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一個水平單元
-x5, y5 = mychain.basic_rot(x4, y4, 0)
-# 右斜 -40 度
-x6, y6 = mychain.basic_rot(x5, y5, -40)
-x7, y7 = mychain.basic_rot(x6, y6, -60)
-# 右中垂直向下單元
-x8, y8 = mychain.basic_rot(x7, y7, -90)
-# -120 度
-x9, y9 = mychain.basic_rot(x8, y8, -120)
-# -140
-x10, y10 = mychain.basic_rot(x9, y9, -140)
-# 水平接回原點
-#mychain.basic(x10, y10, 0+65*3, 0, color="red")
-mychain.basic(x10, y10, '''+str(x)+","+str(y)+''')
-'''
- 
-    return outstring
- 
-</t>
 <t tx="leo.20160519092609.6">def circle(x, y):
     outstring = '''
 mychain = chain()
@@ -2255,43 +2044,6 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 50)
     for i in range(2, 10):
         outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*40)+") \n"
     return outstring
- 
-</t>
-<t tx="leo.20160519092609.7">def circle1(x, y, degree=10):
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    #degree = 10
-    first_degree = 90 - degree
-    repeat = 360 / degree
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
-    return outstring
- 
- 
-</t>
-<t tx="leo.20160519092609.8">def circle2(x, y, degree=10):
-    # 20 為鏈條兩圓距
-    # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
-    # degree = math.asin(20/2/radius)*180/math.pi
-    #degree = 10
-    first_degree = 90 - degree
-    repeat = 360 / degree
- 
-    outstring = '''
-mychain = chain()
- 
-x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
-'''
-    for i in range(2, int(repeat)+1):
-        outstring += "x"+str(i)+", y"+str(i)+"=mychain.basic_rot(x"+str(i-1)+", y"+str(i-1)+", 90-"+str(i*degree)+") \n"
-    return outstring
- 
  
 </t>
 <t tx="leo.20160519092609.9">def twocircle(x, y):
@@ -2369,6 +2121,1215 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     outstring += "mychain.basic(x22, y22, r11, s11)\n"
  
     return outstring
+</t>
+<t tx="leo.20160526102422.2"></t>
+<t tx="leo.20160526102422.3">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+- import users.b.g9.bg9_40323218
++ #import users.b.g9.bg9_40323218
+? +
+- import users.b.g9.bg9_40323231_1
+?                               --
++ #import users.b.g9.bg9_40323231
+? +
+- import users.b.g9.bg9_40323231_2
+  import users.b.g9.bg9_40323233
+  import users.b.g9.bg9_40323230_2
+  import users.b.g9.bg9_40323230
+  import users.b.g9.bg9_40323250
+  import users.b.g9.bg9_40323250_2
+- 
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160526102422.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+#import users.b.g9.bg9_40323218
+#import users.b.g9.bg9_40323231
+import users.b.g9.bg9_40323233
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160526102422.5"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323233
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160526103117.1">@bg9_40323250.route('/gear_50')
+def gear_50():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+cango = JSConstructor(window.Cango)
+# 針對變數的轉換, shapeDefs 在 Cango 中資料型別為變數, 可以透過 window 轉換
+shapedefs = window.shapeDefs
+# 目前 Cango 結合 Animation 在 Brython 尚無法運作, 此刻只能繪製靜態圖形
+# in CangoAnimation.js
+#interpolate1 = window.interpolate
+# Cobi 與 createGearTooth 都是 Cango Javascript 程式庫中的物件
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+# 經由 Cango 轉換成 Brython 的 cango, 指定將圖畫在 id="plotarea" 的 canvas 上
+cgo = cango("gear1")
+ 
+######################################
+# 畫正齒輪輪廓
+#####################################
+def spur(cx, cy, m, n, pa, theta):
+    # n 為齒數
+    #n = 17
+    # pa 為壓力角
+    #pa = 25
+    # m 為模數, 根據畫布的寬度, 計算適合的模數大小
+    # Module = mm of pitch diameter per tooth
+    #m = 0.8*canvas.width/n
+    # pr 為節圓半徑
+    pr = n*m/2 # gear Pitch radius
+    # generate gear
+    data = creategeartooth(m, n, pa)
+    # Brython 程式中的 print 會將資料印在 Browser 的 console 區
+    #print(data)
+ 
+    gearTooth = cobj(data, "SHAPE", {
+            "fillColor":"#ddd0dd",
+            "border": True,
+            "strokeColor": "#606060" })
+    #gearTooth.rotate(180/n) # rotate gear 1/2 tooth to mesh, 請注意 rotate 角度為 degree
+    # theta 為角度
+    gearTooth.rotate(theta) 
+    # 單齒的齒形資料經過旋轉後, 將資料複製到 gear 物件中
+    gear = gearTooth.dup()
+    # gear 為單一齒的輪廓資料
+    #cgo.render(gearTooth)
+ 
+    # 利用單齒輪廓旋轉, 產生整個正齒輪外形
+    for i in range(1, n):
+        # 將 gearTooth 中的資料複製到 newTooth
+        newTooth = gearTooth.dup()
+        # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+        newTooth.rotate(360*i/n)
+        # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+        gear.appendPath(newTooth, True) # trim move command = True
+ 
+    # 建立軸孔
+    # add axle hole, hr 為 hole radius
+    hr = 0.6*pr # diameter of gear shaft
+    shaft = cobj(shapedefs.circle(hr), "PATH")
+    shaft.revWinding()
+    gear.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+    gear.translate(cx, cy)
+    # render 繪出靜態正齒輪輪廓
+    cgo.render(gear)
+    # 接著繪製齒輪的基準線
+    deg = math.pi/180
+    Line = cobj(['M', cx, cy, 'L', cx+pr*math.cos(theta*deg), cy+pr*math.sin(theta*deg)], "PATH", {
+          'strokeColor':'blue', 'lineWidth': 1})
+    cgo.render(Line)
+ 
+# 3個齒輪的齒數
+n1 = 10
+n2 = 12
+n3 = 14
+n4 = 16
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3+n4)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+pr4 = n4*m/2
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+spur(cx, cy, m, n1, pa, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+spur(cx+pr1+pr2, cy, m, n2, pa, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+spur(cx+pr1+pr2+pr2+pr3, cy, m, n3, pa, 180-180/n3+(180-180/n2)*n2/n3)
+
+spur(cx+pr1+pr2+pr2+pr3+pr3+pr4, cy, m, n4, pa, 180-180/n3*n3/n4+(180-180/n2)*n2/n3*n3/n4+(180-180/n3)*n3/n4)
+
+
+&lt;/script&gt;
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring</t>
+<t tx="leo.20160602091704.1"></t>
+<t tx="leo.20160602091704.2">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+  import users.b.g9.bg9_40323218
+  import users.b.g9.bg9_40323231_1
+  import users.b.g9.bg9_40323231_2
++ import users.b.g9.bg9_40323233
+  import users.b.g9.bg9_40323230_2
+  import users.b.g9.bg9_40323230
+  import users.b.g9.bg9_40323250
+  import users.b.g9.bg9_40323250_2
+- &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+- import users.b.g9.bg9_40323233_1
+- import users.b.g9.bg9_40323233_2
+- =======
+- import users.b.g9.bg9_40323250_3
+  
+- &gt;&gt;&gt;&gt;&gt;&gt;&gt; c1ee0d24a6ce3aa8fffd0e1b1f7891bc359715f8
++ 
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160602091704.3"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323233
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160602091704.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+=======
+import users.b.g9.bg9_40323250_3
+
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; c1ee0d24a6ce3aa8fffd0e1b1f7891bc359715f8
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160602155545.2"></t>
+<t tx="leo.20160602155545.3">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+  import users.b.g9.bg9_40323218
+  import users.b.g9.bg9_40323231_1
+  import users.b.g9.bg9_40323231_2
+- import users.b.g9.bg9_40323231_3
+  import users.b.g9.bg9_40323230_2
+  import users.b.g9.bg9_40323230
+  import users.b.g9.bg9_40323250
+  import users.b.g9.bg9_40323250_2
+  
+  import users.b.g9.bg9_40323233_1
+  import users.b.g9.bg9_40323233_2
+- 
+- 
+- #import users.b.g9.bg9_40323250_3
+- 
+  
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160602155545.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160602155545.5"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160602155545.6">(uncached) amd.20160501221001.3
+Diff...
+  @app.route("/")
+  def index():
+      #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
+      # 將標準答案存入 answer session 對應區
+- 
+      theanswer = random.randint(1, 100)
+      thecount = 0
+      # 將答案與計算次數變數存進 session 對應變數
+      session['answer'] = theanswer
+      session['count'] = thecount
+  
+- 
+      return render_template("index.html", answer=theanswer, count=thecount)
+- 
+- 
+-   
+</t>
+<t tx="leo.20160602155545.7">@app.route("/")
+def index():
+    #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
+    # 將標準答案存入 answer session 對應區
+    theanswer = random.randint(1, 100)
+    thecount = 0
+    # 將答案與計算次數變數存進 session 對應變數
+    session['answer'] = theanswer
+    session['count'] = thecount
+
+    return render_template("index.html", answer=theanswer, count=thecount)
+</t>
+<t tx="leo.20160602155545.8">@app.route("/")
+def index():
+    #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
+    # 將標準答案存入 answer session 對應區
+
+    theanswer = random.randint(1, 100)
+    thecount = 0
+    # 將答案與計算次數變數存進 session 對應變數
+    session['answer'] = theanswer
+    session['count'] = thecount
+
+
+    return render_template("index.html", answer=theanswer, count=thecount)
+
+
+  
+</t>
+<t tx="leo.20160605083910.1">@bg9_40323250_2.route('/gear_link')
+def gear_link():
+    outstring = '''
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;網際 2D 繪圖&lt;/title&gt;
+    &lt;!-- IE 9: display inline SVG --&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=9"&gt;
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango-8v03.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/Cango2D-7v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="http://2015fallhw.github.io/cptocadp/static/gearUtils-05.js"&gt;&lt;/script&gt;
+ 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+ 
+&lt;div id='container1' width='800' height='750'&gt;&lt;/div&gt;
+ 
+&lt;script type="text/python"&gt;
+# 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
+from browser import document as doc
+# 由於 Python3 與 Javascript 程式碼已經不再混用, 因此來自 Javascript 的變數, 必須居中透過 window 物件轉換
+from browser import window
+# 針對 Javascript 既有的物件, 則必須透過 JSConstructor 轉換
+from javascript import JSConstructor
+import math
+ 
+# 主要用來取得畫布大小
+canvas = doc["gear1"]
+# 此程式採用 Cango Javascript 程式庫繪圖, 因此無需 ctx
+#ctx = canvas.getContext("2d")
+# 針對類別的轉換, 將 Cango.js 中的 Cango 物件轉為 Python cango 物件
+
+&lt;div id='container1' width='800' height='750'&gt;&lt;/div&gt;
+#&lt;canvas id='gear1' width='800' height='750'&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+import spurmain
+from browser import document, html
+ 
+# 建立新的繪圖方法 sprocket 用
+from browser import window
+from javascript import JSConstructor
+import math
+ 
+cango = JSConstructor(window.Cango)
+shapedefs = window.shapeDefs
+cobj = JSConstructor(window.Cobj)
+creategeartooth = JSConstructor(window.createGearTooth)
+ 
+class mySpur(spurmain.Spur):
+    # 定義 sprocket
+    # rs 為 roller rasius
+    # pc 為 pitch
+    def sprocket(self, cx, cy, rs, pc, n, theta):
+        self.cx = cx
+        self.cy = cy
+        self.rs = rs
+        self.pc = pc
+        self.n = n
+        self.pa = pa
+        self.theta = theta
+        rotangle = 360/self.n
+        pr = self.pc/2/math.sin((rotangle/2)*math.pi/180)
+        pt1x = pr-rs
+        pt1y = 0
+        pt2x = pr-(pr-pr*math.cos(rotangle*math.pi/180))*rs/pc
+        pt2y = (pr*math.sin(rotangle*math.pi/180))*rs/pc
+        ptmx = pr-(pr-pr*math.cos(rotangle*math.pi/180))*(0.5*pc)/pc
+        ptmy = (pr*math.sin(rotangle*math.pi/180))*(0.5*pc)/pc
+        lenmto3 = math.sqrt(math.pow(pc-rs,2)-math.pow(pc*0.5, 2))
+        lenztom = math.sqrt(math.pow(ptmx, 2)+math.pow(ptmy, 2))
+        r3 = lenztom + lenmto3
+        pt3x = r3*math.cos(0.5*rotangle*math.pi/180)
+        pt3y = r3*math.sin(0.5*rotangle*math.pi/180)
+        pt4x = pr-(pr-pr*math.cos(rotangle*math.pi/180))*(pc-rs)/pc
+        pt4y = (pr*math.sin(rotangle*math.pi/180))*(pc-rs)/pc
+        pt5x = (pr-rs)*math.cos(rotangle*math.pi/180)
+        pt5y = (pr-rs)*math.sin(rotangle*math.pi/180)
+        data = ['M', pt1x, pt1y, 'A', rs, rs, 0, 0, 0, pt2x, pt2y, \
+        'A', pc-rs, pc-rs, 0, 0, 1, pt3x, pt3y, \
+        'A', pc-rs, pc-rs, 0, 0, 1, pt4x, pt4y, \
+        'A', rs, rs, 0, 0, 0, pt5x, pt5y]
+        sprocketTooth = cobj(data, "SHAPE", {
+                "fillColor":"#ddd0dd",
+                "border": True,
+                "strokeColor": "#606060" })
+        # theta 為 degree
+        sprocketTooth.rotate(self.theta) 
+        sprocket = sprocketTooth.dup()
+        # 利用單齒輪廓旋轉, 產生整個齒盤外形
+        for i in range(1, self.n):
+            # 將 sprocketTooth 中的資料複製到 newTooth
+            newTooth = sprocketTooth.dup()
+            # 配合迴圈, newTooth 的齒形資料進行旋轉, 然後利用 appendPath 方法, 將資料併入 gear
+            newTooth.rotate(360*i/self.n)
+            # appendPath 為 Cango 程式庫中的方法, 第二個變數為 True, 表示要刪除最前頭的 Move to SVG Path 標註符號
+            sprocket.appendPath(newTooth, True) # trim move command = True
+        # 建立軸孔
+        # add axle hole, hr 為 hole radius
+        hr = 0.6*pr # diameter of gear shaft
+        shaft = cobj(shapedefs.circle(hr), "PATH")
+        shaft.revWinding()
+        sprocket.appendPath(shaft) # retain the 'moveTo' command for shaft sub path
+        sprocket.translate(self.cx, self.cy)
+        # render 繪出靜態正齒輪輪廓
+        self.cgo.render(sprocket)
+        # 接著繪製齒盤的基準線
+        deg = math.pi/180
+        Line = cobj(['M', self.cx, self.cy, 'L', self.cx+pr*math.cos(self.theta*deg), self.cy+pr*math.sin(self.theta*deg)], "PATH", {
+              'strokeColor':'blue', 'lineWidth': 1})
+        self.cgo.render(Line)
+ 
+# 將繪製鏈條輪廓的內容寫成 class 物件
+class Chain():
+    def __init__(self, canvas_id):
+        self.canvas_id = canvas_id
+        self.cgo = cango(self.canvas_id)
+ 
+    def chain(self, x, y, rs, pc, theta, render=True):
+        self.x = x
+        self.y = y
+        self.rs = rs
+        self.pc = pc
+        self.theta = theta
+        self.render = render
+        # rs 為 roller rasius
+        # pc 為 pitch
+        # 以水平作為起始角度, 左邊圓心位於原點, 左右圓半徑為 rs = 7, pc 為 20, 上下圓弧半徑為 20
+        cx = 0
+        cy = 0
+        c2x = cx + self.pc
+        c2y = cy
+        # upper arc center coord
+        ucx = self.pc/2
+        ucy = math.sqrt(math.pow(self.rs+self.pc, 2)-math.pow(0.5*self.pc, 2))
+        # down side arc center coord
+        dcx = ucx
+        dcy = -math.sqrt(math.pow(self.rs+self.pc, 2)-math.pow(0.5*self.pc, 2))
+        # 上方左邊切點座標
+        pt1x = cx+(ucx-cx)*(self.rs/(self.pc+self.rs))
+        pt1y = cy+(ucy-cy)*(self.rs/(self.pc+self.rs)) 
+        pt2x = cx+(dcx-cx)*(self.rs/(self.pc+self.rs))
+        pt2y = cy+(dcy-cy)*(self.rs/(self.pc+self.rs))
+        pt3x = c2x+self.rs*(dcx-c2x)/(self.pc+self.rs)
+        pt3y = c2y+self.rs*(dcy-c2y)/(self.pc+self.rs)
+        pt4x = c2x+self.rs*(ucx-c2x)/(self.pc+self.rs)
+        pt4y = c2y+self.rs*(ucy-c2y)/(self.pc+self.rs)
+ 
+        # 輪廓的外型設為成員變數
+        data = ['M', pt1x, pt1y, \
+                'A', self.rs, self.rs, 0, 1, 1, pt2x, pt2y, \
+                'A', self.pc, self.pc, 0, 0, 0, pt3x, pt3y, \
+                'A', self.rs, self.rs, 0, 1, 1, pt4x, pt4y, \
+                'A', self.pc, self.pc, 0, 0, 0, pt1x, pt1y, 'z']
+ 
+        chain = cobj(data, "SHAPE", {
+                "fillColor":"#ddd0dd",
+                "border": True,
+                "strokeColor": "#606060" })
+ 
+        hole1 = cobj(shapedefs.circle(self.rs/1.5), "PATH")
+        hole1.translate(cx, cy)
+        hole1.revWinding()
+        chain.appendPath(hole1)
+        hole2 = cobj(shapedefs.circle(self.rs/1.5), "PATH")
+        hole2.translate(c2x, c2y)
+        hole2.revWinding()
+        chain.appendPath(hole2)
+       # theta is degree
+        chain.rotate(self.theta)
+        chain.translate(self.x, self.y)
+        if self.render == True:
+            self.cgo.render(chain)
+        deg = math.pi/180
+        x2 = cx + self.x+ self.pc*math.cos(self.theta*deg)
+        y2 = cy + self.y+ self.pc*math.sin(self.theta*deg)
+        return x2, y2
+ 
+# 利用 Brython 的 document 建立一個 id 為 container 的 div 區域, 然後在其中放入對應的 html 標註
+container = document['container1']
+# 3個齒輪的齒數
+n1 = 18
+n2 = 29
+n3 = 15
+# 根據繪圖的 3 個齒輪大小計算所需的畫布高度
+height = 1.2*800*0.8/(int(n1)+int(n2)+int(n3))*max([int(n1), int(n2), int(n3)])
+# 決定畫布的 id 字串
+id = "gear1"
+# 利用 Brython 的 html 方法建立 CANVAS
+canvas = html.CANVAS(id=id, width=800, height=height)
+ 
+# 將所建立的 canvas 畫布標註放入 container
+container &lt;= canvas
+ 
+# m 為模數, 根據畫布的寬度, 計算適合的模數大小
+# Module = mm of pitch diameter per tooth
+# 利用 80% 的畫布寬度進行繪圖
+# 計算模數的對應尺寸
+m = canvas.width*0.8/(n1+n2+n3)
+ 
+# 根據齒數與模組計算各齒輪的節圓半徑
+pr1 = n1*m/2
+pr2 = n2*m/2
+pr3 = n3*m/2
+ 
+# 畫布左右兩側都保留畫布寬度的 10%
+# 依此計算對應的最左邊齒輪的軸心座標
+cx = canvas.width*0.1+pr1
+cy = canvas.height/2
+ 
+# pa 為壓力角
+pa = 25
+ 
+# mySpur 已經新建一個 sprocket 繪圖方法
+gear = mySpur(id)
+ 
+# 畫最左邊齒輪, 定位線旋轉角為 0, 軸心座標 (cx, cy)
+gear.sprocket(cx, cy, 7, 20, n1, 0)
+# 第2個齒輪將原始的定位線逆時鐘轉 180 度後, 與第1個齒輪正好齒頂與齒頂對齊
+# 只要第2個齒輪再逆時鐘或順時鐘轉動半齒的角度, 即可完成囓合
+# 每一個齒分別包括從齒根到齒頂的範圍, 涵蓋角度為 360/n, 因此所謂的半齒角度為 180/n
+gear.sprocket(cx+pr1+pr2, cy, 7, 20, n2, 180-180/n2)
+# 第2齒與第3齒的囓合, 首先假定第2齒的定位線在 theta 角為 0 的原始位置
+# 如此, 第3齒只要逆時鐘旋轉 180 度後, 再逆時鐘或順時鐘轉動半齒的角度, 即可與第2齒囓合
+# 但是第2齒為了與第一齒囓合時, 已經從原始定位線轉了 180-180/n2 度
+# 而當第2齒從與第3齒囓合的定位線, 逆時鐘旋轉 180-180/n2 角度後, 原先囓合的第3齒必須要再配合旋轉 (180-180/n2 )*n2/n3
+gear.sprocket(cx+pr1+pr2+pr2+pr3, cy, 7, 20, n3, 180-180/n3+(180-180/n2)*n2/n3)
+ 
+rs = 7
+pc = 20
+degree = math.pi/180
+radian = 180/math.pi
+rotangle = 360/n1
+r1 = pc/2/math.sin((rotangle/2)*math.pi/180)
+inc = math.pi - math.atan2(r1*math.sin(rotangle*degree), r1-r1*math.cos(rotangle*degree))
+mychain = Chain(id)
+x1 = cx + r1
+y1 = cy
+for i in range(n1-5):
+    if i &lt; 5:
+        x2, y2 = mychain.chain(x1, y1, rs, pc, inc*radian+rotangle*i, False)
+    else:
+        x2, y2 = mychain.chain(x1, y1, rs, pc, inc*radian+rotangle*i)
+    x1, y1 = x2, y2
+ 
+rotangle = 360/n2
+r2 = pc/2/math.sin((rotangle/2)*math.pi/180)
+inc = math.pi - math.atan2(r2*math.sin(rotangle*degree), r2-r2*math.cos(rotangle*degree))
+mychain = Chain(id)
+x1 = cx+pr1+pr2+r2
+y1 = cy
+for i in range(n2):
+    if i &gt; 7 and i &lt; 20:
+        x2, y2 = mychain.chain(x1, y1, rs, pc, inc*radian+rotangle*i, False)
+    else:
+        x2, y2 = mychain.chain(x1, y1, rs, pc, inc*radian+rotangle*i)
+    x1, y1 = x2, y2
+    if i == 7:
+        x7, y7 = x2, y2
+    if i == 19:
+        x20, y20 = x2, y2
+ 
+for i in range(12):
+    if i == 11:
+        offset = 12
+    else:
+        offset = 0
+    x2, y2 = mychain.chain(x7, y7, rs, pc, inc*radian+rotangle*8-i*1.5+offset)
+    x7, y7 = x2, y2
+ 
+for i in range(11):
+    if i == 10:
+        offset = 2
+    else:
+        offset = 0
+    x2, y2 = mychain.chain(x20, y20, rs, pc, -inc*radian+rotangle*20+20+offset)
+    x20, y20 = x2, y2
+&lt;/script&gt;
+
+
+
+
+&lt;script type='text/javascript'&gt;
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},w
+:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';ga.
+async=1;ga.src='//www.onwebchat.com/clientchat/795d781612868f02aa4bb0552c0655a5/1/1';
+var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+    return outstring</t>
+<t tx="leo.20160615162950.1"></t>
+<t tx="leo.20160615162950.2">(uncached) amd.20160501221001.2
+Diff...
+  # coding: utf-8
+  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+  import random
+  import math
+  import os
+  # init.py 為自行建立的起始物件
+  import init
+  
+  
+- import users.b.g9.bg9_40323218_1
+?                               --
++ import users.b.g9.bg9_40323218
+- import users.b.g9.bg9_40323218_2
+- import users.b.g9.bg9_40323218_3
+  import users.b.g9.bg9_40323231_1
+  import users.b.g9.bg9_40323231_2
+  import users.b.g9.bg9_40323231_3
+- import users.b.g9.bg9_40323231_4
+  import users.b.g9.bg9_40323230_2
+  import users.b.g9.bg9_40323230
+  import users.b.g9.bg9_40323250
+  import users.b.g9.bg9_40323250_2
+  
+  import users.b.g9.bg9_40323233_1
+  import users.b.g9.bg9_40323233_2
+  
+  
+  #import users.b.g9.bg9_40323250_3
+  
+  
+  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+  # 設定在雲端與近端的資料儲存目錄
+  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+      # 表示程式在雲端執行
+      data_dir = os.environ['OPENSHIFT_DATA_DIR']
+      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+  else:
+      # 表示程式在近端執行
+      data_dir = _curdir + "/local_data/"
+      static_dir = _curdir + "/static"
+      download_dir = _curdir + "/local_data/downloads/"
+  
+  # 利用 init.py 啟動, 建立所需的相關檔案
+  initobj = init.Init()
+  
+  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+  app = Flask(__name__)
+  #app.config['download_dir'] = download_dir
+  
+  # 使用 session 必須要設定 secret_key
+  # In order to use sessions you have to set a secret key
+  # set the secret key.  keep this really secret:
+  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+  
+  
+  
+  
+  
+  
+  
+  
+</t>
+<t tx="leo.20160615162950.3"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20160615162950.4"># coding: utf-8
+from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
+import random
+import math
+import os
+# init.py 為自行建立的起始物件
+import init
+
+
+import users.b.g9.bg9_40323218_1
+import users.b.g9.bg9_40323218_2
+import users.b.g9.bg9_40323218_3
+import users.b.g9.bg9_40323231_1
+import users.b.g9.bg9_40323231_2
+import users.b.g9.bg9_40323231_3
+import users.b.g9.bg9_40323231_4
+import users.b.g9.bg9_40323230_2
+import users.b.g9.bg9_40323230
+import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323250_2
+
+import users.b.g9.bg9_40323233_1
+import users.b.g9.bg9_40323233_2
+
+
+#import users.b.g9.bg9_40323250_3
+
+
+# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
+_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
+# 設定在雲端與近端的資料儲存目錄
+if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
+    # 表示程式在雲端執行
+    data_dir = os.environ['OPENSHIFT_DATA_DIR']
+    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
+    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
+else:
+    # 表示程式在近端執行
+    data_dir = _curdir + "/local_data/"
+    static_dir = _curdir + "/static"
+    download_dir = _curdir + "/local_data/downloads/"
+
+# 利用 init.py 啟動, 建立所需的相關檔案
+initobj = init.Init()
+
+# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
+app = Flask(__name__)
+#app.config['download_dir'] = download_dir
+
+# 使用 session 必須要設定 secret_key
+# In order to use sessions you have to set a secret key
+# set the secret key.  keep this really secret:
+app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
+
+
+
+
+
+
+
+
 </t>
 </tnodes>
 </leo_file>
