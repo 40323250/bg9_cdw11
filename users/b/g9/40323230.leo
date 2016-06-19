@@ -28,8 +28,8 @@
 </v>
 </v>
 </v>
-<v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519105006.1" a="E"><vh>@clean bg9_40323230.py</vh>
+<v t="amd.20160501215545.1"><vh>wsgi 程式部份</vh>
+<v t="leo.20160519105006.1"><vh>@clean bg9_40323230.py</vh>
 <v t="leo.20160519105006.2"><vh>bg9_40323230 declarations</vh></v>
 <v t="leo.20160519105006.3"><vh>a</vh></v>
 <v t="leo.20160519105006.4"><vh>draw_a</vh></v>
@@ -40,7 +40,7 @@
 <v t="leo.20160526103254.1"><vh>threegear</vh></v>
 <v t="leo.20160605154840.1"><vh>fivegear</vh></v>
 </v>
-<v t="leo.20160519112941.1" a="E"><vh>@clean bg9_40323230_2.py</vh>
+<v t="leo.20160519112941.1"><vh>@clean bg9_40323230_2.py</vh>
 <v t="leo.20160519112941.2"><vh>bg9_40323230_2 declarations</vh></v>
 <v t="leo.20160519112941.3"><vh>circle</vh></v>
 <v t="leo.20160519112941.4"><vh>twocircle</vh></v>
@@ -108,6 +108,9 @@ if __name__ == "__main__":
     
 
 app.register_blueprint(users.b.g9.bg9_40323250.bg9_40323250)
+app.register_blueprint(users.b.g9.bg9_40323214.bg9_40323214)
+app.register_blueprint(users.b.g9.bg9_40323214_2.bg9_40323214_2)
+app.register_blueprint(users.b.g9.bg9_40323250_2.bg9_40323250_2)
 app.register_blueprint(users.b.g9.bg9_40323233_1.bg9_40323233_1)
 app.register_blueprint(users.b.g9.bg9_40323218_1.bg9_40323218_1)
 app.register_blueprint(users.b.g9.bg9_40323218_2.bg9_40323218_2)
@@ -273,8 +276,10 @@ import users.b.g9.bg9_40323231_4
 import users.b.g9.bg9_40323230_2
 import users.b.g9.bg9_40323230
 import users.b.g9.bg9_40323250
+import users.b.g9.bg9_40323214
+import users.b.g9.bg9_40323250_2
+import users.b.g9.bg9_40323214_2
 import users.b.g9.bg9_40323233_1
-
 import users.b.g9.bg9_40323233_1
 import users.b.g9.bg9_40323233_2
 
